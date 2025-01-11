@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "490",
+    "question": "What institution often performs the function represented by the word on the main level of the ship nearest the camera? Choices: private enterprise, government, educational, commercial",
+    "predicted_answer": "Government",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The word on the main level of the ship nearest the camera is \"Coast Guard.\" The Coast Guard is a government agency responsible for maritime law enforcement, search and rescue, and environmental protection. It is not a private enterprise, educational institution, or commercial organization. Therefore, the answer to the question is \"Government.\"",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.999972063999248
+  },
+  {
+    "question_id": "129",
+    "question": "What kind of weather was there? Choices: hail, rain, sun, snow",
+    "predicted_answer": "Rain",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Based on the image, the weather appears to be rainy, as the airplane is sitting on a wet runway. The presence of water on the runway suggests that it has either recently rained or is currently raining. This is in contrast to sunny or snowy weather, which would typically result in a drier runway.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9998921085831054
+  },
+  {
+    "question_id": "68",
+    "question": "Why are the men wearing yellow vests? Choices: visibility, fashion, warmth, costume",
+    "predicted_answer": "Visibility",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The men wearing yellow vests are likely wearing them for increased visibility. Wearing brightly colored clothing, such as yellow vests, can make individuals more noticeable to others, especially in low-light conditions or crowded environments. This increased visibility can help prevent accidents and ensure the safety of both the individuals wearing the vests and those around them.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.999989183359764
+  },
+  {
+    "question_id": "270",
+    "question": "What time in approximately 31 minutes? Choices: 110, midnight, 1000, midday",
+    "predicted_answer": "110",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that 110 is approximately 31 minutes before midnight. 1000 is midday, and 1000 is not 31 minutes before midnight. 110 is 31 minutes before midnight, so the answer is 110.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.32873334074396193
+  },
+  {
+    "question_id": "1",
+    "question": "Which number birthday is probably being celebrated? Choices: one, ten, nine, thirty",
+    "predicted_answer": "Thirty",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the birthday cake has the number \"30\" on it. This indicates that the person celebrating their birthday is turning 30 years old.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9995591053869883
+  },
+  {
+    "question_id": "390",
+    "question": "What time of day is this? Choices: daytime, dawn, evening, night",
+    "predicted_answer": "Daytime",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The image shows a man wearing a green tie with polka dots and a pink flower on it, smiling and posing for a picture. There is no indication of the time of day in the image, so it is not possible to confidently determine whether it is daytime, dawn, evening, or night. However, the man's attire and the fact that he is smiling and posing for a picture suggest that it is most likely daytime, as people tend to dress more formally and engage in social activities during daylight hours.",
+    "visual_fidelity": 0.75,
+    "contrastiveness": 0.9999247070469718
+  },
+  {
+    "question_id": "438",
+    "question": "What are the zebra's stripes for? Choices: sight, fashion, camouflage, thermoregulation",
+    "predicted_answer": "Thermoregulation",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The zebra's stripes serve as a form of thermoregulation. The black and white stripes create an optical illusion known as \"motion dazzle,\" which makes it difficult for predators to single out an individual zebra when they are in a group. This helps protect the zebra from attacks by predators such as lions and hyenas. The stripes also help in regulating the zebra's body temperature, as the black stripes absorb more sunlight and heat than the white stripes, creating small-scale air currents that help dissipate heat from the zebra's body.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.25089078626525196
+  },
+  {
+    "question_id": "28",
+    "question": "Which is not an ingredient of this dish? Choices: flatbread, prosciutto, arugula, pepperoni",
+    "predicted_answer": "Pepperoni",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Pepperoni is not an ingredient of this dish. The dish consists of prosciutto, arugula, and flatbread. Pepperoni is a type of salami that is typically used as a topping on pizzas, but it is not a part of this particular dish.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.92868740231849
+  },
+  {
+    "question_id": "451",
+    "question": "What is the person being viewed through? Choices: window, flat screen, web cam, mirror",
+    "predicted_answer": "Mirror",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the person is being viewed through a mirror, not a window, flat screen, or web cam. In the image, a woman is looking at her cell phone, and another woman is looking at her through a mirror. This suggests that the mirror is being used as a means of communication or interaction between the two women, rather than a window, flat screen, or web cam.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.9176528227159229
+  },
+  {
+    "question_id": "139",
+    "question": "Which vehicle is closest to the rectangular blue sign? Choices: blue car, red bus, motorcycle, light car",
+    "predicted_answer": "Red bus",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The red bus is the closest vehicle to the rectangular blue sign. The reasoning behind this answer is that the bus is positioned in front of the sign, making it the most prominent vehicle in the scene. The other vehicles, such as the light car, motorcycle, and blue car, are further away from the sign, making them less likely to be the closest vehicle to the sign.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999656179218755
+  }
+]

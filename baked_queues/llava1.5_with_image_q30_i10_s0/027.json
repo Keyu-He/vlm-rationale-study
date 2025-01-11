@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "89",
+    "question": "What will be built here one day? Choices: building, boat, car, house",
+    "predicted_answer": "Building",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the image depicts a construction site where a building is being built. The presence of construction equipment, such as cranes and trucks, suggests that the site is actively engaged in the process of constructing a new building. It is highly unlikely that a boat, car, or house will be built on this site, given the context of the image.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.9554017937036617
+  },
+  {
+    "question_id": "445",
+    "question": "Why might people sit here? Choices: to testify, to rest, to shop, get tattoo",
+    "predicted_answer": "To rest",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The most likely reason for people to sit at this location is to rest and enjoy the view. In the image, there is a row of colorful umbrellas and benches overlooking a body of water, such as a lake or a river. The umbrellas provide shade and protection from the sun or rain, while the benches offer a comfortable place to sit and relax. The serene and picturesque surroundings make it an ideal spot for people to take a break, unwind, and appreciate the natural beauty of the area. The presence of umbrellas and benches also suggests that this location might be a popular spot for tourists or locals who want to spend some leisure time outdoors.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999804326941163
+  },
+  {
+    "question_id": "60",
+    "question": "In what nation is this scene located? Choices: spain, china, italy, france",
+    "predicted_answer": "France",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The scene is located in France, as evidenced by the presence of the Eiffel Tower in the background. The Eiffel Tower is a famous landmark in Paris, the capital city of France, and it is easily recognizable due to its distinctive shape and height. The presence of the Eiffel Tower in the image confirms that the scene takes place in France.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999964991674656
+  },
+  {
+    "question_id": "471",
+    "question": "What type of dog is it? Choices: farm dog, service dog, domestic pet, stray dog",
+    "predicted_answer": "Domestic pet",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Based on the image, the dog appears to be well-groomed and is wearing a collar, which suggests that it is a domestic pet rather than a farm dog, service dog, or stray dog. Domestic pets are typically cared for by their owners and are more likely to be well-groomed and well-behaved compared to other types of dogs. Additionally, the fact that the dog is posing for the camera indicates that it is accustomed to human interaction, further supporting the idea that it is a domestic pet rather than a farm dog, service dog, or stray dog.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999848094854986
+  },
+  {
+    "question_id": "271",
+    "question": "What is on the laps of each of the women? Choices: paper, children, phones, bag",
+    "predicted_answer": "Choices: phones",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the women have their cell phones on their laps. In the image, there are three women sitting on a bench, and each of them has a cell phone on their laps. This suggests that they might be using their phones for communication, entertainment, or other purposes during their time on the bench. The presence of the cell phones on their laps indicates that they are actively engaged with their devices.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.4999738686736185
+  },
+  {
+    "question_id": "175",
+    "question": "What left the blue marks on the ground near the fire hydrant? Choices: paint, wind, fruit, animals",
+    "predicted_answer": "Paint",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The blue marks on the ground near the fire hydrant are most likely the result of paint splatters from the fire hydrant itself. Fire hydrants are often painted in bright colors, such as yellow or blue, to make them easily visible to firefighters and other emergency personnel. When the paint is applied to the hydrant, it can splatter onto the surrounding area, leaving blue marks on the ground. The reasoning behind this answer is that paint splatters are a common occurrence when painting fire hydrants, and it is the most likely cause of the blue marks observed in the image.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999985036667317
+  },
+  {
+    "question_id": "82",
+    "question": "In which major city is the woman most likely sitting outdoors? Choices: paris, new york, johannesburg, london",
+    "predicted_answer": "Paris",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The woman is most likely sitting outdoors in Paris, as the image shows her sitting on a bench in front of the Eiffel Tower. The Eiffel Tower is a famous landmark in Paris, and the presence of a bench in front of it suggests that it is a popular spot for tourists and locals alike to sit, relax, and enjoy the view of the city. Additionally, the presence of pigeons in the image further supports the idea that this scene takes place in Paris, as the city is known for its large population of pigeons.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.999985635539207
+  },
+  {
+    "question_id": "81",
+    "question": "What pattern are the man's pants? Choices: camouflage, plaid, floral, pinstripe",
+    "predicted_answer": "Camouflage",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The man's pants have a camouflage pattern.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.8851541300904375
+  },
+  {
+    "question_id": "29",
+    "question": "What is closest to the tree trunk? Choices: closed doors, walking person, sitting person, open doors",
+    "predicted_answer": "Open doors",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The closest object to the tree trunk is the open doors. This is because the other objects, such as the walking person, sitting person, and closed doors, are all farther away from the tree trunk than the open doors. The open doors provide a clear view of the tree trunk, making them the closest object to it.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.9480597135950757
+  },
+  {
+    "question_id": "395",
+    "question": "What type of lens was used to give this particular photo the distorted look? Choices: hubble, old time, fish eye, cats eye",
+    "predicted_answer": "Fish eye",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The photo has a distorted look due to the use of a fish eye lens. A fish eye lens is a type of wide-angle lens that provides a very wide field of view, typically around 100-120 degrees. This type of lens is often used for capturing panoramic or hemispherical images, as it allows the photographer to include a large portion of the scene in a single shot. The distortion in the photo is a result of the fish eye lens' curvature, which can cause straight lines to appear curved or distorted. In this case, the fish eye lens was used to capture the scene, resulting in the distorted appearance of the image.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.6586642779849524
+  }
+]

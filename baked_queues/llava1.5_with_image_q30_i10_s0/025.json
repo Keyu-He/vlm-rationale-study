@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "384",
+    "question": "What word is on the pillow? Choices: goodbye, hello, sadness, thank you",
+    "predicted_answer": "Hello",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The pillow has the word \"hello\" written on it. This suggests that the person who placed the pillow on the couch wanted to create a welcoming and friendly atmosphere in the living room. The word \"hello\" is often used as a greeting or to initiate a conversation, so it can be inferred that the person who placed the pillow on the couch wanted to convey a sense of warmth and hospitality to anyone who enters the room.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9990534136430265
+  },
+  {
+    "question_id": "446",
+    "question": "What is the same color as the most abundant color here? Choices: peapod, orange, carrot, corn",
+    "predicted_answer": "Orange",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The same color as the most abundant color here, which is orange, is peapod. This is because both peapod and orange are shades of the same color, with peapod being a slightly lighter shade. The other choices, carrot and corn, are not the same color as the most abundant color here, which is orange. Carrot is a shade of red, while corn is a shade of yellow.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.00011495092832451785
+  },
+  {
+    "question_id": "195",
+    "question": "The couch is located where? Choices: under, nowhere, right, left",
+    "predicted_answer": "Right",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The couch is located on the right side of the room.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.44936916806633775
+  },
+  {
+    "question_id": "315",
+    "question": "How many people have skateboards? Choices: five, four, two, ten",
+    "predicted_answer": "Two",
+    "prediction_is_correct": 1,
+    "generated_rationale": "In the image, there are two people with skateboards. One person is performing a trick on a skateboard, while the other person is holding a skateboard and watching the trick being performed. Both individuals have skateboards, so the answer is two. The reasoning behind this answer is based on the visual information provided in the image, which clearly shows two people with skateboards.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9987362818061377
+  },
+  {
+    "question_id": "34",
+    "question": "The visible bottles most likely contain what kind of items? Choices: body wash, shampoo conditioner, lotions, mouthwash",
+    "predicted_answer": "Lotions",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The visible bottles in the bathroom most likely contain lotions, as they are commonly used for personal care and hygiene purposes. Body wash, shampoo conditioner, and mouthwash are less likely to be found in a bathroom setting. Lotions are typically used for moisturizing and nourishing the skin, while body wash, shampoo conditioner, and mouthwash are more likely to be found in other areas of the home, such as the kitchen or laundry room.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999361574702151
+  },
+  {
+    "question_id": "143",
+    "question": "What is the train riding on? Choices: street, train tracks, clay, grass",
+    "predicted_answer": "Train tracks",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The train is riding on train tracks, which are specifically designed for trains to travel on. These tracks provide a stable and smooth surface for the train to move along, ensuring a safe and efficient journey. In contrast, streets are designed for vehicles to travel on, while clay and grass are not suitable surfaces for trains to ride on. Therefore, the correct answer is train tracks.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999621847796579
+  },
+  {
+    "question_id": "325",
+    "question": "What police force does the police car behind the truck belong to probably? Choices: detroit, new york, baltimore, washington dc",
+    "predicted_answer": "New York",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The police car behind the truck is likely from the New York Police Department (NYPD). The reasoning behind this answer is based on the context of the image. The scene takes place in New York City, which is known for its iconic skyline and busy streets. The presence of the NYPD police car in the image suggests that it belongs to the law enforcement agency responsible for maintaining order and ensuring public safety in the city.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.9999717311229877
+  },
+  {
+    "question_id": "340",
+    "question": "What is the most likely material of the floor? Choices: terra cotta, marble, porcelain, vinyl",
+    "predicted_answer": "Marble",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The most likely material of the floor is marble. In the image, the floor appears to be made of marble, which is known for its luxurious and elegant appearance. Marble floors are often found in high-end homes, hotels, and other upscale establishments due to their durability, ease of maintenance, and aesthetic appeal. The other options, terra cotta, porcelain, and vinyl, are less likely to be found in such settings.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.9999842649229689
+  },
+  {
+    "question_id": "40",
+    "question": "What type of animal is on a leash on the sidewalk? Choices: dog, tiger, cat, lion",
+    "predicted_answer": "Dog",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The animal on a leash on the sidewalk is a dog, not a tiger, cat, or lion. The reasoning behind this answer is that dogs are commonly kept on leashes by their owners for various reasons, such as controlling their behavior, ensuring their safety, or complying with local laws and regulations. In contrast, tigers, cats, and lions are not typically kept on leashes, as they are wild animals and not domesticated like dogs.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999528344823153
+  },
+  {
+    "question_id": "234",
+    "question": "What leavening is used in this item? Choices: salt, baking powder, sourdough starter, yeast",
+    "predicted_answer": "Yeast",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Yeast is the leavening agent used in this pizza. Yeast is a single-celled organism that ferments sugars in the dough, producing carbon dioxide gas, which causes the dough to rise. In the image, the pizza appears to be freshly baked, indicating that yeast was likely used as the leavening agent during the baking process. This is supported by the fact that the pizza has a golden-brown crust, which is a characteristic of yeast-leavened dough.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.6269725499971516
+  }
+]

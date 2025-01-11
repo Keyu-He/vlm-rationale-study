@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "83",
+    "question": "Where are these animals located? Choices: museum, zoo, vet, wild",
+    "predicted_answer": "Wild",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The giraffes are located in the wild, as evidenced by their natural habitat and surroundings. In the image, the giraffes are standing in a grassy field with trees and bushes, which is a typical environment for giraffes in the wild. Museums, zoos, and veterinary clinics typically do not have such natural settings, while wild habitats do. Therefore, the answer to the question is \"wild.\"",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999757525641474
+  },
+  {
+    "question_id": "126",
+    "question": "What theme park attraction are they most likely visiting? Choices: disney world, disneyland, universal studios, six flags",
+    "predicted_answer": "Disneyland",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The most likely theme park attraction they are visiting is Disneyland. In the image, there is a horse-drawn trolley, which is a common attraction found in Disneyland. Additionally, the presence of multiple people in the scene suggests that it could be a popular tourist destination, further supporting the idea that they are visiting Disneyland. Other theme parks, such as Disney World, Universal Studios, or Six Flags, do not typically feature horse-drawn trolleys as a primary attraction.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9998785857001907
+  },
+  {
+    "question_id": "9",
+    "question": "What type of pants is the man on the right wearing? Choices: linen, corduroy, silk, denim",
+    "predicted_answer": "Denim",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The man on the right is wearing denim pants.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.3030343625512671
+  },
+  {
+    "question_id": "410",
+    "question": "What profession might this man work as? Choices: politician, bartender, sherriff, librarian",
+    "predicted_answer": "Sheriff",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The man in the image is wearing a cowboy hat, a vest, and has a gun on his hip. This attire and the presence of the gun suggest that he might work as a sheriff or a law enforcement officer. A sheriff is responsible for maintaining public order, enforcing laws, and protecting citizens in their jurisdiction. The man's outfit and accessories are consistent with the role of a sheriff or a similar law enforcement position.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.4493633613088103
+  },
+  {
+    "question_id": "193",
+    "question": "The top shelf has many books of the same author of what genre? Choices: romance, history, biography, thriller fiction",
+    "predicted_answer": "History",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the top shelf has many books of the same author, which suggests that the author is well-known and has written a significant number of books in the same genre. In this case, the genre is history, as evidenced by the presence of numerous history books on the shelf. It is not uncommon for authors to specialize in a particular genre, and in this case, it appears that the author has chosen to focus on writing history books.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.13289362357029386
+  },
+  {
+    "question_id": "473",
+    "question": "What is the last letter on the license plate? Choices: l, z, j, c",
+    "predicted_answer": "J",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The last letter on the license plate is \"J.\" The reasoning behind this answer is that the license plate starts with the letter \"J\" and ends with the letter \"J.\"",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.012984892857341642
+  },
+  {
+    "question_id": "255",
+    "question": "What is the number mentioned in the t shirt of the girl who is playing? Choices: 21, 13, 31 and, 51",
+    "predicted_answer": "13",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The number 13 is on the t-shirt of the girl who is playing soccer. The reasoning behind this answer is that the number 13 is often associated with the 13th birthday, which is a significant milestone in a person's life. It is possible that the girl is celebrating her 13th birthday by playing soccer with friends or family members. The presence of the number 13 on her t-shirt suggests a connection to this special occasion.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9999884455395714
+  },
+  {
+    "question_id": "458",
+    "question": "What are the people doing on the grass? Choices: gaming, wrestling, eating, sports",
+    "predicted_answer": "Eating",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The people are sitting on a blanket on the grass, eating food, and enjoying each other's company. There is no indication of gaming, wrestling, sports, or any other activity in the image. The primary focus of the scene is the group of people sharing a meal outdoors.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999904479086834
+  },
+  {
+    "question_id": "135",
+    "question": "Which team is on offense? Choices: red, neither, blue, both",
+    "predicted_answer": "Red",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The team on offense is the red team, as they are actively trying to score a goal by kicking the soccer ball. The blue team is on defense, trying to prevent the red team from scoring.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9886842480917418
+  },
+  {
+    "question_id": "434",
+    "question": "The dishes appear to be sitting on what? Choices: table, ground, couch, stove",
+    "predicted_answer": "Table",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The dishes appear to be sitting on a table.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.7418386291797703
+  }
+]

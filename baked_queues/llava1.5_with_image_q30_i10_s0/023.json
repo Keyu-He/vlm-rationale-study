@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "287",
+    "question": "What does the cat have his paw up against? Choices: book, mouse, toilet, desk",
+    "predicted_answer": "Book",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The cat has his paw up against a book. The reasoning behind this answer is that cats are known for their curiosity and playfulness, and they often interact with objects in their environment. In this case, the cat may have been attracted to the book due to its smell, texture, or appearance, and decided to play with it by placing its paw on the book. This is a common behavior among cats, as they enjoy exploring and interacting with various objects in their surroundings.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.43583481426868753
+  },
+  {
+    "question_id": "346",
+    "question": "What are they waiting to do when they stand next to the street? Choices: cross, work, sit, talk",
+    "predicted_answer": "Cross",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The people in the image are waiting to cross the street. They are standing on the sidewalk next to the street, which is a common location for pedestrians to wait before crossing. The presence of traffic lights in the scene further supports the idea that they are waiting to cross the street, as traffic lights are typically used to control the flow of traffic and indicate when it is safe for pedestrians to cross.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9996902175218814
+  },
+  {
+    "question_id": "212",
+    "question": "What fruit is the clock shaped as? Choices: orange, pineapple, apple, pear",
+    "predicted_answer": "Apple",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The clock is shaped like an apple.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.2033386277657199
+  },
+  {
+    "question_id": "106",
+    "question": "What type of tree is in front of the blue building? Choices: palm tree, bonsai tree, maple tree, pine tree",
+    "predicted_answer": "Palm tree",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the tree in front of the blue building is most likely a palm tree. This is because palm trees are commonly found in tropical and subtropical regions, and they are often associated with beach and coastal environments. The presence of a palm tree in the image suggests that the location is likely a beach or coastal area, where palm trees are commonly found.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999994007023536
+  },
+  {
+    "question_id": "191",
+    "question": "What is in the glass? Choices: juice, milk, white wine, red wine",
+    "predicted_answer": "White wine",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the glass in the image is filled with white wine. This can be inferred from the fact that white wine is typically served in clear glasses, and the color of the liquid in the glass is consistent with the color of white wine. Additionally, the presence of a dining table and other tableware, such as a bowl and a spoon, suggests that the scene is set for a meal, which further supports the idea that the glass contains white wine.",
+    "visual_fidelity": 0.75,
+    "contrastiveness": 0.3230708342871643
+  },
+  {
+    "question_id": "341",
+    "question": "What time of day is it likely right now? Choices: evening, morning, afternoon, night",
+    "predicted_answer": "Evening",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind the answer \"Evening\" is based on the presence of a dining table with a bowl of oranges and a banana on it. These fruits are typically consumed during breakfast, lunch, or dinner, but not in the middle of the night. Therefore, it is more likely that the image was taken during the evening, when people are more likely to have a meal or snack at the dining table.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.2995457245850221
+  },
+  {
+    "question_id": "79",
+    "question": "Which ingredient is the most flavorful? Choices: mushrooms, fish, plate, broccoli",
+    "predicted_answer": "Mushrooms",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The most flavorful ingredient in the dish is the mushrooms. Mushrooms are known for their earthy and savory flavors, which can enhance the taste of other ingredients in the dish. In this case, the mushrooms are combined with fish, broccoli, and herbs, creating a well-balanced and flavorful meal. The other ingredients, such as fish, broccoli, and herbs, contribute to the overall taste and texture of the dish, but it is the mushrooms that stand out as the most flavorful ingredient.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.999998707858417
+  },
+  {
+    "question_id": "402",
+    "question": "The layout of buildings most resembles which period? Choices: modern usa, historical european, japanese housing, chinese businesses",
+    "predicted_answer": "Historical European",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The layout of buildings in the image most resembles historical European architecture. This can be inferred from the presence of cobblestone buildings, narrow streets, and the overall design of the structures. In contrast, modern American, Japanese, and Chinese buildings tend to be more spacious and have different architectural styles. The historical European style is characterized by tightly-packed buildings, narrow streets, and the use of local materials, such as cobblestone, which can be seen in the image.",
+    "visual_fidelity": 0.75,
+    "contrastiveness": 0.9998440858283991
+  },
+  {
+    "question_id": "33",
+    "question": "What sport are they mimicking? Choices: baseball, lacrosse, cricket, basketball",
+    "predicted_answer": "Baseball",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The people in the image are mimicking the sport of baseball. This can be inferred from the fact that one person is swinging a baseball bat at a ball, which is a common action in baseball. Additionally, the presence of a baseball glove in the scene further supports the idea that they are participating in a baseball-related activity. Baseball is a popular sport that involves hitting a ball with a bat and catching it with a glove, so it is reasonable to assume that this is the sport they are mimicking.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.5185407688267034
+  },
+  {
+    "question_id": "463",
+    "question": "What is required to be on the ground to do this sport? Choices: water, ice, salt, snow",
+    "predicted_answer": "Snow",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Snow is required to be on the ground to do this sport because skiing and snowboarding are winter sports that involve sliding down snow-covered slopes using skis or a snowboard. The snow provides the necessary traction and smooth surface for these activities. Without snow, it would be difficult or impossible to engage in skiing or snowboarding, as the lack of traction would make it challenging to maintain balance and control while descending the slopes.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.8587793096183037
+  }
+]

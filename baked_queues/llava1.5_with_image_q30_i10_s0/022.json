@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "114",
+    "question": "What brand is the red truck? Choices: dodge, chevy, ford, toyota",
+    "predicted_answer": "Dodge",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the red truck is a Dodge Ram, which is a type of pickup truck. Dodge Ram is a well-known brand of pickup trucks, and the red color of the truck in the image is consistent with the typical color of a Dodge Ram pickup truck. The other options, Chevy, Ford, and Toyota, are also well-known brands of pickup trucks, but they do not match the image's description of a red Dodge Ram pickup truck.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.998734960620666
+  },
+  {
+    "question_id": "407",
+    "question": "What type of cusuine is presented? Choices: southern, jamaican, gourmet, asian",
+    "predicted_answer": "Asian",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The cuisine presented in the image is Asian, as evidenced by the bowl of noodles, vegetables, and other ingredients, which are commonly found in Asian dishes. The combination of ingredients, such as noodles, vegetables, and sauces, is indicative of Asian culinary traditions. Additionally, the presence of a person sitting at a dining table with a bowl of food further supports the notion that the dish is of Asian origin.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9964394994944089
+  },
+  {
+    "question_id": "57",
+    "question": "What drink might these be good in? Choices: beer, milkshake, gin, coffee",
+    "predicted_answer": "Beer",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that bananas are often used as a natural sweetener and flavor enhancer in various beverages, such as milkshakes, smoothies, and cocktails. Their natural sweetness and creamy texture make them a popular ingredient in these types of drinks. In addition, bananas can also be used to make banana-flavored alcoholic beverages, such as banana-flavored gin or banana-infused cocktails. However, it is important to note that alcohol consumption should be done responsibly and in moderation.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.08423533678783166
+  },
+  {
+    "question_id": "253",
+    "question": "How many guests have checked into this room? Choices: four, none, none, six",
+    "predicted_answer": "nan",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind the answer \"None\" is that the room appears to be empty, with no guests checked in. The bed is unoccupied, and there is no indication of any other guests in the room. This suggests that no guests have checked into the room at the time the image was taken.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.3331025292234135
+  },
+  {
+    "question_id": "479",
+    "question": "Where are all of the people in front of the yellow cab going? Choices: talking, crossing street, running, shopping",
+    "predicted_answer": "Crossing street",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The people in front of the yellow cab are crossing the street. This can be inferred from the context of the image, which shows a busy city street with multiple cars, a bus, and pedestrians. It is common for pedestrians to cross the street in such an environment, and the presence of a crosswalk further supports the idea that they are crossing the street. The other options, such as talking, running, or shopping, do not seem to be relevant to the scene depicted in the image.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9938421020678696
+  },
+  {
+    "question_id": "85",
+    "question": "What is the natural light streaming into the room through? Choices: door, lightbulb, clock, candle",
+    "predicted_answer": "Clock",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The natural light is streaming into the room through the clock. This is because the clock has a glass face, which allows light to pass through and illuminate the interior of the room. The clock acts as a natural light source, creating a warm and inviting atmosphere in the dining area.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.1829191543275829
+  },
+  {
+    "question_id": "178",
+    "question": "What pattern is on the bottom of the skateboard? Choices: zigzag, plaid, stripes, polka dots",
+    "predicted_answer": "Plaid",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The skateboard has a plaid pattern on the bottom.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.026422009136844685
+  },
+  {
+    "question_id": "49",
+    "question": "Why would you sit at this table? Choices: to paint, medical treatment, to work, to eat",
+    "predicted_answer": "To eat",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the table is set with a plate of cakes, cups, and a teapot, which suggests that the table is prepared for a meal or a gathering where people would come together to enjoy food and drinks. The presence of these items indicates that the primary purpose of the table is for dining and socializing, rather than for other activities such as painting, medical treatment, or work. Therefore, the most likely reason for someone to sit at this table is to eat the cakes and drink from the cups.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999306532867774
+  },
+  {
+    "question_id": "152",
+    "question": "How many bake pans were utilized? Choices: one, none, four, three",
+    "predicted_answer": "One",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that only one bake pan was utilized to bake the cake. The image shows a single slice of cake on a white plate, which indicates that the cake was baked in a single bake pan. There are no other bake pans visible in the image, which supports the conclusion that only one bake pan was used for baking the cake.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9990147820209324
+  },
+  {
+    "question_id": "428",
+    "question": "Where are the trucks headed to? Choices: port, interstate, market, junkyard",
+    "predicted_answer": "Market",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the trucks are parked in front of the West Washington Market building. This suggests that the trucks are either delivering goods to the market or picking up goods from the market. As a result, the most plausible destination for the trucks is the market itself.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.991057032818134
+  }
+]

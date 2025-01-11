@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "330",
+    "question": "What sort of surface/substance does the conveyance with a problem here move upon? Choices: sea, sky, rail, road",
+    "predicted_answer": "Road",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the conveyance in the image is a truck, which is designed to move upon roads. Trucks are typically used for transporting goods and materials, including boats. In this case, the truck is being used to transport a blue and white boat, suggesting that the surface it moves upon is a road rather than a sea, sky, or rail.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.999617240448046
+  },
+  {
+    "question_id": "475",
+    "question": "What is the round glass object? Choices: window, microscope, camera lens, magnifying glass",
+    "predicted_answer": "Camera lens",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The round glass object in the image is a camera lens. This is evident from the close-up view of the horse and the wooden fence. A camera lens is used to capture high-resolution images, and in this case, it is being used to take a picture of the horse and the fence. The close-up view of the horse and the wooden fence suggests that the camera lens is being used to capture a detailed image of the scene.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9930373051406954
+  },
+  {
+    "question_id": "228",
+    "question": "What industry is this man likely working in? Choices: travel, construction, medical, restaurant",
+    "predicted_answer": "Restaurant",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The man in the image is likely working in the restaurant industry, as he is wearing a maroon shirt, which is a common color for uniforms in the food service industry. Additionally, he is standing in a kitchen, which suggests that he is involved in food preparation or cooking. The presence of a microwave in the scene also supports the idea that he is working in a restaurant, as microwaves are commonly used in kitchens for heating and defrosting food items.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999996725946949
+  },
+  {
+    "question_id": "242",
+    "question": "This railcar is travelling at what position relative to the street-level? Choices: at streer-level, elevated, underground, under water",
+    "predicted_answer": "Elevated",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The railcar is traveling at an elevated position relative to the street-level. This can be inferred from the presence of a train track and the fact that the train is described as an \"elevated train.\" Elevated trains are typically built above ground level, allowing them to pass over streets and other obstacles without interfering with other forms of transportation.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.9999959301305513
+  },
+  {
+    "question_id": "151",
+    "question": "What is the green box near the red stapler on the desk used to hold? Choices: tissues, pins, pens, pencils",
+    "predicted_answer": "Pens",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The green box near the red stapler on the desk is most likely used to hold pens. The reasoning behind this answer is that pens are commonly used in an office setting, and the green box provides a convenient and organized way to store them. Additionally, the box's proximity to the stapler suggests that both items are frequently used together, further supporting the idea that the box is used to hold pens.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.30858076502142173
+  },
+  {
+    "question_id": "91",
+    "question": "What problem will the people on the ferry face? Choices: earthquake, raining, sunburn, tsunami",
+    "predicted_answer": "Raining",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The people on the ferry will face the problem of raining. In the image, there is a cloudy sky, which indicates the possibility of rain. Rain can cause discomfort and inconvenience to the passengers on the ferry, as they may need to carry umbrellas or wear raincoats to stay dry. Additionally, rain can affect the overall experience of the ferry ride, making it less enjoyable for the passengers.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999908811391512
+  },
+  {
+    "question_id": "172",
+    "question": "What are the white rocks for? Choices: breaking, prevent fire, water retainment, decoration",
+    "predicted_answer": "Breaking",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The white rocks in the image serve the purpose of breaking. They are placed on the train tracks as a safety measure to prevent the train from derailing in case of an obstacle on the tracks, such as fallen trees or debris. By breaking the obstacle, the rocks help to ensure the safe passage of the train, protecting both the passengers and the train itself from potential damage or accidents.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9599713980772966
+  },
+  {
+    "question_id": "73",
+    "question": "How was the cake decorated? Choices: drawn, piping tip, fork, sprinkled",
+    "predicted_answer": "Drawing",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The cake was decorated with a drawing of roses. This is evident from the close-up view of the cake in the image, which shows the intricate details of the roses on the cake. The use of a drawing to decorate the cake is a creative and artistic way to enhance the visual appeal of the cake, making it stand out as a unique and beautiful centerpiece for the event.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.5303098650611625
+  },
+  {
+    "question_id": "156",
+    "question": "What is the dark colored car to the far left in the middle doing? Choices: turning left, turning right, parking, reversing",
+    "predicted_answer": "Reversing",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The dark colored car to the far left in the middle is reversing. This can be inferred from the fact that the car's headlights are on, indicating that it is moving in the opposite direction. Additionally, the car's position in the image suggests that it is in the process of reversing, as it is closer to the viewer than the other vehicles in the scene.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.487093084597729
+  },
+  {
+    "question_id": "90",
+    "question": "What seems to be contained in the nook underneath the TV? Choices: bookshelf, lamp, fireplace, stereo",
+    "predicted_answer": "Fireplace",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the nook underneath the TV appears to be a fireplace, as indicated by the presence of a fireplace in the image. The other choices, such as a bookshelf, lamp, or stereo, are not visible in the image.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.992722270826014
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "116",
+    "question": "The cat appears to be what type? Choices: feral, housecat, pregnant, sheltered",
+    "predicted_answer": "Housecat",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The cat in the image is a housecat, not a feral or pregnant cat. This can be inferred from the fact that it is standing on a desk in front of a laptop, which suggests that the cat is accustomed to human environments and is likely well-cared for by its owner. Additionally, the cat is wearing a collar, which indicates that it is a domesticated pet rather than a feral or pregnant cat that would not typically be wearing a collar.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.6088253637685949
+  },
+  {
+    "question_id": "27",
+    "question": "The company producing the device in her hand is from what country? Choices: usa, china, japan, spain",
+    "predicted_answer": "Japan",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that Nintendo, the company producing the device in the woman's hand, is a Japanese company. Nintendo is known for its video game consoles, such as the Wii, and is headquartered in Tokyo, Japan. Therefore, the answer to the question is \"Japan.\"",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.999996972049728
+  },
+  {
+    "question_id": "343",
+    "question": "What kind of shot is the man about to hit? Choices: drop shot, serve, forehand, backhand",
+    "predicted_answer": "Forehand",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The man in the image is about to hit a forehand shot. This can be deduced from the fact that he is holding a tennis racket and is in the process of swinging it. The forehand shot is one of the most commonly used shots in tennis, where the player swings the racket across their body with the palm of their hand facing the incoming ball. The reasoning behind this answer is that the man's stance, grip on the racket, and the position of the racket in relation to his body all suggest that he is preparing to hit a forehand shot.",
+    "visual_fidelity": 0.4,
+    "contrastiveness": 0.13691896299575548
+  },
+  {
+    "question_id": "84",
+    "question": "In what location is the motorcycle parked most likely? Choices: store, sidewalk, home, expo",
+    "predicted_answer": "Store",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The most likely location for the motorcycle to be parked is at a store. This is because the dog is wearing a motorcycle helmet, which suggests that the dog's owner may have parked the motorcycle at the store while shopping or running errands. The presence of a dog wearing a motorcycle helmet is an unusual sight, and it is more plausible that the dog's owner parked the motorcycle at a store rather than on the sidewalk, home, or at an expo.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999777756108614
+  },
+  {
+    "question_id": "134",
+    "question": "What other sport besides ping pong is played by someone in this household? Choices: lacrosse, hockey, baseball, tennis",
+    "predicted_answer": "Tennis",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the man in the image is holding a tennis racket, which indicates that tennis is played in this household. The presence of the tennis racket suggests that the man or someone else in the household engages in tennis as a sport. The other sports, such as lacrosse, hockey, baseball, and tennis, are not visible in the image, so they cannot be confirmed as being played in this household.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.93524192906937
+  },
+  {
+    "question_id": "177",
+    "question": "Which person would be the coldest? Choices: left, middle, right, none",
+    "predicted_answer": "Middle",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The person who would be the coldest would be the one sitting in the middle of the red bench. This is because they are the furthest away from the body of water, which provides a natural source of warmth. In contrast, the person on the left side of the bench is closer to the water, and the person on the right side is also relatively close to the water. Therefore, the person in the middle of the bench would be the coldest due to their distance from the water source.",
+    "visual_fidelity": 0.6,
+    "contrastiveness": 0.9956151011456275
+  },
+  {
+    "question_id": "109",
+    "question": "What type of bus is in traffic? Choices: public, school, work, tour",
+    "predicted_answer": "School",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The bus in traffic is a school bus. The reasoning behind this answer is that school buses are specifically designed for transporting students to and from school, and they often have a distinctive yellow color to make them easily recognizable. In the image, the bus is driving down a street with other cars, which indicates that it is likely transporting students to or from school. The presence of other cars on the street further supports the idea that the bus is a school bus, as it is not uncommon for school buses to share the road with other vehicles.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9135166641044371
+  },
+  {
+    "question_id": "417",
+    "question": "What level or league of baseball are the players most likely playing in? Choices: minor, major, college, junior",
+    "predicted_answer": "Minor",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The players in the image are most likely playing in a minor league baseball game. This can be inferred from the fact that they are wearing uniforms and playing on a baseball field, which are typical features of a minor league game. Additionally, the presence of a catcher and an umpire further supports the notion that this is a minor league game, as these positions are typically found in lower-level baseball leagues.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.6145987228408638
+  },
+  {
+    "question_id": "67",
+    "question": "What vehicle is closest to the security guard? Choices: silver car, two-wheeler, bluecar, dark car",
+    "predicted_answer": "Silver car",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The silver car is the closest vehicle to the security guard. The reasoning behind this answer is that the security guard is sitting on a brick wall, and the silver car is parked in front of him. The other vehicles, such as the two-wheeler, blue car, and dark car, are not as close to the security guard as the silver car. Therefore, the silver car is the closest vehicle to the security guard.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9996223088825326
+  },
+  {
+    "question_id": "317",
+    "question": "What animals are in the field? Choices: zebra, lion, cheetah, tiger",
+    "predicted_answer": "Zebra",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The animals in the field are zebras, not lions, cheetahs, or tigers. In the image, there is a herd of zebras standing and grazing in a grassy field. Zebras are known for their distinctive black and white striped coats, and they are commonly found in grasslands and savannas. The presence of zebras in the field is consistent with their natural habitat and behavior. On the other hand, lions, cheetahs, and tigers are carnivorous predators and are not typically found grazing in grassy fields.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9998808392565316
+  }
+]

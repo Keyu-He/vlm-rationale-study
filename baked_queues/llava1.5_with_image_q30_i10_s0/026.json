@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "269",
+    "question": "What type of league is the batter in? Choices: little league, high school, minor league, intramural",
+    "predicted_answer": "Little League",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The batter is in a little league, as evidenced by the fact that he is a young boy wearing a helmet and holding a baseball bat. Little league is a youth sports organization that provides opportunities for children to participate in organized baseball and softball games. The presence of other children in the image also supports the notion that this is a little league setting.",
+    "visual_fidelity": 0.75,
+    "contrastiveness": 0.6007408445641503
+  },
+  {
+    "question_id": "78",
+    "question": "What is the man in the gray suit on the left looking down to check? Choices: phone, tablet, notebook, pager",
+    "predicted_answer": "Phone",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The man in the gray suit on the left is looking down to check his phone. This can be inferred from the fact that he is wearing a suit and tie, which suggests that he might be attending a formal event or a business meeting. In such situations, it is common for people to check their phones for important messages, emails, or updates. Therefore, the most plausible answer to the question is the phone.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9936943393439324
+  },
+  {
+    "question_id": "323",
+    "question": "The piece of clothing the woman in the picture is wearing on her hands normally serves what purpose? Choices: fashion, prevention, cure, protection",
+    "predicted_answer": "Protection",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The woman in the picture is wearing gloves on her hands, which serves the purpose of protection. Gloves are typically worn to protect the hands from harsh weather conditions, such as cold, wet, or windy environments, as well as to provide a barrier against potential hazards, such as sharp objects or chemicals. In the context of the image, it is likely that the woman is wearing gloves while riding a motorcycle to protect her hands from the elements and potential hazards on the road.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.5105854150394691
+  },
+  {
+    "question_id": "198",
+    "question": "What are the horses being used for? Choices: rodeo, transportation, racing, farming",
+    "predicted_answer": "Farming",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The horses in the image are being used for farming purposes. They are pulling a plow, which is a tool used for tilling the soil and preparing it for planting crops. This indicates that the horses are being utilized for agricultural work, rather than for recreational activities such as rodeo, racing, or transportation.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999473004646976
+  },
+  {
+    "question_id": "348",
+    "question": "Where are the sheep located? Choices: farm, street, mountain, park",
+    "predicted_answer": "Street",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the image shows a herd of sheep crossing a street, which is an unusual location for sheep. Typically, sheep are found on farms, in mountains, or in parks. However, in this case, the sheep are crossing the street, which indicates that they are in an urban or semi-urban environment. The presence of a car in the image further supports the idea that the sheep are located on a street rather than in a farm, mountain, or park setting.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999880237425595
+  },
+  {
+    "question_id": "159",
+    "question": "What video game system is the man playing? Choices: xbox one, playstation 5, nintendo wii, atari",
+    "predicted_answer": "Nintendo Wii",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The man in the image is playing a video game on a Nintendo Wii system. This is evident from the fact that he is holding a Wii remote, which is the primary controller for the Wii gaming system. The Wii remote is a motion-sensitive controller that allows players to interact with games through physical gestures, such as swinging, pointing, and tilting. The presence of the Wii remote in the man's hand confirms that he is playing a game on the Nintendo Wii system.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999936060784701
+  },
+  {
+    "question_id": "406",
+    "question": "What is the woman's job called? Choices: jumper, jockey, rider, equestrianism",
+    "predicted_answer": "Jockey",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The woman's job is called jockey. In the image, the woman is riding a horse and jumping over an obstacle, which is a common activity in equestrian sports such as show jumping or eventing. Jockeys are skilled riders who specialize in horse racing, show jumping, dressage, and other equestrian disciplines. They are responsible for guiding the horse, maintaining balance, and ensuring the horse's safety and performance during competitions or training sessions.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.49526881085174174
+  },
+  {
+    "question_id": "209",
+    "question": "Which snowboarder will have a harder time standing up? Choices: both, neither, red board, white board",
+    "predicted_answer": "Both",
+    "prediction_is_correct": 0,
+    "generated_rationale": "Both snowboarders will have a harder time standing up because they are both sitting in the snow with their snowboards attached to their feet. It is more challenging to get up from a sitting position with a snowboard on compared to standing up from the ground without a snowboard. Additionally, both snowboarders are wearing brown jackets, which may not provide the same level of insulation and warmth as a specialized snowboarding jacket. This could make it more difficult for them to stay warm and comfortable while attempting to stand up on their snowboards.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.4922109969014566
+  },
+  {
+    "question_id": "482",
+    "question": "What type of outer clothing does the person who last sat here like to wear? Choices: hats, bras, belts, cowboy boots",
+    "predicted_answer": "Hats",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The person who last sat on this bench likely enjoys wearing hats as outer clothing. This can be inferred from the presence of a hat on the bench, which suggests that the person who left it there might have been wearing a hat while sitting on the bench. Additionally, the hat's placement on the bench indicates that it was intentionally left there, which further supports the idea that the person who last sat here likes to wear hats.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999454895810685
+  },
+  {
+    "question_id": "6",
+    "question": "What is the appliance the woman is holding used for? Choices: cutting hair, brushing teeth, drying hair, painting nails",
+    "predicted_answer": "Drying hair",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The appliance the woman is holding is a blow dryer, which is used for drying hair. The reasoning behind this answer is that the image shows the woman holding a blow dryer in a bathroom, which is a common place for people to dry their hair after taking a shower. Additionally, blow dryers are specifically designed for drying hair and are not used for cutting hair, brushing teeth, or painting nails.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999647872804299
+  }
+]

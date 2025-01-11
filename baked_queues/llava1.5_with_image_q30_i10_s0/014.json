@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "93",
+    "question": "What state was the licence plate issues? Choices: connecticut, rhode island, new jersey, new york",
+    "predicted_answer": "New York",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the license plate on the motorcycle is from New York. This suggests that the motorcycle is registered in the state of New York, and the license plate is issued by the New York Department of Motor Vehicles (DMV). The presence of the license plate indicates that the motorcycle is legally allowed to be on the road in the state of New York.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.2129859122560031
+  },
+  {
+    "question_id": "176",
+    "question": "What kind of a person usually eats food like this? Choices: obese, competitive eater, glutton, nutritionist",
+    "predicted_answer": "Nutritionist",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The person who usually eats food like this is a nutritionist. A nutritionist is a professional who specializes in the study of nutrients and their effects on health and well-being. They understand the importance of consuming a balanced diet that includes a variety of fruits, vegetables, grains, proteins, and healthy fats. In the image, there is an assortment of fruits, vegetables, and grains in a bowl, which is typical of a nutritionist's dietary recommendations. A competitive eater, on the other hand, typically consumes large amounts of food in a short period of time, which is not consistent with the nutritionist's approach to healthy eating. An obese person may also eat food like this, but it is not typical of their dietary habits. A glutton is someone who overindulges in food, but again, this is not consistent with the nutritionist's approach to healthy eating.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999917720196825
+  },
+  {
+    "question_id": "202",
+    "question": "What occasion are the bears probably sitting at the table enjoying? Choices: birthday, tea party, holiday dinner, wedding",
+    "predicted_answer": "Holiday dinner",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The bears are likely sitting at the table enjoying a holiday dinner, as evidenced by the presence of a Christmas tree in the scene. The Christmas tree is a traditional symbol of the holiday season and is often associated with festive gatherings and celebrations, such as holiday dinners. The arrangement of the bears around the table, along with the presence of a dining table and chairs, further supports the idea that they are participating in a holiday dinner setting.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9998407696356506
+  },
+  {
+    "question_id": "52",
+    "question": "Is the man on the left platform going to board the train? Choices: yes, absolutely no, probably yes, probably no",
+    "predicted_answer": "Yes",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The man on the left platform is most likely going to board the train, as he is standing close to the train tracks and appears to be waiting for the train to come to a complete stop. His proximity to the train and the fact that he is on the platform suggest that he intends to board the train once it has come to a halt.",
+    "visual_fidelity": 0.75,
+    "contrastiveness": 0.499969517881359
+  },
+  {
+    "question_id": "211",
+    "question": "What is hanging on the right wall next the desk? Choices: towels, diplomas, pictures, coats",
+    "predicted_answer": "Coats",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Coats are hanging on the right wall next to the desk.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.2064267654876964
+  },
+  {
+    "question_id": "10",
+    "question": "What country do these planes belong to? Choices: united states, germany, canada, mexico",
+    "predicted_answer": "United States",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The planes in the image belong to the United States Air Force. This can be inferred from the fact that they are displayed in a museum, which is a common practice for preserving and showcasing military aircraft. Additionally, the presence of American flags in the scene further supports the notion that these planes are from the United States.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999160764956515
+  },
+  {
+    "question_id": "4",
+    "question": "What type of device is sitting next to the laptop? Choices: mouse, mobile phone, pen, keyboard",
+    "predicted_answer": "Mobile phone",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The device sitting next to the laptop is a mobile phone. The reasoning behind this answer is that mobile phones are commonly used in conjunction with laptops for various purposes, such as making calls, sending text messages, and accessing the internet. In the image, the mobile phone is placed next to the laptop, which suggests that it might be used for one or more of these purposes. On the other hand, a mouse, pen, or keyboard would not typically be placed next to a laptop in this manner.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999780091790722
+  },
+  {
+    "question_id": "221",
+    "question": "What are the people tying? Choices: score, shoes, kite, bowtie",
+    "predicted_answer": "Kite",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The people in the image are tying a kite, as indicated by the presence of a kite in the scene. The woman is holding the kite, and the man is kneeling on the ground, tying the string to the kite. This suggests that they are preparing to fly the kite, which is a common outdoor activity involving tying the kite to a string and releasing it into the air to catch the wind and stay aloft.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9734813100597484
+  },
+  {
+    "question_id": "39",
+    "question": "What is the bin on the left made from? Choices: plastic, ceramic, steel, glass",
+    "predicted_answer": "Ceramic",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The bin on the left is made from ceramic. This can be inferred from the fact that it is described as a \"ceramic bin\" in the image description. Ceramic bins are typically made from materials such as clay, stone, or glass, and are often used for storing food or other items. In this case, the ceramic bin is likely being used to store hay for the sheep in the barn.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.9847788132931122
+  },
+  {
+    "question_id": "351",
+    "question": "What type of structure is being used? Choices: cement, natural, wood, plastic",
+    "predicted_answer": "Cement",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The structure being used in the image is a cement wall. The skateboarder is performing a trick by jumping over the cement wall, which demonstrates the skateboarder's skill and ability to maneuver the skateboard. The use of a cement wall adds an element of challenge and difficulty to the trick, making it more impressive and showcasing the skateboarder's talent.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.3478722214976355
+  }
+]

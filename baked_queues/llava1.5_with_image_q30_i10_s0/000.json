@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "419",
+    "question": "From which item can you get the most protein? Choices: salami, wine, cheese, bread",
+    "predicted_answer": "Salami",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Salami is the item that provides the most protein, as it is primarily composed of protein-rich ingredients such as pork, beef, or a combination of both. These ingredients contribute to the high protein content of salami, making it an excellent source of protein compared to other items like bread, cheese, or wine. Wine, on the other hand, is primarily composed of carbohydrates and small amounts of protein, while cheese is a good source of protein but not as high as salami. Bread, being a carbohydrate-rich food, does not provide as much protein as salami.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9927401584815968
+  },
+  {
+    "question_id": "459",
+    "question": "What alcohol brand has a word that refers to the pattern of this animal? Choices: red stripe, michelob ultra, blue hawaiian, red ale",
+    "predicted_answer": "Red stripe",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The alcohol brand \"Red Stripe\" is named after the zebra's distinctive black and white striped pattern. The zebra's stripes are unique to each individual, much like fingerprints in humans, and are believed to serve various purposes, such as camouflage, thermoregulation, and social bonding. The name \"Red Stripe\" is a playful and creative reference to the zebra's iconic appearance, making it a fitting name for an alcohol brand.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.5438389735244896
+  },
+  {
+    "question_id": "130",
+    "question": "What is the facade that the couple is being interviewed in likely designed to be? Choices: radio, camera, building, tv",
+    "predicted_answer": "Radio",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The facade that the couple is being interviewed in is likely designed to be a radio. This is evident from the presence of a microphone, which is commonly used for radio interviews. Additionally, the couple is sitting in a booth, which is a typical setup for radio interviews. The other choices, such as camera, building, and TV, do not fit the context of the image, as they are not commonly associated with radio interviews.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.624002545968583
+  },
+  {
+    "question_id": "431",
+    "question": "What color is in the center of the red flower? Choices: brown, black, yellow, white",
+    "predicted_answer": "Brown",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The center of the red flower on the cake is brown. The reasoning behind this answer is that the cake is decorated with a red heart-shaped flower, and the center of the flower is brown. This indicates that the cake is likely a celebration cake, such as a birthday or anniversary cake, and the red heart-shaped flower serves as a decorative element to make the cake more visually appealing and festive. The brown center of the flower adds a contrasting color to the red petals, enhancing the overall aesthetic of the cake.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.06002847333936969
+  },
+  {
+    "question_id": "370",
+    "question": "What is coming out of her mouth? Choices: food, sweat, blood, smoke",
+    "predicted_answer": "Smoke",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The woman in the image is smoking a cigarette, which is why smoke is coming out of her mouth.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9957128445318747
+  },
+  {
+    "question_id": "26",
+    "question": "What are the orange vehicles for? Choices: police, shuttle, passengers, air traffic",
+    "predicted_answer": "Police",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the orange vehicles in the image are police cars, which are typically used for law enforcement and emergency response purposes. The presence of police cars on the runway suggests that there might be an ongoing incident or security concern that requires their presence at the airport. The other choices, such as shuttle, passengers, and air traffic, do not seem to be directly related to the scene depicted in the image.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.9999876231474856
+  },
+  {
+    "question_id": "201",
+    "question": "What property does the blue and green fence have? Choices: soft, hard, wet, hot",
+    "predicted_answer": "Hard",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The property of the blue and green fence is hard. This is because fences are typically made of hard materials such as wood, metal, or plastic. These materials are sturdy and durable, providing support and stability to the fence. In the image, the fence appears to be well-maintained and in good condition, further supporting the notion that it is made of a hard material.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999549886871721
+  },
+  {
+    "question_id": "56",
+    "question": "The bus is likely driving through which American city? Choices: chicago, new york, philadelphia, boston",
+    "predicted_answer": "New York",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The bus is likely driving through which American city? Choices: chicago, new york, philadelphia, boston. Answer: New York. Please explain the reasoning behind your answer?",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.7936975322909943
+  },
+  {
+    "question_id": "366",
+    "question": "What brand of electronics is the person using on the desk? Choices: microsoft, hp, apple, dell",
+    "predicted_answer": "Apple",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The person is using Apple electronics on the desk. This can be inferred from the presence of an Apple laptop and an Apple computer monitor. These devices are known for their sleek design, user-friendly interface, and integration with other Apple products, such as the iPhone and iPad. The use of Apple electronics on the desk suggests a preference for the Apple ecosystem and its seamless integration with other Apple devices.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.8939809520869102
+  },
+  {
+    "question_id": "108",
+    "question": "What type of cuisine would be purchased here? Choices: chinese, russian, italian, mexican",
+    "predicted_answer": "Mexican",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The cuisine that would be purchased here is Mexican, as indicated by the name of the food truck, \"Tamales Mi Lupita.\" Tamales are a traditional Mexican dish made of masa (a starchy dough) filled with various ingredients such as meat, cheese, or vegetables, and then steamed in a corn husk. The name \"Tamales Mi Lupita\" suggests that the food truck specializes in serving tamales, which are a popular Mexican dish.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999992739793936
+  }
+]

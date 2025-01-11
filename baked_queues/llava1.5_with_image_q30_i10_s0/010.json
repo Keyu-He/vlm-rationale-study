@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "383",
+    "question": "Which ingredient offers the most protein? Choices: lettuce, pepper, tomato, ham",
+    "predicted_answer": "Ham",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The ingredient that offers the most protein is ham. In the image, the sandwich is filled with various ingredients such as lettuce, tomato, and pepper. However, the primary source of protein in the sandwich comes from the ham. Protein is essential for building and repairing body tissues, and ham is a rich source of protein compared to the other ingredients in the sandwich. The other ingredients, such as lettuce, tomato, and pepper, contribute to the overall nutritional value of the sandwich, but they do not provide as much protein as ham does.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999956779732249
+  },
+  {
+    "question_id": "444",
+    "question": "At what time of day are the skateboarders probably skating on the beach? Choices: dawn, night, sunrise, sunset",
+    "predicted_answer": "Sunset",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The most likely time of day for the skateboarders to be skating on the beach is sunset. In the image, the sun is setting behind the palm trees, casting a warm glow over the scene. This creates an ideal atmosphere for outdoor activities like skateboarding, as the cooler evening temperatures make it more comfortable to engage in such activities. Additionally, the sunset provides a visually appealing backdrop for the skateboarders, enhancing the overall experience.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.8921363088269939
+  },
+  {
+    "question_id": "167",
+    "question": "What appliance is unhooked and placed by the sink? Choices: dishwasher, stove/oven, trash compactor, icemaker",
+    "predicted_answer": "Dishwasher",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The appliance unhooked and placed by the sink is the dishwasher. The reasoning behind this answer is that the dishwasher is a common appliance found in kitchens, and it is often placed near the sink for convenience and easy access. In the image, the dishwasher is unhooked, which suggests that it might be in the process of being installed, moved, or repaired. The other options, such as the stove/oven, trash compactor, and icemaker, are less likely to be unhooked and placed near the sink.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9980082455487481
+  },
+  {
+    "question_id": "184",
+    "question": "What material are the white cups? Choices: wood, glass, paper, plastic",
+    "predicted_answer": "Plastic",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the white cups in the image are made of plastic, not wood, glass, or paper. Plastic cups are commonly used for beverages and are lightweight, disposable, and easy to clean, making them a popular choice for casual gatherings and events.",
+    "visual_fidelity": 0.8,
+    "contrastiveness": 0.9999934050717486
+  },
+  {
+    "question_id": "292",
+    "question": "What pattern shirt is the man wearing? Choices: polka dot, argyle, solid color, stripes",
+    "predicted_answer": "Stripes",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The man in the image is wearing a shirt with stripes. The reasoning behind this answer is that the man's shirt is described as having a striped pattern, which indicates that the shirt is not solid color or polka dotted, and it is not an argyle pattern. Therefore, the man is wearing a shirt with stripes.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999154030908484
+  },
+  {
+    "question_id": "14",
+    "question": "What flag is represented on the wall? Choices: english, moravian, american, french",
+    "predicted_answer": "American",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the American flag is prominently displayed on the wall in the image. The presence of the American flag suggests that the event or gathering taking place is related to the United States or its military. The other flags, such as the Moravian flag or the French flag, are less likely to be present in this context.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999533004392802
+  },
+  {
+    "question_id": "136",
+    "question": "What object should never get wet? Choices: laptop, computer monitor, tv, jacket",
+    "predicted_answer": "Laptop",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The laptop should never get wet because electronic devices, such as laptops, are sensitive to moisture and can be severely damaged if they come into contact with water or other liquids. In the image, a man is holding an umbrella over a laptop, which indicates that the laptop is exposed to the rain. If the laptop were to get wet, it could lead to short circuits, malfunctioning, or even permanent damage. It is crucial to protect electronic devices from water and other liquids to ensure their proper functioning and longevity.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.9653350979489312
+  },
+  {
+    "question_id": "203",
+    "question": "Why is the cow tied to the pole? Choices: to hit, to kill, to ride, to restrain",
+    "predicted_answer": "To restrain",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The cow is tied to the pole to ensure its safety and prevent it from wandering into the street, where it could potentially cause accidents or injuries to pedestrians and vehicles. By tying the cow to the pole, the owner or caretaker is able to control the cow's movements and keep it in a designated area, away from traffic and other hazards. This action demonstrates responsible animal ownership and care for the well-being of both the cow and the people in the vicinity.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9998079124503805
+  },
+  {
+    "question_id": "331",
+    "question": "What is the purpose of the two tallest structures? Choices: for advertisement, for weather, for reception, for visibility",
+    "predicted_answer": "For visibility",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The two tallest structures in the image serve the purpose of providing a clear line of sight and enhancing visibility in the area. These structures, likely towers or tall buildings, can be used for various purposes such as communication, surveillance, or even as landmarks. However, based on the context of the image, their primary function appears to be improving visibility for drivers and pedestrians navigating the busy city street. This can help reduce the risk of accidents, improve traffic flow, and enhance overall safety in the area.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.9982243731466811
+  },
+  {
+    "question_id": "165",
+    "question": "What is the little girl doing? Choices: drinking, yelling, eating, singing",
+    "predicted_answer": "Eating",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The little girl is eating cereal out of a bowl. She is using a spoon to eat the cereal, which indicates that she is actively engaging in the process of consuming the food. Drinking, yelling, and singing are not typical actions for someone eating cereal, so the answer is eating.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.986146691364051
+  }
+]

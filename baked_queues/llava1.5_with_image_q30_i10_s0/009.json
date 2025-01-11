@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "429",
+    "question": "What are the zebras swinging? Choices: butt, tail, head, feet",
+    "predicted_answer": "Butt",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The zebras are swinging their butts as they graze on the grass. This is a natural behavior for zebras, as they use their tails to swat away flies and other insects while they eat. In this case, the zebras are swinging their tails to keep the insects away while they feed on the grass in their enclosure.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.49898084331392084
+  },
+  {
+    "question_id": "251",
+    "question": "What is the name of the sport the man is participating in? Choices: waterboarding, sailboating, waterskiing, skateboarding",
+    "predicted_answer": "Waterskiing",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The sport the man is participating in is waterskiing. This is evident from the fact that he is riding on water skis while being pulled by a boat. Waterskiing is a popular water sport that involves a person being towed behind a boat while standing on one or two skis. The skier holds onto a handle attached to a rope, which is connected to the boat. The sport requires balance, strength, and coordination to maintain control while being towed at high speeds.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.9999835783688948
+  },
+  {
+    "question_id": "289",
+    "question": "What is keeping the animals all in one place? Choices: mountains, fear, fence, guns",
+    "predicted_answer": "Fence",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The animals are kept in one place by a fence. The fence serves as a barrier to keep the cows together, preventing them from wandering off or interacting with other animals. The fence ensures that the cows remain within a designated area, making it easier for the farmer to manage and monitor their well-being.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.6507992613877379
+  },
+  {
+    "question_id": "377",
+    "question": "Which skier is going fastest? Choices: sitting, right, left, middle",
+    "predicted_answer": "Middle",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The skier going fastest is the one in the middle of the image. They are skiing down the slope at a faster pace compared to the other skiers. This could be due to their skill level, experience, or simply because they are enjoying the thrill of skiing at a faster speed. It is important to note that skiing at a faster pace can increase the risk of accidents and injuries, so it is crucial for skiers to maintain control and be aware of their surroundings while skiing at high speeds.",
+    "visual_fidelity": 0.75,
+    "contrastiveness": 0.3751653486692825
+  },
+  {
+    "question_id": "496",
+    "question": "This man is likely taking a photo in what type of location? Choices: vestibule, bedroom, bathroom, office",
+    "predicted_answer": "Vestibule",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The man is likely taking a photo in a vestibule, as he is standing in front of a metal door, which is a common feature in vestibules. Vestibules are typically found in public buildings, such as offices, schools, or hospitals, and they serve as a transitional space between the interior and exterior of the building. The presence of a metal door in the image suggests that the man is in a location where such doors are commonly used, further supporting the idea that he is in a vestibule.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.9897508162332539
+  },
+  {
+    "question_id": "262",
+    "question": "What is the rectangular object in the back left used to do? Choices: blend food, watch tv, store bread, cook food",
+    "predicted_answer": "Store bread",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The rectangular object in the back left is a breadbox, which is used to store bread. The reasoning behind this answer is that breadboxes are typically rectangular in shape and have a hinged lid, which is designed to keep the bread fresh and protected from contaminants. Breadboxes are commonly found in kitchens and are used to store freshly baked bread or other baked goods. In this image, the breadbox is placed in the kitchen, indicating that it is being used for its intended purpose.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.9999935510748629
+  },
+  {
+    "question_id": "192",
+    "question": "What area of the house is this in? Choices: kitchen, bathroom, basement, bedroom",
+    "predicted_answer": "Bathroom",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the man is sitting on a toilet, which is typically found in a bathroom. The presence of the toilet and the man's position on it strongly suggest that this scene takes place in a bathroom, rather than a kitchen, bedroom, or basement.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999715480061675
+  },
+  {
+    "question_id": "103",
+    "question": "What color are the walls in the room? Choices: orange, yellow, blue, green",
+    "predicted_answer": "Blue",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The walls in the room are blue.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.31552512806534566
+  },
+  {
+    "question_id": "142",
+    "question": "Why are the wood platforms strapped to the elephants? Choices: to punish, to plow, to groom, to ride",
+    "predicted_answer": "To ride",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The wood platforms, also known as howdahs, are strapped to the elephants' backs to provide a comfortable and secure seating area for riders. In many cultures, elephants are used for transportation, tourism, and ceremonial purposes. The howdahs allow riders to sit on the elephants' backs without disturbing the animal's balance or causing discomfort. The straps ensure that the howdahs remain in place and do not fall off during the ride, ensuring the safety of both the riders and the elephants.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999927851491371
+  },
+  {
+    "question_id": "22",
+    "question": "Which animal usually occupies the position the cat is in right now? Choices: human, dinosaur, eagle, fish",
+    "predicted_answer": "Human",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that humans are the most common occupants of chairs and other seating furniture. While it is possible for other animals, such as cats, to sit in chairs, it is much more common for humans to do so. In the image, the cat is sitting in a black office chair, which is a piece of furniture designed for human use. While it is not uncommon for cats to sit in chairs, it is still more likely that a human would occupy that position.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999805496446661
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "86",
+    "question": "What is the white cream used for with the other foods? Choices: drinking, cooking, dipping, heating",
+    "predicted_answer": "Dipping",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The white cream is used for dipping with the other foods, such as crackers, carrots, and broccoli. This is because the cream adds flavor and moisture to the foods, enhancing their taste and making them more enjoyable to eat. The combination of the cream and the other foods creates a delicious and satisfying snack or appetizer.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.6574118008372659
+  },
+  {
+    "question_id": "240",
+    "question": "What type of dinnerware do the people seem to be using? Choices: porcelain, wooden, steel, disposable",
+    "predicted_answer": "Porcelain",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The people in the image seem to be using porcelain dinnerware, as evidenced by the presence of multiple wine glasses and cups on the dining table. Porcelain dinnerware is known for its durability, elegance, and resistance to chipping or cracking, making it a popular choice for formal dining events or gatherings with friends and family. The use of porcelain dinnerware suggests that the people in the image are enjoying a more refined and sophisticated dining experience.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9991928949435543
+  },
+  {
+    "question_id": "484",
+    "question": "How is the device the boy is holding powered? Choices: solar, battery, gas, electricity",
+    "predicted_answer": "Electricity",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The device the boy is holding is powered by electricity. This can be inferred from the fact that the boy is playing a video game, which typically requires electricity to function. Video game consoles, such as the Nintendo Wii, are connected to an electrical outlet to receive power. Additionally, the boy is holding a Wii remote, which is an electronic device that requires electricity to function. Therefore, the answer to the question is electricity.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9997311322633502
+  },
+  {
+    "question_id": "483",
+    "question": "The paper cups probably contain what beverage? Choices: alcoholic, soda, coffee, tea",
+    "predicted_answer": "Soda",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is based on the context of the image. In the image, there is a young girl sitting at a table with a plate of pizza in front of her. Additionally, there are paper cups on the table, which are commonly associated with soda beverages. While it is possible that the cups contain other beverages such as coffee, tea, or even alcoholic drinks, the presence of paper cups and a young girl enjoying pizza suggests that it is more likely that the cups contain soda.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9997145373193175
+  },
+  {
+    "question_id": "102",
+    "question": "What is the activity being performed? Choices: show performance, training horse, riding horse, feeding horse",
+    "predicted_answer": "Riding horse",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The activity being performed is riding a horse. In the image, a man is riding on the back of a horse while holding the reins, which indicates that he is controlling the horse's movement. This is a common activity where people ride horses for various purposes, such as leisure, sports, or transportation. The man's position on the horse's back and his grip on the reins suggest that he is actively engaging in horse riding, rather than showcasing a performance, training the horse, or feeding it.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.9999630781456439
+  },
+  {
+    "question_id": "314",
+    "question": "They are likely sitting down to enjoy what meal of the day? Choices: dinner, snack, breakfast, lunch",
+    "predicted_answer": "Dinner",
+    "prediction_is_correct": 0,
+    "generated_rationale": "They are likely sitting down to enjoy what meal of the day? Choices: dinner, snack, breakfast, lunch. Answer: Dinner. Please explain the reasoning behind your answer?",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.5523604254009045
+  },
+  {
+    "question_id": "299",
+    "question": "What material is the squared off building in the background made from? Choices: steel, glass, wood, clay",
+    "predicted_answer": "Wood",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The building in the background is made of wood. This can be inferred from the fact that it is described as a squared off building, which is a common architectural feature of wooden structures. Additionally, wooden buildings often have a more rustic appearance compared to those made of steel, glass, or clay, which further supports the conclusion that the building is made of wood.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9999942233312696
+  },
+  {
+    "question_id": "494",
+    "question": "What are the men doing? Choices: hugging, laughing, kissing, crying",
+    "predicted_answer": "Laughing",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The men are laughing while sitting on a couch and playing a video game. This suggests that they are enjoying themselves and having a good time together, which is why they are laughing.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.95631139735145
+  },
+  {
+    "question_id": "239",
+    "question": "What kind of bike is this? Choices: unicycle, vespa, bmx, motorcycle",
+    "predicted_answer": "Vespa",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The bike in the image is a Vespa, which is a type of scooter with a step-through frame and a platform for the rider's feet. Vespa scooters are known for their distinctive design and are often used for transportation in urban areas. In the image, the Vespa has a basket on the front, which is a common feature of Vespa scooters for carrying items such as groceries or personal belongings. This distinguishes it from other types of bikes, such as unicycles, BMX bikes, or motorcycles, which do not typically have baskets or a step-through frame.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999669383146207
+  },
+  {
+    "question_id": "257",
+    "question": "What is the person on this vase doing? Choices: fighting, chariot racing, horse training, horse theft",
+    "predicted_answer": "Chariot racing",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The person on the vase is depicted as a chariot racer. This is evident from the fact that they are riding a horse-drawn chariot and holding a whip, which is a common tool used by chariot racers to control their horses during the race. Chariot racing was a popular sport in ancient civilizations such as the Greeks and Romans, where riders would compete against each other in horse-drawn chariots, showcasing their skills in maneuvering the chariot and controlling the horses. Therefore, the answer to the question is that the person on the vase is participating in chariot racing.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9973654545021848
+  }
+]

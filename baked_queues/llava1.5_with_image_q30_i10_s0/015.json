@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "88",
+    "question": "What type of audience is the man likely speaking to? Choices: protest, single person, political rally, meeting",
+    "predicted_answer": "Political rally",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The man in the image is likely speaking to an audience at a political rally, as he is wearing a suit and tie, which is typical attire for such events. Additionally, he is standing in front of a banner, which suggests that he is addressing a group of people who have gathered for a specific purpose, such as a political rally. The fact that he is gesturing with his hands further supports the idea that he is engaged in a public speaking event, which is common at political rallies.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.6732817083344861
+  },
+  {
+    "question_id": "283",
+    "question": "The people on laptops seem most likely to be part of what group? Choices: work, friends, class, competition",
+    "predicted_answer": "Class",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The people on laptops are most likely to be part of a class, as they are sitting at a table in a classroom setting. The presence of multiple laptops and people working together suggests that they are engaged in a collaborative learning environment, which is typical of a classroom setting. The other choices, such as work, friends, or competition, do not fit the context of the image as well.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999635871147023
+  },
+  {
+    "question_id": "254",
+    "question": "What type of vehicles are sitting outside of the store? Choices: car, motorcycle, bicycle, train",
+    "predicted_answer": "Motorcycle",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The correct answer is motorcycle. The image shows three motorcycles parked outside of a store. The other options, such as car, bicycle, and train, are not relevant to the scene depicted in the image.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9987476991597045
+  },
+  {
+    "question_id": "65",
+    "question": "Which vegetable on the pizza would be risky for someone with a certain allergy? Choices: pepperoni, mushrooms, banana peppers, red peppers",
+    "predicted_answer": "Mushrooms",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The vegetable on the pizza that would be risky for someone with a certain allergy is mushrooms. Mushrooms are known to cause allergic reactions in some individuals, particularly those with a mushroom allergy. These reactions can range from mild to severe and may include symptoms such as itching, swelling, difficulty breathing, or even anaphylaxis. Therefore, it is essential for individuals with mushroom allergies to be cautious when consuming foods containing mushrooms, including pizzas with mushrooms as a topping.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999972089949842
+  },
+  {
+    "question_id": "356",
+    "question": "What hour is shown on the clock? Choices: eleven, nine, eight, ten",
+    "predicted_answer": "Ten",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the clock shows the time of ten o'clock. This can be deduced by observing the position of the hands on the clock face. The hour hand is pointing to the number ten, and the minute hand is positioned at the five-minute mark. This indicates that it is ten o'clock in the image.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.12947108805956556
+  },
+  {
+    "question_id": "115",
+    "question": "This meal was likely prepared using which method? Choices: oven, crockpot, grill, stovetop",
+    "predicted_answer": "Grill",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The meal was likely prepared using the grill method, as indicated by the presence of grilled chicken on the plate. Grilling is a popular cooking method that imparts a smoky, charred flavor to the food, making it a popular choice for preparing chicken and other meats. The other options, such as oven, crockpot, and stovetop, are not as commonly associated with grilled foods.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9999820855549517
+  },
+  {
+    "question_id": "70",
+    "question": "What is the object in the middle called? Choices: counter, island, table, desk",
+    "predicted_answer": "Island",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The object in the middle is called an island. An island is a piece of furniture that serves as both a kitchen counter and a dining table. In this image, the island is surrounded by chairs, which indicates that it is being used as a dining area. Additionally, the presence of a microwave on the island further supports the idea that it functions as both a kitchen counter and a dining table.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.561454107455718
+  },
+  {
+    "question_id": "5",
+    "question": "The thing on the animal to the left's head is similar to what is on the head of what else? Choices: devil, zombie, vampire, witch",
+    "predicted_answer": "Witch",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The horns on the animal to the left's head are similar to the horns on the head of the witch in the image. Both the horns on the animal and the horns on the witch are large and pointy, giving them a similar appearance.",
+    "visual_fidelity": 0.25,
+    "contrastiveness": 0.28572173222460584
+  },
+  {
+    "question_id": "352",
+    "question": "What is sitting on top of the bed? Choices: sneakers, dog, sports equipment, cat",
+    "predicted_answer": "Sneakers",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The sneakers are sitting on top of the bed.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.0001248083466423908
+  },
+  {
+    "question_id": "101",
+    "question": "What type of event might this be? Choices: art show, car show, museum opening, race",
+    "predicted_answer": "Car show",
+    "prediction_is_correct": 0,
+    "generated_rationale": "Based on the image, it appears to be a car show, as evidenced by the presence of a decorated car with a mannequin head in the driver's seat. The mannequin head and the decorations on the car suggest that the car is being showcased, which is a common occurrence at car shows. Additionally, the presence of other cars and people in the background further supports the idea that this is a car show event. Art shows, museum openings, and races typically do not involve decorated cars with mannequin heads in the driver's seat.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.9999952780026223
+  }
+]

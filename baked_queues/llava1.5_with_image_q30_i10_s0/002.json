@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "150",
+    "question": "Which is the fruit? Choices: meat, chocolate, nuts, orange slices",
+    "predicted_answer": "Orange slices",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The fruit in the image is orange slices. This can be inferred from the presence of a bowl filled with orange slices on the table. The other items on the table, such as meat, chocolate, nuts, and a bowl of soup, are not fruits.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.33332831812065344
+  },
+  {
+    "question_id": "295",
+    "question": "What type of transportation is this? Choices: road, rail, water, air",
+    "predicted_answer": "Road",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The transportation in the image is a bus, which is a type of road transportation. Buses are designed to carry a large number of passengers and are an essential part of public transportation systems in many cities around the world. In the image, the bus is stopped at a bus stop, indicating that it is picking up or dropping off passengers, which is a typical function of buses in a city's transportation network.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9999612102365323
+  },
+  {
+    "question_id": "247",
+    "question": "The man is looking in what direction? Choices: up, behind, sideways, down",
+    "predicted_answer": "Down",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind the answer is that the man is flying a kite in a grassy field, and he is looking down at the kite. This indicates that he is focused on controlling the kite and ensuring it stays in the air, so he is looking in the direction of the kite, which is downward.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.8733126205575825
+  },
+  {
+    "question_id": "44",
+    "question": "What is the orange container on the left near the man in the red shirt used for? Choices: training, keeping score, batting, storage",
+    "predicted_answer": "Batting",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The orange container on the left near the man in the red shirt is a batting cage. Batting cages are used for practicing and improving a player's batting skills by providing a controlled environment where the player can focus on their swing, timing, and technique without the distractions or hazards of a full-sized baseball field.",
+    "visual_fidelity": 0.3333333333333333,
+    "contrastiveness": 0.4791480503619238
+  },
+  {
+    "question_id": "274",
+    "question": "What is the man on TV doing? Choices: playing basketball, singing, surfing, boxing",
+    "predicted_answer": "Singing",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The man on TV is singing into a microphone. This is evident from the fact that he is holding a microphone and appears to be performing a song. The other options, such as playing basketball, surfing, or boxing, are not relevant to the scene depicted in the image.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9965815802514482
+  },
+  {
+    "question_id": "285",
+    "question": "Is the man going to the mountain in the background? Choices: absolutely no, yes, absolutely yes, probably yes",
+    "predicted_answer": "Yes",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the man is sitting in the back of a pickup truck, which suggests that he might be going to the mountain in the background. Pickup trucks are commonly used for transporting people and their belongings to various destinations, including outdoor activities like hiking or camping. Therefore, it is plausible that the man is heading to the mountain for recreational purposes or work-related activities.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.3844105453551098
+  },
+  {
+    "question_id": "481",
+    "question": "What is used to keep their balance? Choices: snow, swords, ski poles, knives",
+    "predicted_answer": "Ski poles",
+    "prediction_is_correct": 1,
+    "generated_rationale": "Ski poles are used to keep balance while skiing. In the image, two women are skiing down a snow-covered slope, and they are holding ski poles. Ski poles help skiers maintain their balance, navigate turns, and control their speed. They are an essential part of skiing equipment and play a crucial role in ensuring a safe and enjoyable experience on the slopes.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9926373360719363
+  },
+  {
+    "question_id": "420",
+    "question": "What country is this in? Choices: united states, england, canada, mexico",
+    "predicted_answer": "Canada",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is based on the presence of a Canadian flag on the train. This indicates that the train is operating in Canada, as opposed to the United States, England, Mexico, or any other country. The Canadian flag serves as a visual representation of the country in which the train operates.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999858190547533
+  },
+  {
+    "question_id": "164",
+    "question": "What type of transportation is shown? Choices: rail, road, water, air",
+    "predicted_answer": "Rail",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The transportation shown in the image is a train, which is a type of rail transportation. Trains are powered by engines and run on tracks, allowing them to transport passengers and cargo over long distances. In the image, a blue and yellow train is traveling down the tracks, emitting smoke as it moves. This indicates that the train is in operation, providing a mode of transportation for people and goods. The presence of smoke suggests that the train might be using diesel fuel, which is a common fuel source for trains. Overall, the image depicts a train as the primary mode of transportation.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999981718721487
+  },
+  {
+    "question_id": "100",
+    "question": "Who is the woman dressed up as? Choices: snow white, xena, maleficent, cinderella",
+    "predicted_answer": "Xena",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The woman in the image is dressed up as Xena, a popular character from the television show \"Xena: Warrior Princess.\" She is wearing a costume that resembles Xena's outfit, including a helmet, and she is holding a cell phone to her ear. Her attire and accessories, such as the helmet and the cell phone, are consistent with the character's appearance in the show. Therefore, the answer to the question is Xena.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9999721281317018
+  }
+]

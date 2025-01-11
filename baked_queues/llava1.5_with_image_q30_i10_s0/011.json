@@ -1,0 +1,92 @@
+[
+  {
+    "question_id": "237",
+    "question": "What are these women controlling? Choices: game, car, robot, plane",
+    "predicted_answer": "Game",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the women are playing a video game, as indicated by the presence of a Wii controller in their hands. The Wii controller is a device used to control video games on the Nintendo Wii gaming console. Therefore, the women are controlling a game, not a car, robot, or plane.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9996845810242624
+  },
+  {
+    "question_id": "321",
+    "question": "Who would sit here? Choices: pianist, driver, employee, teacher",
+    "predicted_answer": "Employee",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The most likely person to sit at this desk is an employee. This is because the desk is equipped with a computer, keyboard, mouse, and a cell phone, which are commonly used by employees for work-related tasks. Additionally, the desk is located in an office setting, which further supports the idea that an employee would be the most likely person to sit at this desk.",
+    "visual_fidelity": 0.8,
+    "contrastiveness": 0.9999980374342121
+  },
+  {
+    "question_id": "131",
+    "question": "What level of a house is this room located in? Choices: basement, ground, second, third",
+    "predicted_answer": "Ground",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the room is described as a living room, which is typically located on the ground floor of a house. The presence of furniture such as couches, chairs, and a coffee table, as well as the fireplace, further supports the idea that this room is situated on the ground level of the house. Basements, second, and third floors typically do not have living rooms or fireplaces, making the ground floor the most likely location for this room.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.999966634787683
+  },
+  {
+    "question_id": "369",
+    "question": "What is used to pick up the suitcases? Choices: rubber band, handle, tape, rope",
+    "predicted_answer": "Handle",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The most common way to pick up suitcases is by using their handles. In the image, there are multiple suitcases stacked on top of each other, and it is reasonable to assume that someone would use the handles to lift and carry the suitcases, rather than using a rubber band, tape, rope, or any other unconventional method. The handles are specifically designed for this purpose, making it the most practical and efficient way to move the suitcases.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9992008926133975
+  },
+  {
+    "question_id": "288",
+    "question": "The glasses contain only this beverage type? Choices: juice, beer, water, bourbon",
+    "predicted_answer": "No",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The reasoning behind my answer is that the glasses contain a variety of beverages, including juice, beer, water, and bourbon. The presence of these different types of beverages indicates that the glasses are not limited to just one type of beverage.",
+    "visual_fidelity": 0.25,
+    "contrastiveness": 0.9999962685718994
+  },
+  {
+    "question_id": "375",
+    "question": "What kind of clock is this? Choices: analog, digital, sundial, cuckoo clock",
+    "predicted_answer": "Analog",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The reasoning behind my answer is that the clock in the image is an analog clock. Analog clocks are characterized by their hands, which move around the clock face to indicate the time. In contrast, digital clocks display the time numerically, and sundials rely on the position of a shadow to indicate the time. Cuckoo clocks are not clocks at all, but rather a type of mechanical clock that features a cuckoo bird that emerges from the clock to announce the hour. Based on these descriptions, the clock in the image is most likely an analog clock.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.9973892106639225
+  },
+  {
+    "question_id": "157",
+    "question": "Are the people boarding this train? Choices: absolutely no, probably yes, probably no, yes",
+    "predicted_answer": "Yes",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The people in the image are likely boarding the train, as they are standing on the platform next to the train tracks. This suggests that they are either waiting for the train to come to a complete stop before boarding, or they have just disembarked from the train and are preparing to leave the platform. Their presence on the platform indicates that they are actively involved in the process of boarding or disembarking the train, which supports the idea that they are indeed boarding the train.",
+    "visual_fidelity": 0.6666666666666666,
+    "contrastiveness": 0.4999096682279113
+  },
+  {
+    "question_id": "146",
+    "question": "What city is mentioned on the front of the bus? Choices: new york, los angeles, chicago, seattle",
+    "predicted_answer": "Seattle",
+    "prediction_is_correct": 1,
+    "generated_rationale": "The city mentioned on the front of the bus is Seattle. The reasoning behind this answer is that the bus is traveling down a street in the city of Seattle, as evidenced by the presence of buildings, traffic lights, and other urban elements in the image. The fact that the bus is specifically labeled \"Seattle\" further supports the conclusion that the bus is operating within the city of Seattle.",
+    "visual_fidelity": 1.0,
+    "contrastiveness": 0.26882873670669655
+  },
+  {
+    "question_id": "450",
+    "question": "Which of these objects is used to write on and is present on the desk? Choices: post-its, graph paper, chalk board, clip board",
+    "predicted_answer": "Graph paper",
+    "prediction_is_correct": 0,
+    "generated_rationale": "The object used to write on and present on the desk is graph paper. The other objects, such as post-its, clip board, and chalk board, are typically used for different purposes. Post-its and clip boards are used for organizing and attaching notes, while chalk boards are used for writing and erasing with chalk. Graph paper, on the other hand, is specifically designed for plotting and graphing mathematical and scientific data.",
+    "visual_fidelity": 0.0,
+    "contrastiveness": 0.9999991512532457
+  },
+  {
+    "question_id": "235",
+    "question": "What meal might be eaten at the time shown on the clock? Choices: supper, tea, breakfast, elevenses",
+    "predicted_answer": "Elevenses",
+    "prediction_is_correct": 0,
+    "generated_rationale": "Elevenses is the meal that might be eaten at the time shown on the clock. Elevenses is a light meal typically eaten between breakfast and lunch, usually around 10:30 or 11:00 a.m. The presence of multiple laptops on the desk suggests that people might be working or studying during this time, which aligns with the concept of elevenses.",
+    "visual_fidelity": 0.5,
+    "contrastiveness": 0.9770107287489795
+  }
+]
