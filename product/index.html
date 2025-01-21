@@ -149,7 +149,7 @@
                     <i class="arrow right" id="ai_explanation_dropbtn"></i>
                     <b>  Wish to Read An Explanation from the AI?</b>
                 </p> -->
-                <p style="font-weight: bold; font-size: 18px">
+                <!-- <p style="font-weight: bold; font-size: 18px">
                     AI Confidence that the explanation accurately describes the image details: 
                     <span id="explanation_fidelity_span">XXX</span>
                     <span class="info-icon" data-title="This score reflects how certain the AI is that the details about the image mentioned in the explanation are all accurate.">&#9432</span>
@@ -158,6 +158,10 @@
                     AI Confidence that the explanation rules out the other choices: 
                     <span id="explanation_contrastiveness_span">YYY</span>
                     <span class="info-icon" data-title="This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.">&#9432</span>
+                </p> -->
+                <p style="font-weight: bold; font-size: 18px">
+                    <!-- Explanation confidence -->
+                    AI Confidence about the explanation: <span id="explanation_product_span">ZZZ</span>
                 </p>
                 <div id="withexplanation_decision_div">
                     <input id="button_withexplanationquality_usertrusts" type="button" class="button-neutral button-decision" value="The AI's answer is correct.">
@@ -180,9 +184,10 @@
     </div>
     <script id="nocachescript"></script>
     <script>
-        var randomNum = String((Math.floor(Math.random() * 10e10)));
-        document.getElementById('nocachescript').src = "web.js?t=" + randomNum;
+      var randomNum = String(Math.floor(Math.random() * 10e10));
+      document.getElementById('nocachescript').src = "web_product.js?t=" + randomNum;
     </script>
+    
     <script type="module" src="./globals.js" defer></script>
 </body>
 
