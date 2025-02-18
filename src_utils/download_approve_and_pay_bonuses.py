@@ -9,16 +9,16 @@ import jsonlines, json
 from collections import defaultdict
 
 SAVE_DIR = "/home/shared/vlm_rationales_eval/user_studies_data/"
-
+print(PROLIFIC_API_KEY)
 def get_submissions(study_id):
-    r = requests.get(
-        f"https://api.prolific.co/api/v1/studies/{study_id}/submissions/",
+    out = requests.get(
+        f"https://api.prolific.com/api/v1/studies/{study_id}/submissions/",
         params={"state": "AWAITING REVIEW"},
         headers={"Authorization": f"Token {PROLIFIC_API_KEY}"}
     )
-    if not r.ok:
+    if not out.ok:
         exit("Unable to complete an important request (fetching submissions).")
-    d = r.json()["results"]
+    d = out.json()["results"]
     return d
 
 def display_interaction_summary(uid, interaction_summary):
@@ -41,7 +41,7 @@ def reject_submission(submission_id, participant_id, message, rejection_category
                        "MALINGERING" ,"NO_CODE", "BAD_CODE", "NO_DATA", "UNSUPP_DEVICE", "OTHER"]:
         print(rejection_category)
     r = requests.post(
-        f"https://api.prolific.co/api/v1/submissions/{submission_id}/transition/",
+        f"https://api.prolific.com/api/v1/submissions/{submission_id}/transition/",
         headers={"Authorization": f"Token {PROLIFIC_API_KEY}"},
 
         json={
@@ -59,7 +59,7 @@ def reject_submission(submission_id, participant_id, message, rejection_category
 
 def approve_and_pay_bonuses(study_id, session_id, participant_id, bonus_payment):
     r = requests.post(
-        f"https://api.prolific.co/api/v1/submissions/{session_id}/transition/",
+        f"https://api.prolific.com/api/v1/submissions/{session_id}/transition/",
         headers={"Authorization": f"Token {PROLIFIC_API_KEY}"},
         json={
             "action": "APPROVE",
@@ -78,7 +78,7 @@ def approve_and_pay_bonuses(study_id, session_id, participant_id, bonus_payment)
 
     bonus_string = f"{participant_id},{bonus_payment}"
     r = requests.post(
-        f"https://api.prolific.co/api/v1/submissions/bonus-payments/",
+        f"https://api.prolific.com/api/v1/submissions/bonus-payments/",
         headers={"Authorization": f"Token {PROLIFIC_API_KEY}"},
         json={
             "study_id": study_id,
@@ -93,7 +93,7 @@ def approve_and_pay_bonuses(study_id, session_id, participant_id, bonus_payment)
     bonus_id = d["id"]
 
     r = requests.post(
-        f"https://api.prolific.co/api/v1/bulk-bonus-payments/{bonus_id}/pay/",
+        f"https://api.prolific.com/api/v1/bulk-bonus-payments/{bonus_id}/pay/",
         headers={"Authorization": f"Token {PROLIFIC_API_KEY}"},
     )
     if not r.ok:
