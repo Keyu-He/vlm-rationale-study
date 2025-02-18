@@ -65,11 +65,12 @@ def approve_and_pay_bonuses(study_id, session_id, participant_id, bonus_payment)
             "action": "APPROVE",
         }
     )
-    if not r.ok:
+    if not out.ok:
+        pdb.set_trace()
         exit(
             f"Failed approval of {session_id} of participant {participant_id}"
         )
-    d = r.json()
+    d = out.json()
     print(f'status: {d["status"]}, participant: {d["participant"]}')
 
     if float(bonus_payment) <= 0.0:
@@ -144,6 +145,7 @@ if __name__ == '__main__':
     output_data = {}
     for s in submissions:
         uid = s['participant_id']
+        #print(uid)
         if s['status'] == 'RETURNED':
             print(f"UID: {uid} was returned.")
             print("-"*100)
@@ -155,6 +157,8 @@ if __name__ == '__main__':
             print(f"Interaction data not found in PythonAnywhere logs for User {uid}.")
             print('-'*100)
             #pdb.set_trace()
+            continue
+        if len(uid2interactions[uid]) != 10:
             continue
         
         balance = round(uid2interactions[uid][-1]['balance']['new'], 2)
@@ -226,6 +230,7 @@ if __name__ == '__main__':
         #pdb.set_trace()
 
     # Create parent directory if it doesn't exist
+    print(interaction_data_filename)
     os.makedirs(os.path.dirname(interaction_data_filename), exist_ok=True)
     json.dump(output_data, open(interaction_data_filename, 'w'), indent=2)
 

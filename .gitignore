@@ -171,3 +171,5 @@ web/data
 ./package-lock.json
 secret.py
 tmp.jsonl
+
+.DS_Store
