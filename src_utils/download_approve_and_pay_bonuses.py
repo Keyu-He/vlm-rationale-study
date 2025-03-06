@@ -65,12 +65,12 @@ def approve_and_pay_bonuses(study_id, session_id, participant_id, bonus_payment)
             "action": "APPROVE",
         }
     )
-    if not out.ok:
+    if not r.ok:
         pdb.set_trace()
         exit(
             f"Failed approval of {session_id} of participant {participant_id}"
         )
-    d = out.json()
+    d = r.json()
     print(f'status: {d["status"]}, participant: {d["participant"]}')
 
     if float(bonus_payment) <= 0.0:
@@ -140,7 +140,7 @@ if __name__ == '__main__':
                 continue
     print(f"Loaded interaction data from PythonAnywhere logs for {len(uid2interactions)} users.")
     print("-"*100)
-    pdb.set_trace()
+    # pdb.set_trace()
 
     output_data = {}
     for s in submissions:
