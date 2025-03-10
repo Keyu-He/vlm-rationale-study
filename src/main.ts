@@ -59,7 +59,22 @@ function registerWithExplanationUserSelection(user_choice: number) {
     } else if (user_choice == 2) {
         $("#button_withexplanation_userunsure").attr("activedecision", "true")
     }
-    $("#ai_explanation_quality_div").show()
+    showQualityDiv()
+}
+
+function showQualityDiv() {
+    if (qualityType == "vf_only" || qualityType == "vf_contr_both") {
+        if (qualityFormat == "numeric") { $("#vf_numeric_div").show() }
+        if (qualityFormat == "descriptive") { $("#vf_descriptive_div").show() }
+    }
+    if (qualityType == "contr_only" || qualityType == "vf_contr_both") {
+        if (qualityFormat == "numeric") { $("#contr_numeric_div").show() }
+        if (qualityFormat == "descriptive") { $("#contr_descriptive_div").show() }
+    }
+    if (qualityType == "single_numeric") {
+        assert (qualityFormat == "numeric", "qualityFormat must be numeric for single_numeric")
+        $("#single_numeric_div").show()
+    }
 }
 
 document.getElementById('button_withexplanation_usertrusts')?.addEventListener('click', () => registerWithExplanationUserSelection(0));
@@ -129,6 +144,13 @@ function next_instructions(increment: number) {
         $(el).hide()
     })
     $(`#instructions_${instruction_i}`).show()
+    if (instruction_i == 4) {
+        $("#instructions_4").children("div").each((_, el) => { $(el).hide()  })
+        if (qualityType == "vf_contr_both" && qualityFormat == "numeric") { $("#instruction_vf_contr_both_numeric").show() }
+        if (qualityType == "vf_only" && qualityFormat == "numeric") { $("#instruction_vf_numeric").show() }
+        if (qualityType == "contr_only" && qualityFormat == "numeric") { $("#instruction_contr_numeric").show() }
+        if (qualityType == "single_numeric" && qualityFormat == "numeric") { $("#instruction_single_numeric").show() }
+    }
 }
 $("#button_instructions_next").on("click", () => next_instructions(+1))
 $("#button_instructions_prev").on("click", () => next_instructions(-1))
@@ -436,20 +458,13 @@ function next_question() {
     $("#ai_explanation_span").html(question!["generated_rationale"])
 
     let visual_fidelity_conf = Math.round(question!["visual_fidelity"] * 100)
-    $("#explanation_fidelity_span").html(`${visual_fidelity_conf}%`)
+    $("#explanation_fidelity_numeric_span").html(`${visual_fidelity_conf}%`)
     let visual_contrastiveness_conf = Math.round(question!["contrastiveness"] * 100)
-    $("#explanation_contrastiveness_span").html(`${visual_contrastiveness_conf}%`)
-
-
-    // set bet value ratio
-    //if(question.hasOwnProperty("reward_ratio")) {
-    //    let [ratio1, ratio2] = question["reward_ratio"]
-    //    ratio1 = Number(ratio1)
-    //    ratio2 = Number(ratio2)
-    //    bet_val_ratio = ratio1/ratio2
-    //} else {
-    //    bet_val_ratio = 1
-    //}
+    $("#explanation_contrastiveness_numeric_span").html(`${visual_contrastiveness_conf}%`)
+    // Take product of the above two
+    let single_numeric_conf = Math.round((question!["visual_fidelity"] + question!["contrastiveness"])/2 * 100)
+    $("#explanation_single_numeric_span").html(`${single_numeric_conf}%`)
+    // TODO: Fill in the details for the descriptive qualities
 
     //time_question_start = Date.now()
     $("#progress").text(`Progress: ${question_i + 1} / ${data.length}`)
@@ -491,6 +506,26 @@ if (UIDFromURL != null) {
     }
     globalThis.uid = UID_maybe!
 }
+
+const validQualityTypes = ["vf_only", "contr_only", "vf_contr_both", "single_numeric"]
+let qualityType = urlParams.get("quality_type")
+if (qualityType == null) { qualityType = "vf_contr_both" }
+if (!validQualityTypes.includes(qualityType)) {
+    throw new Error("Invalid quality type")
+}
+
+const validQualityFormats = ["numeric", "descriptive"]
+let qualityFormat = urlParams.get("quality_format")
+if (qualityFormat == null) { qualityFormat = "numeric" }
+if (!validQualityFormats.includes(qualityFormat)) {
+    throw new Error("Invalid quality format")
+}
+
+globalThis.url_data["explanation_quality_params"] = {
+    "quality_type": qualityType,
+    "quality_format": qualityFormat
+}
+console.log("Quality params", globalThis.url_data["explanation_quality_params"])
 
 // version for paper
 if (DEVMODE) {
@@ -554,7 +589,7 @@ document.onvisibilitychange = () => {
         alert_active = true
         if (!(globalThis.uid!.startsWith("demo"))) {
             // pause the timer
-           alert("Please don't leave the page. If you do so again, we may restrict paying you.")
+           //alert("Please don't leave the page. If you do so again, we may restrict paying you.")
         }
         alert_active = false
     }

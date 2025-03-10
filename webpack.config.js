@@ -88,5 +88,5 @@ module.exports = (env, argv) => {
    }
 
    // Return an array of configurations
-   return [baseConfig, productConfig, vfMetricConfig, contrastiveMetricConfig];
+   return [baseConfig];//, productConfig, vfMetricConfig, contrastiveMetricConfig];
 };
