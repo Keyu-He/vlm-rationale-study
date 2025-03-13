@@ -92,19 +92,17 @@
                 <div id="instruction_vf_contr_both_descriptive">
                     You will be shown two pieces of information to help you decide how reliable the AI's explanation is:
                     <ol>
-                        <li style="margin-bottom: 5px;"><b>Explanation Detail Accuracy: </b>We will list the image details in the explanation that are likely incorrect (if any). If there are no details listed, the AI is confident that all the details are correct.
-                        <li><b>Explanation Choice Accuracy: </b>We will list the other choices that the AI believes could also be correct, based on the explanation. If there are no choices listed, the AI is confident that the explanation rules out all other choices.
+                        <li style="margin-bottom: 5px;"><b>Explanation Detail Accuracy: </b>We will list which image details in the explanation are likely correct, and which details are likely incorrect (if any).
+                        <li><b>Explanation Choice Accuracy: </b>We will list the other choices could also be correct, based on the explanation.
                     </ol>
                     <img src="img/instructions_4_vf_contr_both_descriptive.png">
                 </div>
                 <div id="instruction_vf_descriptive">
-                    You will be shown a single piece of information to help you decide how reliable the AI's explanation is: The <b>Explanation Detail Accuracy</b>. We will list the image details in the explanation that are likely incorrect (if any). If there are no details listed, the AI is confident that all the details are correct.
-                    </ol>
+                    You will be shown a single piece of information to help you decide how reliable the AI's explanation is: The <b>Explanation Detail Accuracy</b>. We will list which image details in the explanation are likely correct, and which details are likely incorrect (if any).
                     <img src="img/instructions_4_vf_descriptive.png">
                 </div>
                 <div id="instruction_contr_descriptive">
-                    You will be shown a single piece of information to help you decide how reliable the AI's explanation is: the <b>Explanation Choice Accuracy</b>. We will list the other choices that the AI believes could also be correct, based on the explanation. If there are no choices listed, the AI is confident that the explanation rules out all other choices.
-                    </ol>
+                    You will be shown a single piece of information to help you decide how reliable the AI's explanation is: the <b>Explanation Choice Accuracy</b>. We will list the other choices that the AI believes could also be correct, based on the explanation.
                     <img src="img/instructions_4_contr_descriptive.png">
                 </div>
 
@@ -199,17 +197,15 @@
                     </p>
                 </div>
                 <div id="vf_descriptive_div" style="display: none">
-                    <p style="font-weight: bold; font-size: 18px">
-                        The following are visual details in the explanation that the AI thinks may be incorrect:
+                    <p style="font-weight: normal; font-size: 18px">
                         <span id="explanation_fidelity_descriptive_span">XXX</span>
-                        <span class="info-icon" data-title="This score reflects how certain the AI is that the details about the image mentioned in the explanation are all accurate.">&#9432</span>
+                        <!--<span class="info-icon" data-title="This score reflects how certain the AI is that the details about the image mentioned in the explanation are all accurate.">&#9432</span> -->
                     </p>
                 </div>
                 <div id="contr_descriptive_div" style="display: none">
-                    <p style="font-weight: bold; font-size: 18px">
-                        The following are other choices that the AI thinks may be correct based on the explanation:
+                    <p style="font-weight: normal; font-size: 18px">
                         <span id="explanation_contrastiveness_descriptive_span">YYY</span>
-                        <span class="info-icon" data-title="This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.">&#9432</span>
+                        <!-- <span class="info-icon" data-title="This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.">&#9432</span> -->
                     </p>
                 </div>
 

@@ -6,7 +6,10 @@
     "prediction_is_correct": 0,
     "generated_rationale": "The surface in the image is described as empty. This implies that there are no other objects or items on the surface, making it a minimalist and uncluttered space. The presence of a black cat sitting in front of a computer screen further emphasizes the emptiness of the surface, as the cat is the only object occupying the space.",
     "visual_fidelity": 0.5,
-    "contrastiveness": 0.36991785362325547
+    "contrastiveness": 0.36991785362325547,
+    "reason_vf_correct": "<br> - There is a black cat sitting in front of the computer screen.",
+    "reason_vf_incorrect": "<br> - The cat is the only object occupying the space.",
+    "reason_contr": "barren, minimalist"
   },
   {
     "question_id": "8",

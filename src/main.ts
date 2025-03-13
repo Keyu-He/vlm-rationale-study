@@ -150,6 +150,9 @@ function next_instructions(increment: number) {
         if (qualityType == "vf_only" && qualityFormat == "numeric") { $("#instruction_vf_numeric").show() }
         if (qualityType == "contr_only" && qualityFormat == "numeric") { $("#instruction_contr_numeric").show() }
         if (qualityType == "single_numeric" && qualityFormat == "numeric") { $("#instruction_single_numeric").show() }
+        if (qualityType == "vf_contr_both" && qualityFormat == "descriptive") { $("#instruction_vf_contr_both_descriptive").show() }
+        if (qualityType == "vf_only" && qualityFormat == "descriptive") { $("#instruction_vf_descriptive").show() }
+        if (qualityType == "contr_only" && qualityFormat == "descriptive") { $("#instruction_contr_descriptive").show() }
     }
 }
 $("#button_instructions_next").on("click", () => next_instructions(+1))
@@ -465,6 +468,30 @@ function next_question() {
     let single_numeric_conf = Math.round((question!["visual_fidelity"] + question!["contrastiveness"])/2 * 100)
     $("#explanation_single_numeric_span").html(`${single_numeric_conf}%`)
     // TODO: Fill in the details for the descriptive qualities
+
+    let vf_descriptive = ""
+    if(question["reason_vf_correct"] == "") {
+        vf_descriptive += "<b>There are no details about the image in the explanation that are likely correct.</b>"
+    } else {
+        vf_descriptive += "<b>Details in the explanation that are likely correct:</b>"
+        vf_descriptive += question["reason_vf_correct"].replace("-", "\u2705")
+    }
+    if (question["reason_vf_incorrect"] == "") {
+        vf_descriptive += "<br><br><b>There are no details about the image in the explanation that are likely incorrect.</b>"
+    } else {
+        vf_descriptive += "<br><br><b>Details in the explanation that are likely NOT correct:</b>"
+        vf_descriptive += question["reason_vf_incorrect"].replace("-", "\u274c")
+    }
+    $("#explanation_fidelity_descriptive_span").html(vf_descriptive)
+
+    let contr_descriptive = ""
+    if(question["reason_contr"] == "") {
+        contr_descriptive += "<b>None of the other choices are likely correct, based on the explanation.</b>"
+    } else {
+        contr_descriptive += "<b>Other choices that could be correct, based on the explanation: </b>"
+        contr_descriptive += question["reason_contr"]
+    }
+    $("#explanation_contrastiveness_descriptive_span").html(contr_descriptive)
 
     //time_question_start = Date.now()
     $("#progress").text(`Progress: ${question_i + 1} / ${data.length}`)
