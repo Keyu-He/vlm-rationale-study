@@ -8,7 +8,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.4999911795210109,
     "reason_vf_correct": "<br> - The man is on the platform.",
-    "reason_vf_incorrect": "<br> - The man is not standing close to the train tracks.",
+    "reason_vf_incorrect": "<br> - The man is standing close to the train tracks.",
     "reason_contr": "probably yes"
   },
   {
@@ -44,7 +44,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9994209258920832,
     "reason_vf_correct": "<br> - The truck in the image is red.",
-    "reason_vf_incorrect": "<br> - The truck in the image is not a Dodge Ram pickup truck.",
+    "reason_vf_incorrect": "<br> - The truck in the image is a Dodge Ram pickup truck.",
     "reason_contr": ""
   },
   {

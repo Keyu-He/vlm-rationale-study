@@ -68,7 +68,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9999257700706276,
     "reason_vf_correct": "<br> - They are playing with the body board indoors.",
-    "reason_vf_incorrect": "<br> - There is no bed visible in the image.",
+    "reason_vf_incorrect": "<br> - There is a bed visible in the image.",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9999441347030932,
     "reason_vf_correct": "<br> - The woman is using an umbrella in the image.<br> - The umbrella is providing shade for the woman.",
-    "reason_vf_incorrect": "<br> - The sun is not visible in the image.",
+    "reason_vf_incorrect": "<br> - The sun is visible in the image.",
     "reason_contr": ""
   },
   {
@@ -116,7 +116,7 @@
     "visual_fidelity": 0.75,
     "contrastiveness": 0.6122559344179337,
     "reason_vf_correct": "<br> - The players are almost colliding in the catcher's box area of the baseball field.<br> - One player is blocking the other in the catcher's box area.",
-    "reason_vf_incorrect": "<br> - The catcher is not trying to catch the ball in the image.",
+    "reason_vf_incorrect": "<br> - The catcher is trying to catch the ball in the image.",
     "reason_contr": "home plate"
   }
 ]

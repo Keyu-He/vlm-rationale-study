@@ -8,7 +8,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.6142883777852571,
     "reason_vf_correct": "<br> - The cat is looking towards the faucet.",
-    "reason_vf_incorrect": "<br> - The faucet is not located on the right side of the sink.",
+    "reason_vf_incorrect": "<br> - The faucet is located on the right side of the sink.",
     "reason_contr": "left"
   },
   {
@@ -20,7 +20,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9999889028427904,
     "reason_vf_correct": "<br> - There is an airplane in the image.<br> - There is a fuel truck near the airplane.",
-    "reason_vf_incorrect": "<br> - The airplane is not parked on a runway.",
+    "reason_vf_incorrect": "<br> - The airplane is parked on a runway.",
     "reason_contr": ""
   },
   {
@@ -32,7 +32,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9066159813224842,
     "reason_vf_correct": "<br> - The street in the image is gray in color.",
-    "reason_vf_incorrect": "<br> - The street in the image is not made of asphalt.",
+    "reason_vf_incorrect": "<br> - The street in the image is made of asphalt.",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.2298240378223372,
     "reason_vf_correct": "<br> - The person is performing a trick on a skateboard.",
-    "reason_vf_incorrect": "<br> - The person is not wearing a shirt with a plaid design.",
+    "reason_vf_incorrect": "<br> - The person is wearing a shirt with a plaid design.",
     "reason_contr": "striped, tie dyed"
   },
   {

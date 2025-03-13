@@ -32,7 +32,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.5135159745167326,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The cat's paw is not up against a book.",
+    "reason_vf_incorrect": "<br> - The cat's paw is up against a book.",
     "reason_contr": ""
   },
   {

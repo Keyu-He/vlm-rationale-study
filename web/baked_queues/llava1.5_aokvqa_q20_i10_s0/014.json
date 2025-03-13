@@ -8,7 +8,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.5906471307120554,
     "reason_vf_correct": "<br> - The skier in the middle of the image is skiing down the slope.<br> - There are multiple skiers in the image.",
-    "reason_vf_incorrect": "<br> - The skier in the middle of the image is not moving at a faster pace compared to the other skiers.",
+    "reason_vf_incorrect": "<br> - The skier in the middle of the image is moving at a faster pace compared to the other skiers.",
     "reason_contr": ""
   },
   {
@@ -44,7 +44,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.974727613783097,
     "reason_vf_correct": "<br> - The word \"one\" is written in red.",
-    "reason_vf_incorrect": "<br> - The word \"one\" is not the first word in the phrase \"we was one.\"",
+    "reason_vf_incorrect": "<br> - The word \"one\" is the first word in the phrase \"we was one.\"",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.999954074865804,
     "reason_vf_correct": "<br> - There is a fan on the ceiling in the image.",
-    "reason_vf_incorrect": "<br> - The fan is not turned on in the image.",
+    "reason_vf_incorrect": "<br> - The fan is turned on in the image.",
     "reason_contr": ""
   },
   {

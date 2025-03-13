@@ -80,7 +80,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.5241020107529235,
     "reason_vf_correct": "<br> - There are a large number of buses parked next to each other in a parking lot.<br> - The buses have blue trim.",
-    "reason_vf_incorrect": "<br> - The parking lot is not located near a stadium.",
+    "reason_vf_incorrect": "<br> - The parking lot is located near a stadium.",
     "reason_contr": "lot"
   },
   {
@@ -116,7 +116,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.4797806824888913,
     "reason_vf_correct": "<br> - The headlights of the dark colored car are on.<br> - The dark colored car is positioned closer to the viewer than the other vehicles in the scene.",
-    "reason_vf_incorrect": "<br> - There is not a dark colored car to the far left in the middle of the image.",
+    "reason_vf_incorrect": "<br> - There is a dark colored car to the far left in the middle of the image.",
     "reason_contr": "turning left"
   }
 ]

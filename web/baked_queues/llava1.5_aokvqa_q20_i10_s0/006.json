@@ -68,7 +68,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.1903857171342885,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - There is no Dell logo visible on the laptop in the image.",
+    "reason_vf_incorrect": "<br> - The Dell logo is visible on the laptop in the image.",
     "reason_contr": "apple, hp"
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9171772354505824,
     "reason_vf_correct": "<br> - The walking person, sitting person, and closed doors are farther from the tree trunk than the open doors.",
-    "reason_vf_incorrect": "<br> - The open doors are not the closest object to the tree trunk.",
+    "reason_vf_incorrect": "<br> - The open doors are the closest object to the tree trunk.",
     "reason_contr": ""
   },
   {
@@ -92,7 +92,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.5746438018654147,
     "reason_vf_correct": "<br> - There is a clock on the side of the building indicating the time of day.",
-    "reason_vf_incorrect": "<br> - The lighting and shadows in the image are not suggesting that the sun is at its peak.",
+    "reason_vf_incorrect": "<br> - The lighting and shadows in the image suggest that the sun is at its peak.",
     "reason_contr": "afternoon"
   },
   {

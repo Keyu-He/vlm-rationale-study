@@ -8,7 +8,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9993408066716724,
         "reason_vf_correct": "<br> - The cow's ear is visible in the image.",
-        "reason_vf_incorrect": "<br> - There are no identification tags visible on the cow's ear.",
+        "reason_vf_incorrect": "<br> - There are identification tags visible on the cow's ear.",
         "reason_contr": ""
     },
     {
@@ -20,7 +20,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9990699167324852,
         "reason_vf_correct": "<br> - There is a table lamp visible on the right side of the image.",
-        "reason_vf_incorrect": "<br> - There is no floor lamp visible on the left side of the image.",
+        "reason_vf_incorrect": "<br> - There is a floor lamp visible on the left side of the image.",
         "reason_contr": ""
     },
     {
@@ -176,7 +176,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9993704785239976,
         "reason_vf_correct": "<br> - The people in the water are paddling.",
-        "reason_vf_incorrect": "<br> - There is no kayak visible in the water.",
+        "reason_vf_incorrect": "<br> - There is a kayak visible in the water.",
         "reason_contr": ""
     },
     {
@@ -248,7 +248,7 @@
         "visual_fidelity": 0.8,
         "contrastiveness": 0.9999997752276716,
         "reason_vf_correct": "<br> - There is a kitchen area with stainless steel surfaces in the background.<br> - There is a microwave visible in the image.",
-        "reason_vf_incorrect": "<br> - The man is not wearing an apron.",
+        "reason_vf_incorrect": "<br> - The man is wearing an apron.",
         "reason_contr": ""
     },
     {
@@ -272,7 +272,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.9995125549070863,
         "reason_vf_correct": "<br> - There is salami in the image.<br> - There is cheese in the image.",
-        "reason_vf_incorrect": "<br> - There is no bread in the image.",
+        "reason_vf_incorrect": "<br> - There is bread in the image.",
         "reason_contr": ""
     },
     {
@@ -296,7 +296,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9998400395964196,
         "reason_vf_correct": "<br> - The boats in the image are shaped like cars.<br> - The boats have wheels at the front.",
-        "reason_vf_incorrect": "<br> - The boats do not have a streamlined body.",
+        "reason_vf_incorrect": "<br> - The boats have a streamlined body.",
         "reason_contr": ""
     },
     {
@@ -356,7 +356,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9998082891227856,
         "reason_vf_correct": "<br> - The license plate in the image has a rectangular shape.<br> - The background color of the license plate is yellow.",
-        "reason_vf_incorrect": "<br> - The text on the license plate is not black.",
+        "reason_vf_incorrect": "<br> - The text on the license plate is black.",
         "reason_contr": ""
     },
     {
@@ -428,7 +428,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.1290698883591423,
         "reason_vf_correct": "<br> - The orange tractor is interacting with the transport hub.<br> - The red car is in front of the transport hub on the road.",
-        "reason_vf_incorrect": "<br> - The orange tractor is not positioned directly adjacent to the transport hub.<br> - The truck trailer is not behind the transport hub.",
+        "reason_vf_incorrect": "<br> - The orange tractor is positioned directly adjacent to the transport hub.<br> - The truck trailer is behind the transport hub.",
         "reason_contr": "truck cab"
     },
     {
@@ -476,7 +476,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.9991356790154866,
         "reason_vf_correct": "<br> - The man is holding a fork to cut his food.<br> - There is a knife on the table along with the fork.",
-        "reason_vf_incorrect": "<br> - The man is not using the fork to pick up pieces of pizza.",
+        "reason_vf_incorrect": "<br> - The man is using the fork to pick up pieces of pizza.",
         "reason_contr": ""
     },
     {
@@ -488,7 +488,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.998583510093696,
         "reason_vf_correct": "<br> - There is heavy machinery like cranes and excavators present at the construction site.<br> - There are safety cones placed around the area.",
-        "reason_vf_incorrect": "<br> - The construction site is not located in the middle of a city street.",
+        "reason_vf_incorrect": "<br> - The construction site is located in the middle of a city street.",
         "reason_contr": ""
     },
     {
@@ -524,7 +524,7 @@
         "visual_fidelity": 0.8333333333333334,
         "contrastiveness": 0.9999991198921572,
         "reason_vf_correct": "<br> - There are various cooking utensils visible in the image.<br> - There is a coffee maker present in the image.",
-        "reason_vf_incorrect": "<br> - There is no toaster visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a toaster visible in the image.",
         "reason_contr": ""
     },
     {
@@ -655,7 +655,7 @@
         "generated_rationale": "The umbrella in the image has a design that includes a pink whale, which is one of the options provided. The other options (fish, dolphin) are not present on the umbrella in this image. Therefore, the correct answer is whale.",
         "visual_fidelity": 1.0,
         "contrastiveness": 0.0071516079777612,
-        "reason_vf_correct": "<br> - The umbrella has a pink whale design.",
+        "reason_vf_correct": "<br> - There is a pink whale design on the umbrella.",
         "reason_vf_incorrect": "",
         "reason_contr": "fish, dolphin, rain"
     },
@@ -811,7 +811,7 @@
         "generated_rationale": "The dish in the image appears to be a stir-fry, which is a common type of Asian cuisine. The presence of noodles (likely soba or udon), broccoli, and what seems to be mushrooms are typical ingredients in Asian stir-fries. The sauce coating the noodles suggests a savory, possibly soy-based or teriyaki-like flavor profile, which is also common in Asian cooking. The overall presentation and style of the dish align with traditional Asian stir-fry dishes, making \"asian\" the most appropriate choice among the given options.",
         "visual_fidelity": 1.0,
         "contrastiveness": 0.9999967936774228,
-        "reason_vf_correct": "<br> - The dish contains noodles that look like soba or udon.<br> - The dish contains broccoli.",
+        "reason_vf_correct": "<br> - The dish contains noodles that look like soba or udon.<br> - There is broccoli present in the dish.",
         "reason_vf_incorrect": "",
         "reason_contr": ""
     },
@@ -896,7 +896,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.999998234067506,
         "reason_vf_correct": "<br> - There is an airplane parked at a gate in the image.<br> - The airplane's engines are visible in the image.",
-        "reason_vf_incorrect": "<br> - The airplane's wings are not visible in the image.",
+        "reason_vf_incorrect": "<br> - The airplane's wings are visible in the image.",
         "reason_contr": ""
     },
     {
@@ -920,7 +920,7 @@
         "visual_fidelity": 0.8,
         "contrastiveness": 0.4888623514040141,
         "reason_vf_correct": "<br> - There is a train at the station in the image.<br> - There are two platforms visible in the image.",
-        "reason_vf_incorrect": "<br> - The person on the left platform is not standing near the edge.",
+        "reason_vf_incorrect": "<br> - The person on the left platform is standing near the edge.",
         "reason_contr": "probably yes"
     },
     {
@@ -932,7 +932,7 @@
         "visual_fidelity": 0.8333333333333334,
         "contrastiveness": 0.9999991494205052,
         "reason_vf_correct": "<br> - The Tata logo is visible on the vehicle.<br> - The vehicle has a large front grille.",
-        "reason_vf_incorrect": "<br> - The vehicle does not lack features typically associated with public transport buses.",
+        "reason_vf_incorrect": "<br> - The vehicle lacks features typically associated with public transport buses.",
         "reason_contr": ""
     },
     {
@@ -992,7 +992,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.0001259926147015,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The parking meter in the image does not have text that reads \"METER ENFORCEMENT Sun-Sat Off.\"",
+        "reason_vf_incorrect": "<br> - The parking meter in the image has text that reads \"METER ENFORCEMENT Sun-Sat Off.\"",
         "reason_contr": "pta days, holidays, weekend"
     },
     {
@@ -1016,7 +1016,7 @@
         "visual_fidelity": 0.3333333333333333,
         "contrastiveness": 0.9926748410511778,
         "reason_vf_correct": "<br> - The tennis racquet is being held by the tennis player in the background.",
-        "reason_vf_incorrect": "<br> - The stuffed animal is not touching a tennis racquet in the image.<br> - There are no remotes or screens present in the image.",
+        "reason_vf_incorrect": "<br> - The stuffed animal is touching a tennis racquet in the image.<br> - There are no remotes or screens present in the image.",
         "reason_contr": ""
     },
     {
@@ -1064,7 +1064,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.7617299596357199,
         "reason_vf_correct": "<br> - The bottles in the image are dark-colored.<br> - The setting of the image is consistent with a meal setting.",
-        "reason_vf_incorrect": "<br> - There is not a glass cup filled with a dark liquid that resembles beer.",
+        "reason_vf_incorrect": "<br> - There is a glass cup filled with a dark liquid that resembles beer.",
         "reason_contr": ""
     },
     {
@@ -1100,7 +1100,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.999760406972905,
         "reason_vf_correct": "<br> - The fence in the image is blue and green.<br> - The fence is designed for safety and containment in a skiing area.",
-        "reason_vf_incorrect": "<br> - The fence does not appear to be a hard structure.<br> - The fence is likely not made of metal or plastic.",
+        "reason_vf_incorrect": "<br> - The fence appears to be a hard structure.<br> - The fence is likely made of metal or plastic.",
         "reason_contr": ""
     },
     {
@@ -1220,7 +1220,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999785642113652,
         "reason_vf_correct": "<br> - The motorcycle is positioned on the left side of the image.<br> - The motorcycle appears to be moving on the road ahead of a line of vehicles.",
-        "reason_vf_incorrect": "<br> - The vehicle in front of the cars is not a motorcycle.",
+        "reason_vf_incorrect": "<br> - The vehicle in front of the cars is a motorcycle.",
         "reason_contr": ""
     },
     {
@@ -1232,7 +1232,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.4801497578667898,
         "reason_vf_correct": "<br> - The boat is docked in a harbor.<br> - There are other boats present in the image.",
-        "reason_vf_incorrect": "<br> - The couple is not standing on the deck of a small boat.",
+        "reason_vf_incorrect": "<br> - The couple is standing on the deck of a small boat.",
         "reason_contr": "spend time"
     },
     {
@@ -1316,7 +1316,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.936234233354742,
         "reason_vf_correct": "<br> - The person riding the horse is wearing a jacket and a hat.<br> - The sky appears overcast in the image.",
-        "reason_vf_incorrect": "<br> - The dog is not wearing a coat.",
+        "reason_vf_incorrect": "<br> - The dog is wearing a coat.",
         "reason_contr": ""
     },
     {
@@ -1364,7 +1364,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.0043505465454077,
         "reason_vf_correct": "<br> - The man is wearing a suit and tie.<br> - There is a photograph or poster in the background.",
-        "reason_vf_incorrect": "<br> - There is no formal backdrop in the setting.<br> - The setting does not lack a chaotic and informal atmosphere.",
+        "reason_vf_incorrect": "<br> - There is a formal backdrop in the setting.<br> - The setting lacks a chaotic and informal atmosphere.",
         "reason_contr": "meeting"
     },
     {
@@ -1508,7 +1508,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9996697614197634,
         "reason_vf_correct": "<br> - There are two boats visible on a body of water in the image.",
-        "reason_vf_incorrect": "<br> - There is no boat in the image with the word \"POLICE\" prominently displayed on its side.",
+        "reason_vf_incorrect": "<br> - There is a boat in the image with the word \"POLICE\" prominently displayed on its side.",
         "reason_contr": ""
     },
     {
@@ -1532,7 +1532,7 @@
         "visual_fidelity": 0.6,
         "contrastiveness": 0.8696334978844632,
         "reason_vf_correct": "<br> - The person on the left is wearing a light-colored hat.<br> - The person on the right is wearing a darker hat.",
-        "reason_vf_incorrect": "<br> - The person on the left is not wearing a long-sleeved shirt.<br> - The other individuals are not wearing darker clothing.",
+        "reason_vf_incorrect": "<br> - The person on the left is wearing a long-sleeved shirt.<br> - The other individuals are wearing darker clothing.",
         "reason_contr": ""
     },
     {
@@ -1544,7 +1544,7 @@
         "visual_fidelity": 0.8,
         "contrastiveness": 0.9999462334715798,
         "reason_vf_correct": "<br> - There is a ski board visible under the person's feet.<br> - The individual is performing a jump or trick off a ramp.",
-        "reason_vf_incorrect": "<br> - The person is not wearing a life jacket while holding onto a tow rope.",
+        "reason_vf_incorrect": "<br> - The person is wearing a life jacket while holding onto a tow rope.",
         "reason_contr": ""
     },
     {
@@ -1568,7 +1568,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9740460467771104,
         "reason_vf_correct": "<br> - There is a smaller single-decker bus visible in the image.<br> - Big Ben is visible on the left side of the image.",
-        "reason_vf_incorrect": "<br> - There is no white double-decker bus visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a white double-decker bus visible in the image.",
         "reason_contr": ""
     },
     {
@@ -1580,7 +1580,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.8296076862168162,
         "reason_vf_correct": "<br> - There are white rocks visible in the image.",
-        "reason_vf_incorrect": "<br> - The white rocks are not part of a small water feature, such as a pond or stream.",
+        "reason_vf_incorrect": "<br> - The white rocks are part of a small water feature, such as a pond or stream.",
         "reason_contr": ""
     },
     {
@@ -1604,7 +1604,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.5178340147804159,
         "reason_vf_correct": "<br> - There is a \"Dunkin' Coffee\" sign visible in the image.<br> - There is no visible indication of food being prepared on site in the image.",
-        "reason_vf_incorrect": "<br> - The signs in the image are clear enough to identify the specific type of shop.",
+        "reason_vf_incorrect": "<br> - The signs in the image are not clear enough to identify the specific type of shop, yes.",
         "reason_contr": "dunkin coffee"
     },
     {
@@ -1628,7 +1628,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.999054413730619,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The man's pants do not have thin, vertical lines running down their length.",
+        "reason_vf_incorrect": "<br> - The man's pants have thin, vertical lines running down their length.",
         "reason_contr": ""
     },
     {
@@ -1652,7 +1652,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.519315653718655,
         "reason_vf_correct": "<br> - The hand is positioned over the pizza in the image.<br> - The hand is interacting with a topping rather than the crust or the middle of the pizza.",
-        "reason_vf_incorrect": "<br> - The person is not holding a piece of cheese or another type of topping from the pizza.",
+        "reason_vf_incorrect": "<br> - The person is holding a piece of cheese or another type of topping from the pizza.",
         "reason_contr": "top"
     },
     {
@@ -1688,7 +1688,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.604723670579189,
         "reason_vf_correct": "<br> - There is a laptop on the desk displaying an image of a person in a pink dress.<br> - There are two monitors on the desk displaying the same image of a person in a pink dress.",
-        "reason_vf_incorrect": "<br> - There is no smartphone on the desk displaying an image of a person in a pink dress.",
+        "reason_vf_incorrect": "<br> - There is a smartphone on the desk displaying an image of a person in a pink dress.",
         "reason_contr": "four"
     },
     {
@@ -1748,7 +1748,7 @@
         "visual_fidelity": 0.3333333333333333,
         "contrastiveness": 0.5786818830517007,
         "reason_vf_correct": "<br> - The vehicles in the image are orange.",
-        "reason_vf_incorrect": "<br> - The orange vehicles are not identified as airport shuttles.<br> - The orange vehicles are not used to transport passengers between different areas of an airport.",
+        "reason_vf_incorrect": "<br> - The orange vehicles are identified as airport shuttles.<br> - The orange vehicles are used to transport passengers between different areas of an airport.",
         "reason_contr": "passengers"
     },
     {
@@ -1796,7 +1796,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.97084729905773,
         "reason_vf_correct": "<br> - The boats in the image are painted in different colors.",
-        "reason_vf_incorrect": "<br> - The different colors of the boats do not suggest customization for various purposes.",
+        "reason_vf_incorrect": "<br> - The different colors of the boats suggest customization for various purposes.",
         "reason_contr": ""
     },
     {
@@ -1808,7 +1808,7 @@
         "visual_fidelity": 0.3333333333333333,
         "contrastiveness": 0.9812012957680224,
         "reason_vf_correct": "<br> - There is a round road sign with a red cross on a blue background in the image.",
-        "reason_vf_incorrect": "<br> - The sign does not indicate that vehicles are not allowed to enter the area beyond it.<br> - The sign is not located near a roundabout.",
+        "reason_vf_incorrect": "<br> - The sign indicates that vehicles are not allowed to enter the area beyond it.<br> - The sign is located near a roundabout.",
         "reason_contr": ""
     },
     {
@@ -1820,7 +1820,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.368218178639534,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - There are not six chairs around the dining table.<br> - The table is not set up for a group meal.",
+        "reason_vf_incorrect": "<br> - There are six chairs around the dining table.<br> - The table is set up for a group meal.",
         "reason_contr": "eight, four"
     }
 ]

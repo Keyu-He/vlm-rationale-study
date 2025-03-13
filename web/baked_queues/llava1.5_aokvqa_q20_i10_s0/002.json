@@ -20,7 +20,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.999980333087403,
     "reason_vf_correct": "<br> - The dog is wearing a motorcycle helmet.",
-    "reason_vf_incorrect": "<br> - The motorcycle is not parked in a location that resembles a store.",
+    "reason_vf_incorrect": "<br> - The motorcycle is parked in a location that resembles a store.",
     "reason_contr": ""
   },
   {
@@ -44,7 +44,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9999954172615262,
     "reason_vf_correct": "<br> - There are four dogs in the scene.<br> - Two dogs are standing close to each other on the right side of the image.",
-    "reason_vf_incorrect": "<br> - The other two dogs are not on the left side of the image.",
+    "reason_vf_incorrect": "<br> - The other two dogs are on the left side of the image.",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.4002972216556706,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The couple is not standing in a boat.",
+    "reason_vf_incorrect": "<br> - The couple is standing in a boat.",
     "reason_contr": "reduce stress"
   },
   {
@@ -116,7 +116,7 @@
     "visual_fidelity": 0.25,
     "contrastiveness": 0.9999949445629566,
     "reason_vf_correct": "<br> - The glasses contain beer.",
-    "reason_vf_incorrect": "<br> - The glasses do not contain juice.<br> - The glasses do not contain water.",
+    "reason_vf_incorrect": "<br> - The glasses contain juice.<br> - The glasses contain water.",
     "reason_contr": ""
   }
 ]

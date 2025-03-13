@@ -8,7 +8,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9999765245013462,
     "reason_vf_correct": "<br> - There is a skate park visible in the image.<br> - The image shows an urban area or city environment.",
-    "reason_vf_incorrect": "<br> - The skateboarders are not performing tricks on a ramp.",
+    "reason_vf_incorrect": "<br> - The skateboarders are performing tricks on a ramp.",
     "reason_contr": ""
   },
   {
@@ -56,7 +56,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9999833800250406,
     "reason_vf_correct": "<br> - The vehicles in the image are orange.<br> - The police cars are present on a runway in the image.",
-    "reason_vf_incorrect": "<br> - The orange vehicles are not identified as police cars.",
+    "reason_vf_incorrect": "<br> - The orange vehicles are identified as police cars.",
     "reason_contr": ""
   },
   {
@@ -92,7 +92,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9999637178772672,
     "reason_vf_correct": "<br> - The people in the image are driving dirt bikes.<br> - The dirt bikes in the image have a lightweight frame.",
-    "reason_vf_incorrect": "<br> - The dirt bikes in the image do not have long-travel suspension.<br> - The dirt bikes in the image do not have knobby tires.",
+    "reason_vf_incorrect": "<br> - The dirt bikes in the image have long-travel suspension.<br> - The dirt bikes in the image have knobby tires.",
     "reason_contr": ""
   },
   {

@@ -8,7 +8,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.9985546992894894,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - There are not at least 13 cupcakes with blue frosting on the table.<br> - Blue is not the most prevalent color among the cake toppings in the image.",
+    "reason_vf_incorrect": "<br> - There are at least 13 cupcakes with blue frosting on the table.<br> - Blue is the most prevalent color among the cake toppings in the image.",
     "reason_contr": ""
   },
   {
@@ -32,7 +32,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.999796302577912,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - There are no toy cars displayed on the bottom shelf near the TV.",
+    "reason_vf_incorrect": "<br> - There are toy cars displayed on the bottom shelf near the TV.",
     "reason_contr": ""
   },
   {
@@ -56,7 +56,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9629844117080524,
     "reason_vf_correct": "<br> - The cow has ear tags.",
-    "reason_vf_incorrect": "<br> - There are no numbers or letters on the cow's ear tags.",
+    "reason_vf_incorrect": "<br> - There are numbers or letters on the cow's ear tags.",
     "reason_contr": ""
   },
   {

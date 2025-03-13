@@ -8,7 +8,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9994209258920832,
         "reason_vf_correct": "<br> - The truck in the image is red.",
-        "reason_vf_incorrect": "<br> - The truck in the image is not a Dodge Ram pickup truck.",
+        "reason_vf_incorrect": "<br> - The truck in the image is a Dodge Ram pickup truck.",
         "reason_contr": ""
     },
     {
@@ -224,7 +224,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.9999876474943856,
         "reason_vf_correct": "<br> - The person is sitting on a couch.<br> - There is a fireplace visible in the image.",
-        "reason_vf_incorrect": "<br> - There is no potted plant visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a potted plant visible in the image.",
         "reason_contr": ""
     },
     {
@@ -260,7 +260,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9775174448864374,
         "reason_vf_correct": "<br> - The truck on the sidewalk is yellow.<br> - The yellow truck is a food truck.",
-        "reason_vf_incorrect": "<br> - The yellow truck is not parked on the sidewalk.",
+        "reason_vf_incorrect": "<br> - The yellow truck is parked on the sidewalk.",
         "reason_contr": ""
     },
     {
@@ -332,7 +332,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9999637178772672,
         "reason_vf_correct": "<br> - The people in the image are driving dirt bikes.<br> - The dirt bikes in the image have a lightweight frame.",
-        "reason_vf_incorrect": "<br> - The dirt bikes in the image do not have long-travel suspension.<br> - The dirt bikes in the image do not have knobby tires.",
+        "reason_vf_incorrect": "<br> - The dirt bikes in the image have long-travel suspension.<br> - The dirt bikes in the image have knobby tires.",
         "reason_contr": ""
     },
     {
@@ -344,7 +344,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9670599560638832,
         "reason_vf_correct": "<br> - There is a person sitting in the middle of a red bench.",
-        "reason_vf_incorrect": "<br> - The person in the middle of the bench is not the furthest away from the body of water compared to the others on the bench.",
+        "reason_vf_incorrect": "<br> - The person in the middle of the bench is the furthest away from the body of water compared to the others on the bench.",
         "reason_contr": ""
     },
     {
@@ -368,7 +368,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999441347030932,
         "reason_vf_correct": "<br> - The woman is using an umbrella in the image.<br> - The umbrella is providing shade for the woman.",
-        "reason_vf_incorrect": "<br> - The sun is not visible in the image.",
+        "reason_vf_incorrect": "<br> - The sun is visible in the image.",
         "reason_contr": ""
     },
     {
@@ -380,7 +380,7 @@
         "visual_fidelity": 0.25,
         "contrastiveness": 0.9999991973741472,
         "reason_vf_correct": "<br> - There are cough drops visible on the desk.",
-        "reason_vf_incorrect": "<br> - There are no pills visible on the desk.<br> - There is no herbal tea visible on the desk.",
+        "reason_vf_incorrect": "<br> - There are pills visible on the desk.<br> - Herbal tea is visible on the desk.",
         "reason_contr": ""
     },
     {
@@ -452,7 +452,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9999257700706276,
         "reason_vf_correct": "<br> - They are playing with the body board indoors.",
-        "reason_vf_incorrect": "<br> - There is no bed visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a bed visible in the image.",
         "reason_contr": ""
     },
     {
@@ -476,7 +476,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9972126660247272,
         "reason_vf_correct": "<br> - There are multiple bananas in the image.",
-        "reason_vf_incorrect": "<br> - There is no scoop of ice cream in the image.",
+        "reason_vf_incorrect": "<br> - There is a scoop of ice cream in the image.",
         "reason_contr": ""
     },
     {
@@ -536,7 +536,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.9996148118106308,
         "reason_vf_correct": "<br> - The man is sitting on the floor.<br> - The fabric is likely to be the kite's sail.",
-        "reason_vf_incorrect": "<br> - The man is not working on a piece of fabric.",
+        "reason_vf_incorrect": "<br> - The man is working on a piece of fabric.",
         "reason_contr": ""
     },
     {
@@ -584,7 +584,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.1423622395614034,
         "reason_vf_correct": "<br> - The hour hand is pointing to the number ten on the clock.",
-        "reason_vf_incorrect": "<br> - The minute hand is not positioned at the five-minute mark on the clock.",
+        "reason_vf_incorrect": "<br> - The minute hand is positioned at the five-minute mark on the clock.",
         "reason_contr": "eleven, nine, eight"
     },
     {
@@ -692,7 +692,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9999877061490297,
         "reason_vf_correct": "<br> - There is a television visible in the image.<br> - The cats appear relaxed and comfortable in their surroundings.",
-        "reason_vf_incorrect": "<br> - There is no dining table visible in the image.<br> - There is no couch visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a dining table visible in the image.<br> - There is a couch visible in the image.",
         "reason_contr": ""
     },
     {
@@ -728,7 +728,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.999954074865804,
         "reason_vf_correct": "<br> - There is a fan on the ceiling in the image.",
-        "reason_vf_incorrect": "<br> - The fan is not turned on in the image.",
+        "reason_vf_incorrect": "<br> - The fan is turned on in the image.",
         "reason_contr": ""
     },
     {
@@ -740,7 +740,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9629844117080524,
         "reason_vf_correct": "<br> - The cow has ear tags.",
-        "reason_vf_incorrect": "<br> - There are no numbers or letters on the cow's ear tags.",
+        "reason_vf_incorrect": "<br> - There are numbers or letters on the cow's ear tags.",
         "reason_contr": ""
     },
     {
@@ -896,7 +896,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999765245013462,
         "reason_vf_correct": "<br> - There is a skate park visible in the image.<br> - The image shows an urban area or city environment.",
-        "reason_vf_incorrect": "<br> - The skateboarders are not performing tricks on a ramp.",
+        "reason_vf_incorrect": "<br> - The skateboarders are performing tricks on a ramp.",
         "reason_contr": ""
     },
     {
@@ -932,7 +932,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9998269752022482,
         "reason_vf_correct": "<br> - The ball is in the air and not in contact with the bat.",
-        "reason_vf_incorrect": "<br> - The bat is not positioned behind the batter.",
+        "reason_vf_incorrect": "<br> - The bat is positioned behind the batter.",
         "reason_contr": ""
     },
     {
@@ -944,7 +944,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999889028427904,
         "reason_vf_correct": "<br> - There is an airplane in the image.<br> - There is a fuel truck near the airplane.",
-        "reason_vf_incorrect": "<br> - The airplane is not parked on a runway.",
+        "reason_vf_incorrect": "<br> - The airplane is parked on a runway.",
         "reason_contr": ""
     },
     {
@@ -992,7 +992,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9966668476484652,
         "reason_vf_correct": "<br> - There is an assortment of fruits in the bowl.<br> - There is an assortment of vegetables in the bowl.",
-        "reason_vf_incorrect": "<br> - There is no assortment of grains in the bowl.",
+        "reason_vf_incorrect": "<br> - There is an assortment of grains in the bowl.",
         "reason_contr": ""
     },
     {
@@ -1016,7 +1016,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.7972674241682155,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The towels in the image are not made of cotton.",
+        "reason_vf_incorrect": "<br> - The towels in the image are made of cotton.",
         "reason_contr": ""
     },
     {
@@ -1076,7 +1076,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.99110372188164,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The object in the image is not a parking meter.",
+        "reason_vf_incorrect": "<br> - The object in the image is a parking meter.",
         "reason_contr": ""
     },
     {
@@ -1088,7 +1088,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.9999483778504916,
         "reason_vf_correct": "<br> - There is a police car behind the truck in the image.<br> - The scene in the image takes place in New York City.",
-        "reason_vf_incorrect": "<br> - The skyline in the image is not iconic of New York City.",
+        "reason_vf_incorrect": "<br> - The skyline in the image is iconic of New York City.",
         "reason_contr": ""
     },
     {
@@ -1136,7 +1136,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.7174637255276473,
         "reason_vf_correct": "<br> - The person is skiing down a snow-covered slope.",
-        "reason_vf_incorrect": "<br> - The person does not have a smile on their face.",
+        "reason_vf_incorrect": "<br> - The person has a smile on their face.",
         "reason_contr": ""
     },
     {
@@ -1184,7 +1184,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9999509934179014,
         "reason_vf_correct": "<br> - There are mushrooms on the pizza.",
-        "reason_vf_incorrect": "<br> - There are no other toppings like pepperoni or sausage on the pizza.",
+        "reason_vf_incorrect": "<br> - There are other toppings like pepperoni or sausage on the pizza.",
         "reason_contr": ""
     },
     {
@@ -1208,7 +1208,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.4797806824888913,
         "reason_vf_correct": "<br> - The headlights of the dark colored car are on.<br> - The dark colored car is positioned closer to the viewer than the other vehicles in the scene.",
-        "reason_vf_incorrect": "<br> - There is not a dark colored car to the far left in the middle of the image.",
+        "reason_vf_incorrect": "<br> - There is a dark colored car to the far left in the middle of the image.",
         "reason_contr": "turning left"
     },
     {
@@ -1220,7 +1220,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.5086112331230911,
         "reason_vf_correct": "<br> - The woman in the picture is wearing gloves on her hands.",
-        "reason_vf_incorrect": "<br> - The woman is not riding a motorcycle in the image.",
+        "reason_vf_incorrect": "<br> - The woman is riding a motorcycle in the image.",
         "reason_contr": "prevention"
     },
     {
@@ -1244,7 +1244,7 @@
         "visual_fidelity": 0.6,
         "contrastiveness": 0.9999652236499372,
         "reason_vf_correct": "<br> - The people in the image are eating pizza together.<br> - There are multiple chairs visible in the image.",
-        "reason_vf_incorrect": "<br> - There is not a large group of people gathered around a table in the image.<br> - There are no dining tables visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a large group of people gathered around a table in the image.<br> - There are dining tables visible in the image.",
         "reason_contr": ""
     },
     {
@@ -1256,7 +1256,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.999796302577912,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - There are no toy cars displayed on the bottom shelf near the TV.",
+        "reason_vf_incorrect": "<br> - There are toy cars displayed on the bottom shelf near the TV.",
         "reason_contr": ""
     },
     {
@@ -1268,7 +1268,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.9999977747109028,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - There is no fryer visible in the image at the party store.",
+        "reason_vf_incorrect": "<br> - There is a fryer visible in the image at the party store.",
         "reason_contr": ""
     },
     {
@@ -1316,7 +1316,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.4999911795210109,
         "reason_vf_correct": "<br> - The man is on the platform.",
-        "reason_vf_incorrect": "<br> - The man is not standing close to the train tracks.",
+        "reason_vf_incorrect": "<br> - The man is standing close to the train tracks.",
         "reason_contr": "probably yes"
     },
     {
@@ -1352,7 +1352,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.9998350291108572,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - There is no Big Red cup visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a Big Red cup visible in the image.",
         "reason_contr": ""
     },
     {
@@ -1376,7 +1376,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.974727613783097,
         "reason_vf_correct": "<br> - The word \"one\" is written in red.",
-        "reason_vf_incorrect": "<br> - The word \"one\" is not the first word in the phrase \"we was one.\"",
+        "reason_vf_incorrect": "<br> - The word \"one\" is the first word in the phrase \"we was one.\"",
         "reason_contr": ""
     },
     {
@@ -1448,7 +1448,7 @@
         "visual_fidelity": 0.6,
         "contrastiveness": 0.9999971339101092,
         "reason_vf_correct": "<br> - The room is filled with various knick-knacks and memorabilia.<br> - There is a TV present in the room.",
-        "reason_vf_incorrect": "<br> - There are no books visible in the room.<br> - There is no clock visible in the room.",
+        "reason_vf_incorrect": "<br> - There are books visible in the room.<br> - There is a clock visible in the room.",
         "reason_contr": ""
     },
     {
@@ -1472,7 +1472,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9171772354505824,
         "reason_vf_correct": "<br> - The walking person, sitting person, and closed doors are farther from the tree trunk than the open doors.",
-        "reason_vf_incorrect": "<br> - The open doors are not the closest object to the tree trunk.",
+        "reason_vf_incorrect": "<br> - The open doors are the closest object to the tree trunk.",
         "reason_contr": ""
     },
     {
@@ -1508,7 +1508,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.998104856748642,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The rationale does not mention that the peel of a banana contains a chemical called tropane alkaloid.<br> - The rationale does not state that tropane alkaloid can cause irritation and discomfort when it comes into contact with the eyes.",
+        "reason_vf_incorrect": "<br> - The rationale mentions that the peel of a banana contains a chemical called tropane alkaloid.<br> - The rationale states that tropane alkaloid can cause irritation and discomfort when it comes into contact with the eyes.",
         "reason_contr": ""
     },
     {
@@ -1520,7 +1520,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9779507239208806,
         "reason_vf_correct": "<br> - There are multiple laptops on the desk.",
-        "reason_vf_incorrect": "<br> - The time shown on the clock is not around 10:30 or 11:00 a.m.",
+        "reason_vf_incorrect": "<br> - The time shown on the clock is around 10:30 or 11:00 a.m.",
         "reason_contr": ""
     },
     {
@@ -1532,7 +1532,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.9999795345232892,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The floor in the image does not have a luxurious and elegant appearance.<br> - The floor in the image is not consistent with what is typically found in high-end homes, hotels, or upscale establishments.",
+        "reason_vf_incorrect": "<br> - The floor in the image has a luxurious and elegant appearance.<br> - The floor in the image is consistent with what is typically found in high-end homes, hotels, or upscale establishments.",
         "reason_contr": ""
     },
     {
@@ -1544,7 +1544,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9999580562995968,
         "reason_vf_correct": "<br> - There is a variety of alcoholic beverages, such as beer, wine, and liquor, visible in the image.<br> - There are multiple bottles, cups, and a bowl on the counter in the image.",
-        "reason_vf_incorrect": "<br> - There are no non-alcoholic beverages like juice and water visible in the image.<br> - There is no dining table visible in the image.",
+        "reason_vf_incorrect": "<br> - There are non-alcoholic beverages like juice and water visible in the image.<br> - There is a dining table visible in the image.",
         "reason_contr": ""
     },
     {
@@ -1556,7 +1556,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.6142883777852571,
         "reason_vf_correct": "<br> - The cat is looking towards the faucet.",
-        "reason_vf_incorrect": "<br> - The faucet is not located on the right side of the sink.",
+        "reason_vf_incorrect": "<br> - The faucet is located on the right side of the sink.",
         "reason_contr": "left"
     },
     {
@@ -1616,7 +1616,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.4786091183430036,
         "reason_vf_correct": "<br> - There is an orange container on the left near the man in the red shirt.",
-        "reason_vf_incorrect": "<br> - The orange container is not a batting cage.",
+        "reason_vf_incorrect": "<br> - The orange container is a batting cage.",
         "reason_contr": "training"
     },
     {
@@ -1628,7 +1628,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999833800250406,
         "reason_vf_correct": "<br> - The vehicles in the image are orange.<br> - The police cars are present on a runway in the image.",
-        "reason_vf_incorrect": "<br> - The orange vehicles are not identified as police cars.",
+        "reason_vf_incorrect": "<br> - The orange vehicles are identified as police cars.",
         "reason_contr": ""
     },
     {
@@ -1640,7 +1640,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9962381837524704,
         "reason_vf_correct": "<br> - The other slices of the pizza are located on the left and right sides of the slice being held.<br> - The crust of the pizza is at the edge, not being held by the person.",
-        "reason_vf_incorrect": "<br> - The person is not holding a slice from the middle of the pizza.<br> - The toppings are not distributed evenly across all the slices of the pizza.",
+        "reason_vf_incorrect": "<br> - The person is holding a slice from the middle of the pizza.<br> - The toppings are distributed evenly across all the slices of the pizza.",
         "reason_contr": ""
     },
     {
@@ -1652,7 +1652,7 @@
         "visual_fidelity": 0.25,
         "contrastiveness": 0.9999949445629566,
         "reason_vf_correct": "<br> - The glasses contain beer.",
-        "reason_vf_incorrect": "<br> - The glasses do not contain juice.<br> - The glasses do not contain water.",
+        "reason_vf_incorrect": "<br> - The glasses contain juice.<br> - The glasses contain water.",
         "reason_contr": ""
     },
     {
@@ -1664,7 +1664,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999758223691768,
         "reason_vf_correct": "<br> - The railcar is traveling on a track that is above ground level.<br> - There is a train track visible in the image.",
-        "reason_vf_incorrect": "<br> - The train is not described as an \"elevated train.\"",
+        "reason_vf_incorrect": "<br> - The train is described as an \"elevated train.\"",
         "reason_contr": ""
     },
     {
@@ -1676,7 +1676,7 @@
         "visual_fidelity": 0.3333333333333333,
         "contrastiveness": 0.617229424110333,
         "reason_vf_correct": "<br> - There are only two drinkers visible in the image.",
-        "reason_vf_incorrect": "<br> - There is no person drinking from a cup on the left side of the table.<br> - There is no person drinking from a cup on the right side of the table.",
+        "reason_vf_incorrect": "<br> - There is a person drinking from a cup on the left side of the table.<br> - There is a person drinking from a cup on the right side of the table.",
         "reason_contr": "one"
     },
     {
@@ -1700,7 +1700,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9929483152092292,
         "reason_vf_correct": "<br> - There is a large wooden wheel on the wall.",
-        "reason_vf_incorrect": "<br> - Large wooden wheels are not commonly associated with tractors.",
+        "reason_vf_incorrect": "<br> - Large wooden wheels are commonly associated with tractors.",
         "reason_contr": ""
     },
     {
@@ -1712,7 +1712,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.5906471307120554,
         "reason_vf_correct": "<br> - The skier in the middle of the image is skiing down the slope.<br> - There are multiple skiers in the image.",
-        "reason_vf_incorrect": "<br> - The skier in the middle of the image is not moving at a faster pace compared to the other skiers.",
+        "reason_vf_incorrect": "<br> - The skier in the middle of the image is moving at a faster pace compared to the other skiers.",
         "reason_contr": ""
     },
     {
@@ -1724,7 +1724,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.999993286855841,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The giraffes are not drinking from the pool of water.",
+        "reason_vf_incorrect": "<br> - The giraffes are drinking from the pool of water.",
         "reason_contr": ""
     },
     {
@@ -1748,7 +1748,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9994843319368916,
         "reason_vf_correct": "<br> - There are two bicycles parked next to each other on the side of the road.<br> - One of the bicycles has a basket on the front.",
-        "reason_vf_incorrect": "<br> - There is no motorcycle parked separately from the bicycles.<br> - The motorcycle does not have a basket on the front.",
+        "reason_vf_incorrect": "<br> - There is a motorcycle parked separately from the bicycles.<br> - The motorcycle does not have a basket on the front.",
         "reason_contr": ""
     },
     {
@@ -1760,7 +1760,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.999980333087403,
         "reason_vf_correct": "<br> - The dog is wearing a motorcycle helmet.",
-        "reason_vf_incorrect": "<br> - The motorcycle is not parked in a location that resembles a store.",
+        "reason_vf_incorrect": "<br> - The motorcycle is parked in a location that resembles a store.",
         "reason_contr": ""
     },
     {
@@ -1796,7 +1796,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9066159813224842,
         "reason_vf_correct": "<br> - The street in the image is gray in color.",
-        "reason_vf_incorrect": "<br> - The street in the image is not made of asphalt.",
+        "reason_vf_incorrect": "<br> - The street in the image is made of asphalt.",
         "reason_contr": ""
     },
     {
@@ -1832,7 +1832,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.9998467954178406,
         "reason_vf_correct": "<br> - There are vegetables on the plate in the image.",
-        "reason_vf_incorrect": "<br> - There is no knife visible in the image.",
+        "reason_vf_incorrect": "<br> - There is a knife visible in the image.",
         "reason_contr": ""
     },
     {
@@ -1844,7 +1844,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.8830163910138866,
         "reason_vf_correct": "<br> - The man is flying a kite in the image.<br> - The man is in a grassy field in the image.",
-        "reason_vf_incorrect": "<br> - The man is not looking down at the kite in the image.",
+        "reason_vf_incorrect": "<br> - The man is looking down at the kite in the image.",
         "reason_contr": ""
     },
     {
@@ -1880,7 +1880,7 @@
         "visual_fidelity": 0.25,
         "contrastiveness": 0.9999341000428936,
         "reason_vf_correct": "<br> - There are horses present in the image.",
-        "reason_vf_incorrect": "<br> - The car in the image does not have four doors.<br> - There is no trunk visible on the car in the image.",
+        "reason_vf_incorrect": "<br> - The car in the image has four doors.<br> - There is a trunk visible on the car in the image.",
         "reason_contr": ""
     },
     {
@@ -1892,7 +1892,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 5.677738470305301e-05,
         "reason_vf_correct": "<br> - The plane company is Virgin Atlantic.<br> - Virgin Atlantic is headquartered in the United Kingdom.",
-        "reason_vf_incorrect": "<br> - Virgin Atlantic does not operate under a Canadian air operator's certificate.",
+        "reason_vf_incorrect": "<br> - Virgin Atlantic operates under a Canadian air operator's certificate.",
         "reason_contr": "uk"
     },
     {
@@ -1976,7 +1976,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.5241020107529235,
         "reason_vf_correct": "<br> - There are a large number of buses parked next to each other in a parking lot.<br> - The buses have blue trim.",
-        "reason_vf_incorrect": "<br> - The parking lot is not located near a stadium.",
+        "reason_vf_incorrect": "<br> - The parking lot is located near a stadium.",
         "reason_contr": "lot"
     },
     {
@@ -1988,7 +1988,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.6122559344179337,
         "reason_vf_correct": "<br> - The players are almost colliding in the catcher's box area of the baseball field.<br> - One player is blocking the other in the catcher's box area.",
-        "reason_vf_incorrect": "<br> - The catcher is not trying to catch the ball in the image.",
+        "reason_vf_incorrect": "<br> - The catcher is trying to catch the ball in the image.",
         "reason_contr": "home plate"
     },
     {
@@ -2036,7 +2036,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.9985546992894894,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - There are not at least 13 cupcakes with blue frosting on the table.<br> - Blue is not the most prevalent color among the cake toppings in the image.",
+        "reason_vf_incorrect": "<br> - There are at least 13 cupcakes with blue frosting on the table.<br> - Blue is the most prevalent color among the cake toppings in the image.",
         "reason_contr": ""
     },
     {
@@ -2048,7 +2048,7 @@
         "visual_fidelity": 0.6,
         "contrastiveness": 0.640647016368483,
         "reason_vf_correct": "<br> - There is a red car in the image.<br> - The truck trailer is farther away from the transport hub than the red car.",
-        "reason_vf_incorrect": "<br> - The red car is not positioned directly in front of the transport hub.<br> - The orange tractor is not farther away from the transport hub than the red car.",
+        "reason_vf_incorrect": "<br> - The red car is positioned directly in front of the transport hub.<br> - The orange tractor is farther away from the transport hub than the red car.",
         "reason_contr": "truck cab"
     },
     {
@@ -2060,7 +2060,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999954172615262,
         "reason_vf_correct": "<br> - There are four dogs in the scene.<br> - Two dogs are standing close to each other on the right side of the image.",
-        "reason_vf_incorrect": "<br> - The other two dogs are not on the left side of the image.",
+        "reason_vf_incorrect": "<br> - The other two dogs are on the left side of the image.",
         "reason_contr": ""
     },
     {
@@ -2072,7 +2072,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.4998844046836463,
         "reason_vf_correct": "<br> - The skateboarder's feet are off the ground during the jump.",
-        "reason_vf_incorrect": "<br> - The distance between the ground and the skateboarder's feet at the peak of the jump is not 17 inches.",
+        "reason_vf_incorrect": "<br> - The distance between the ground and the skateboarder's feet at the peak of the jump is 17 inches.",
         "reason_contr": "17inch"
     },
     {
@@ -2084,7 +2084,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.4002972216556706,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The couple is not standing in a boat.",
+        "reason_vf_incorrect": "<br> - The couple is standing in a boat.",
         "reason_contr": "reduce stress"
     },
     {
@@ -2096,7 +2096,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9999969725108436,
         "reason_vf_correct": "<br> - There is a fruit or vegetable that is cut in half in the image.<br> - The cut fruit or vegetable is darker in color compared to another one in the image.",
-        "reason_vf_incorrect": "<br> - The cut fruit or vegetable is not a leafy green.",
+        "reason_vf_incorrect": "<br> - The cut fruit or vegetable is a leafy green.",
         "reason_contr": ""
     },
     {
@@ -2108,7 +2108,7 @@
         "visual_fidelity": 0.6666666666666666,
         "contrastiveness": 0.9215118887544343,
         "reason_vf_correct": "<br> - The background of the large clock is green.<br> - The green background of the clock does contrast with the rest of the scene.",
-        "reason_vf_incorrect": "<br> - The clock shown in the image is not in a close-up view.",
+        "reason_vf_incorrect": "<br> - The clock is shown in a close-up view in the image.",
         "reason_contr": ""
     },
     {
@@ -2132,7 +2132,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.1903857171342885,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - There is no Dell logo visible on the laptop in the image.",
+        "reason_vf_incorrect": "<br> - The Dell logo is visible on the laptop in the image.",
         "reason_contr": "apple, hp"
     },
     {
@@ -2216,7 +2216,7 @@
         "visual_fidelity": 0.75,
         "contrastiveness": 0.9991041673604816,
         "reason_vf_correct": "<br> - The person in the image is wearing stockings.<br> - The person in the image is wearing high heels.",
-        "reason_vf_incorrect": "<br> - The person in the image is not wearing a black dress.",
+        "reason_vf_incorrect": "<br> - The person in the image is wearing a black dress.",
         "reason_contr": ""
     },
     {
@@ -2240,7 +2240,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.5135159745167326,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The cat's paw is not up against a book.",
+        "reason_vf_incorrect": "<br> - The cat's paw is up against a book.",
         "reason_contr": ""
     },
     {
@@ -2264,7 +2264,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.9999968280562422,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - There is no graph paper present on the desk.",
+        "reason_vf_incorrect": "<br> - There is graph paper present on the desk.",
         "reason_contr": ""
     },
     {
@@ -2324,7 +2324,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.894095031191962,
         "reason_vf_correct": "<br> - There is masonry visible on the wall to the left of the kitchen.",
-        "reason_vf_incorrect": "<br> - The masonry on the wall does not appear to be part of a structural wall.",
+        "reason_vf_incorrect": "<br> - The masonry on the wall appears to be part of a structural wall.",
         "reason_contr": ""
     },
     {
@@ -2336,7 +2336,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.5951205403574417,
         "reason_vf_correct": "<br> - The person on the left is riding a wave on a surfboard.",
-        "reason_vf_incorrect": "<br> - The person on the left is not leaping into the air.",
+        "reason_vf_incorrect": "<br> - The person on the left is leaping into the air.",
         "reason_contr": "flying"
     },
     {
@@ -2348,7 +2348,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.2298240378223372,
         "reason_vf_correct": "<br> - The person is performing a trick on a skateboard.",
-        "reason_vf_incorrect": "<br> - The person is not wearing a shirt with a plaid design.",
+        "reason_vf_incorrect": "<br> - The person is wearing a shirt with a plaid design.",
         "reason_contr": "striped, tie dyed"
     },
     {
@@ -2372,7 +2372,7 @@
         "visual_fidelity": 0.0,
         "contrastiveness": 0.9999848370587904,
         "reason_vf_correct": "",
-        "reason_vf_incorrect": "<br> - The girl playing soccer is not wearing a t-shirt with the number 13 on it.",
+        "reason_vf_incorrect": "<br> - The girl playing soccer is wearing a t-shirt with the number 13 on it.",
         "reason_contr": ""
     },
     {
@@ -2396,7 +2396,7 @@
         "visual_fidelity": 0.5,
         "contrastiveness": 0.5746438018654147,
         "reason_vf_correct": "<br> - There is a clock on the side of the building indicating the time of day.",
-        "reason_vf_incorrect": "<br> - The lighting and shadows in the image are not suggesting that the sun is at its peak.",
+        "reason_vf_incorrect": "<br> - The lighting and shadows in the image suggest that the sun is at its peak.",
         "reason_contr": "afternoon"
     }
 ]

@@ -8,7 +8,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9999509934179014,
     "reason_vf_correct": "<br> - There are mushrooms on the pizza.",
-    "reason_vf_incorrect": "<br> - There are no other toppings like pepperoni or sausage on the pizza.",
+    "reason_vf_incorrect": "<br> - There are other toppings like pepperoni or sausage on the pizza.",
     "reason_contr": ""
   },
   {
@@ -68,7 +68,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.9999968280562422,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - There is no graph paper present on the desk.",
+    "reason_vf_incorrect": "<br> - There is graph paper present on the desk.",
     "reason_contr": ""
   },
   {
@@ -104,7 +104,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9962381837524704,
     "reason_vf_correct": "<br> - The other slices of the pizza are located on the left and right sides of the slice being held.<br> - The crust of the pizza is at the edge, not being held by the person.",
-    "reason_vf_incorrect": "<br> - The person is not holding a slice from the middle of the pizza.<br> - The toppings are not distributed evenly across all the slices of the pizza.",
+    "reason_vf_incorrect": "<br> - The person is holding a slice from the middle of the pizza.<br> - The toppings are distributed evenly across all the slices of the pizza.",
     "reason_contr": ""
   },
   {

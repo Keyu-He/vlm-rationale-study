@@ -8,7 +8,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.998104856748642,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The rationale does not mention that the peel of a banana contains a chemical called tropane alkaloid.<br> - The rationale does not state that tropane alkaloid can cause irritation and discomfort when it comes into contact with the eyes.",
+    "reason_vf_incorrect": "<br> - The rationale mentions that the peel of a banana contains a chemical called tropane alkaloid.<br> - The rationale states that tropane alkaloid can cause irritation and discomfort when it comes into contact with the eyes.",
     "reason_contr": ""
   },
   {
@@ -32,7 +32,7 @@
     "visual_fidelity": 0.3333333333333333,
     "contrastiveness": 0.617229424110333,
     "reason_vf_correct": "<br> - There are only two drinkers visible in the image.",
-    "reason_vf_incorrect": "<br> - There is no person drinking from a cup on the left side of the table.<br> - There is no person drinking from a cup on the right side of the table.",
+    "reason_vf_incorrect": "<br> - There is a person drinking from a cup on the left side of the table.<br> - There is a person drinking from a cup on the right side of the table.",
     "reason_contr": "one"
   },
   {
@@ -56,7 +56,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.9999977747109028,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - There is no fryer visible in the image at the party store.",
+    "reason_vf_incorrect": "<br> - There is a fryer visible in the image at the party store.",
     "reason_contr": ""
   },
   {
@@ -68,7 +68,7 @@
     "visual_fidelity": 0.75,
     "contrastiveness": 0.9996148118106308,
     "reason_vf_correct": "<br> - The man is sitting on the floor.<br> - The fabric is likely to be the kite's sail.",
-    "reason_vf_incorrect": "<br> - The man is not working on a piece of fabric.",
+    "reason_vf_incorrect": "<br> - The man is working on a piece of fabric.",
     "reason_contr": ""
   },
   {
@@ -92,7 +92,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9670599560638832,
     "reason_vf_correct": "<br> - There is a person sitting in the middle of a red bench.",
-    "reason_vf_incorrect": "<br> - The person in the middle of the bench is not the furthest away from the body of water compared to the others on the bench.",
+    "reason_vf_incorrect": "<br> - The person in the middle of the bench is the furthest away from the body of water compared to the others on the bench.",
     "reason_contr": ""
   },
   {

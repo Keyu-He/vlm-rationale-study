@@ -8,7 +8,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 5.677738470305301e-05,
     "reason_vf_correct": "<br> - The plane company is Virgin Atlantic.<br> - Virgin Atlantic is headquartered in the United Kingdom.",
-    "reason_vf_incorrect": "<br> - Virgin Atlantic does not operate under a Canadian air operator's certificate.",
+    "reason_vf_incorrect": "<br> - Virgin Atlantic operates under a Canadian air operator's certificate.",
     "reason_contr": "uk"
   },
   {
@@ -32,7 +32,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9966668476484652,
     "reason_vf_correct": "<br> - There is an assortment of fruits in the bowl.<br> - There is an assortment of vegetables in the bowl.",
-    "reason_vf_incorrect": "<br> - There is no assortment of grains in the bowl.",
+    "reason_vf_incorrect": "<br> - There is an assortment of grains in the bowl.",
     "reason_contr": ""
   },
   {
@@ -44,7 +44,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9994843319368916,
     "reason_vf_correct": "<br> - There are two bicycles parked next to each other on the side of the road.<br> - One of the bicycles has a basket on the front.",
-    "reason_vf_incorrect": "<br> - There is no motorcycle parked separately from the bicycles.<br> - The motorcycle does not have a basket on the front.",
+    "reason_vf_incorrect": "<br> - There is a motorcycle parked separately from the bicycles.<br> - The motorcycle does not have a basket on the front.",
     "reason_contr": ""
   },
   {
@@ -68,7 +68,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9998269752022482,
     "reason_vf_correct": "<br> - The ball is in the air and not in contact with the bat.",
-    "reason_vf_incorrect": "<br> - The bat is not positioned behind the batter.",
+    "reason_vf_incorrect": "<br> - The bat is positioned behind the batter.",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9972126660247272,
     "reason_vf_correct": "<br> - There are multiple bananas in the image.",
-    "reason_vf_incorrect": "<br> - There is no scoop of ice cream in the image.",
+    "reason_vf_incorrect": "<br> - There is a scoop of ice cream in the image.",
     "reason_contr": ""
   },
   {
@@ -92,7 +92,7 @@
     "visual_fidelity": 0.75,
     "contrastiveness": 0.9999876474943856,
     "reason_vf_correct": "<br> - The person is sitting on a couch.<br> - There is a fireplace visible in the image.",
-    "reason_vf_incorrect": "<br> - There is no potted plant visible in the image.",
+    "reason_vf_incorrect": "<br> - There is a potted plant visible in the image.",
     "reason_contr": ""
   },
   {
@@ -104,7 +104,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9929483152092292,
     "reason_vf_correct": "<br> - There is a large wooden wheel on the wall.",
-    "reason_vf_incorrect": "<br> - Large wooden wheels are not commonly associated with tractors.",
+    "reason_vf_incorrect": "<br> - Large wooden wheels are commonly associated with tractors.",
     "reason_contr": ""
   },
   {
@@ -116,7 +116,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.894095031191962,
     "reason_vf_correct": "<br> - There is masonry visible on the wall to the left of the kitchen.",
-    "reason_vf_incorrect": "<br> - The masonry on the wall does not appear to be part of a structural wall.",
+    "reason_vf_incorrect": "<br> - The masonry on the wall appears to be part of a structural wall.",
     "reason_contr": ""
   }
 ]

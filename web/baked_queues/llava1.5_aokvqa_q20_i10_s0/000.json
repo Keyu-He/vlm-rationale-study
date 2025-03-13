@@ -8,7 +8,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.1423622395614034,
     "reason_vf_correct": "<br> - The hour hand is pointing to the number ten on the clock.",
-    "reason_vf_incorrect": "<br> - The minute hand is not positioned at the five-minute mark on the clock.",
+    "reason_vf_incorrect": "<br> - The minute hand is positioned at the five-minute mark on the clock.",
     "reason_contr": "eleven, nine, eight"
   },
   {
@@ -68,7 +68,7 @@
     "visual_fidelity": 0.25,
     "contrastiveness": 0.9999341000428936,
     "reason_vf_correct": "<br> - There are horses present in the image.",
-    "reason_vf_incorrect": "<br> - The car in the image does not have four doors.<br> - There is no trunk visible on the car in the image.",
+    "reason_vf_incorrect": "<br> - The car in the image has four doors.<br> - There is a trunk visible on the car in the image.",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.6,
     "contrastiveness": 0.9999971339101092,
     "reason_vf_correct": "<br> - The room is filled with various knick-knacks and memorabilia.<br> - There is a TV present in the room.",
-    "reason_vf_incorrect": "<br> - There are no books visible in the room.<br> - There is no clock visible in the room.",
+    "reason_vf_incorrect": "<br> - There are books visible in the room.<br> - There is a clock visible in the room.",
     "reason_contr": ""
   },
   {
@@ -104,7 +104,7 @@
     "visual_fidelity": 0.6,
     "contrastiveness": 0.640647016368483,
     "reason_vf_correct": "<br> - There is a red car in the image.<br> - The truck trailer is farther away from the transport hub than the red car.",
-    "reason_vf_incorrect": "<br> - The red car is not positioned directly in front of the transport hub.<br> - The orange tractor is not farther away from the transport hub than the red car.",
+    "reason_vf_incorrect": "<br> - The red car is positioned directly in front of the transport hub.<br> - The orange tractor is farther away from the transport hub than the red car.",
     "reason_contr": "truck cab"
   },
   {

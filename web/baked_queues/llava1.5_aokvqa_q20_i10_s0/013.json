@@ -44,7 +44,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9999580562995968,
     "reason_vf_correct": "<br> - There is a variety of alcoholic beverages, such as beer, wine, and liquor, visible in the image.<br> - There are multiple bottles, cups, and a bowl on the counter in the image.",
-    "reason_vf_incorrect": "<br> - There are no non-alcoholic beverages like juice and water visible in the image.<br> - There is no dining table visible in the image.",
+    "reason_vf_incorrect": "<br> - There are non-alcoholic beverages like juice and water visible in the image.<br> - There is a dining table visible in the image.",
     "reason_contr": ""
   },
   {
@@ -56,7 +56,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.4786091183430036,
     "reason_vf_correct": "<br> - There is an orange container on the left near the man in the red shirt.",
-    "reason_vf_incorrect": "<br> - The orange container is not a batting cage.",
+    "reason_vf_incorrect": "<br> - The orange container is a batting cage.",
     "reason_contr": "training"
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.75,
     "contrastiveness": 0.9999483778504916,
     "reason_vf_correct": "<br> - There is a police car behind the truck in the image.<br> - The scene in the image takes place in New York City.",
-    "reason_vf_incorrect": "<br> - The skyline in the image is not iconic of New York City.",
+    "reason_vf_incorrect": "<br> - The skyline in the image is iconic of New York City.",
     "reason_contr": ""
   },
   {
@@ -116,7 +116,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.99110372188164,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The object in the image is not a parking meter.",
+    "reason_vf_incorrect": "<br> - The object in the image is a parking meter.",
     "reason_contr": ""
   }
 ]

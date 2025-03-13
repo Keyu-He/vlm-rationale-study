@@ -56,7 +56,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.4998844046836463,
     "reason_vf_correct": "<br> - The skateboarder's feet are off the ground during the jump.",
-    "reason_vf_incorrect": "<br> - The distance between the ground and the skateboarder's feet at the peak of the jump is not 17 inches.",
+    "reason_vf_incorrect": "<br> - The distance between the ground and the skateboarder's feet at the peak of the jump is 17 inches.",
     "reason_contr": "17inch"
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.6,
     "contrastiveness": 0.9999652236499372,
     "reason_vf_correct": "<br> - The people in the image are eating pizza together.<br> - There are multiple chairs visible in the image.",
-    "reason_vf_incorrect": "<br> - There is not a large group of people gathered around a table in the image.<br> - There are no dining tables visible in the image.",
+    "reason_vf_incorrect": "<br> - There is a large group of people gathered around a table in the image.<br> - There are dining tables visible in the image.",
     "reason_contr": ""
   },
   {
@@ -92,7 +92,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9998467954178406,
     "reason_vf_correct": "<br> - There are vegetables on the plate in the image.",
-    "reason_vf_incorrect": "<br> - There is no knife visible in the image.",
+    "reason_vf_incorrect": "<br> - There is a knife visible in the image.",
     "reason_contr": ""
   },
   {
@@ -104,7 +104,7 @@
     "visual_fidelity": 0.75,
     "contrastiveness": 0.9991041673604816,
     "reason_vf_correct": "<br> - The person in the image is wearing stockings.<br> - The person in the image is wearing high heels.",
-    "reason_vf_incorrect": "<br> - The person in the image is not wearing a black dress.",
+    "reason_vf_incorrect": "<br> - The person in the image is wearing a black dress.",
     "reason_contr": ""
   },
   {

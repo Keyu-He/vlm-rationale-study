@@ -20,7 +20,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.5086112331230911,
     "reason_vf_correct": "<br> - The woman in the picture is wearing gloves on her hands.",
-    "reason_vf_incorrect": "<br> - The woman is not riding a motorcycle in the image.",
+    "reason_vf_incorrect": "<br> - The woman is riding a motorcycle in the image.",
     "reason_contr": "prevention"
   },
   {
@@ -44,7 +44,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9999758223691768,
     "reason_vf_correct": "<br> - The railcar is traveling on a track that is above ground level.<br> - There is a train track visible in the image.",
-    "reason_vf_incorrect": "<br> - The train is not described as an \"elevated train.\"",
+    "reason_vf_incorrect": "<br> - The train is described as an \"elevated train.\"",
     "reason_contr": ""
   },
   {
@@ -56,7 +56,7 @@
     "visual_fidelity": 0.25,
     "contrastiveness": 0.9999991973741472,
     "reason_vf_correct": "<br> - There are cough drops visible on the desk.",
-    "reason_vf_incorrect": "<br> - There are no pills visible on the desk.<br> - There is no herbal tea visible on the desk.",
+    "reason_vf_incorrect": "<br> - There are pills visible on the desk.<br> - Herbal tea is visible on the desk.",
     "reason_contr": ""
   },
   {
@@ -68,7 +68,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9999877061490297,
     "reason_vf_correct": "<br> - There is a television visible in the image.<br> - The cats appear relaxed and comfortable in their surroundings.",
-    "reason_vf_incorrect": "<br> - There is no dining table visible in the image.<br> - There is no couch visible in the image.",
+    "reason_vf_incorrect": "<br> - There is a dining table visible in the image.<br> - There is a couch visible in the image.",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.5951205403574417,
     "reason_vf_correct": "<br> - The person on the left is riding a wave on a surfboard.",
-    "reason_vf_incorrect": "<br> - The person on the left is not leaping into the air.",
+    "reason_vf_incorrect": "<br> - The person on the left is leaping into the air.",
     "reason_contr": "flying"
   },
   {
@@ -92,7 +92,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9775174448864374,
     "reason_vf_correct": "<br> - The truck on the sidewalk is yellow.<br> - The yellow truck is a food truck.",
-    "reason_vf_incorrect": "<br> - The yellow truck is not parked on the sidewalk.",
+    "reason_vf_incorrect": "<br> - The yellow truck is parked on the sidewalk.",
     "reason_contr": ""
   },
   {
@@ -104,7 +104,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.999993286855841,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The giraffes are not drinking from the pool of water.",
+    "reason_vf_incorrect": "<br> - The giraffes are drinking from the pool of water.",
     "reason_contr": ""
   },
   {

@@ -20,7 +20,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9215118887544343,
     "reason_vf_correct": "<br> - The background of the large clock is green.<br> - The green background of the clock does contrast with the rest of the scene.",
-    "reason_vf_incorrect": "<br> - The clock shown in the image is not in a close-up view.",
+    "reason_vf_incorrect": "<br> - The clock is shown in a close-up view in the image.",
     "reason_contr": ""
   },
   {
@@ -44,7 +44,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.8830163910138866,
     "reason_vf_correct": "<br> - The man is flying a kite in the image.<br> - The man is in a grassy field in the image.",
-    "reason_vf_incorrect": "<br> - The man is not looking down at the kite in the image.",
+    "reason_vf_incorrect": "<br> - The man is looking down at the kite in the image.",
     "reason_contr": ""
   },
   {
@@ -68,7 +68,7 @@
     "visual_fidelity": 0.6666666666666666,
     "contrastiveness": 0.9999969725108436,
     "reason_vf_correct": "<br> - There is a fruit or vegetable that is cut in half in the image.<br> - The cut fruit or vegetable is darker in color compared to another one in the image.",
-    "reason_vf_incorrect": "<br> - The cut fruit or vegetable is not a leafy green.",
+    "reason_vf_incorrect": "<br> - The cut fruit or vegetable is a leafy green.",
     "reason_contr": ""
   },
   {
@@ -80,7 +80,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.9999795345232892,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The floor in the image does not have a luxurious and elegant appearance.<br> - The floor in the image is not consistent with what is typically found in high-end homes, hotels, or upscale establishments.",
+    "reason_vf_incorrect": "<br> - The floor in the image has a luxurious and elegant appearance.<br> - The floor in the image is consistent with what is typically found in high-end homes, hotels, or upscale establishments.",
     "reason_contr": ""
   },
   {

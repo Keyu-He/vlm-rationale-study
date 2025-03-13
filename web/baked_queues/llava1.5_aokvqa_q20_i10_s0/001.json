@@ -8,7 +8,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.9999848370587904,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The girl playing soccer is not wearing a t-shirt with the number 13 on it.",
+    "reason_vf_incorrect": "<br> - The girl playing soccer is wearing a t-shirt with the number 13 on it.",
     "reason_contr": ""
   },
   {
@@ -32,7 +32,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.9779507239208806,
     "reason_vf_correct": "<br> - There are multiple laptops on the desk.",
-    "reason_vf_incorrect": "<br> - The time shown on the clock is not around 10:30 or 11:00 a.m.",
+    "reason_vf_incorrect": "<br> - The time shown on the clock is around 10:30 or 11:00 a.m.",
     "reason_contr": ""
   },
   {
@@ -56,7 +56,7 @@
     "visual_fidelity": 0.5,
     "contrastiveness": 0.7174637255276473,
     "reason_vf_correct": "<br> - The person is skiing down a snow-covered slope.",
-    "reason_vf_incorrect": "<br> - The person does not have a smile on their face.",
+    "reason_vf_incorrect": "<br> - The person has a smile on their face.",
     "reason_contr": ""
   },
   {

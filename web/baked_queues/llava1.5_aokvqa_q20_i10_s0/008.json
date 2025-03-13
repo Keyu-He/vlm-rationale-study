@@ -56,7 +56,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.7972674241682155,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - The towels in the image are not made of cotton.",
+    "reason_vf_incorrect": "<br> - The towels in the image are made of cotton.",
     "reason_contr": ""
   },
   {
@@ -116,7 +116,7 @@
     "visual_fidelity": 0.0,
     "contrastiveness": 0.9998350291108572,
     "reason_vf_correct": "",
-    "reason_vf_incorrect": "<br> - There is no Big Red cup visible in the image.",
+    "reason_vf_incorrect": "<br> - There is a Big Red cup visible in the image.",
     "reason_contr": ""
   }
 ]
