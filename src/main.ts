@@ -474,13 +474,13 @@ function next_question() {
         vf_descriptive += "<b>There are no details about the image in the explanation that are likely correct.</b>"
     } else {
         vf_descriptive += "<b>Details in the explanation that are likely correct:</b>"
-        vf_descriptive += question["reason_vf_correct"].replace("-", "\u2705")
+        vf_descriptive += question["reason_vf_correct"].replace(/<br> -/g, "<br> \u2705")
     }
     if (question["reason_vf_incorrect"] == "") {
         vf_descriptive += "<br><br><b>There are no details about the image in the explanation that are likely incorrect.</b>"
     } else {
         vf_descriptive += "<br><br><b>Details in the explanation that are likely NOT correct:</b>"
-        vf_descriptive += question["reason_vf_incorrect"].replace("-", "\u274c")
+        vf_descriptive += question["reason_vf_incorrect"].replace(/<br> -/g, "<br> \u274c")
     }
     $("#explanation_fidelity_descriptive_span").html(vf_descriptive)
 
