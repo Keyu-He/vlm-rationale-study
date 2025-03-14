@@ -18,7 +18,7 @@
     "watch": "webpack --mode=development --watch ",
     "dev": "webpack-dev-server --mode=development --open",
     "dev_prod": "webpack-dev-server --mode=production --open",
-    "predeploy": "npm run build && rm -rf web/prod_metric && cp -R web_prod_metric web/prod_metric",
+    "predeploy": "npm run build && rm -rf web/prod_metric && cp -R web_prod_metric web/prod_metric && rm -rf web/vf_metric_only && cp -R web_vf_metric_only web/vf_metric_only && rm -rf web/contrastive_metric_only && cp -R web_contrastive_metric_only web/contrastive_metric_only",
     "deploy": "gh-pages -d web"
   },
   "repository": {

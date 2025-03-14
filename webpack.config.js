@@ -69,6 +69,24 @@ module.exports = (env, argv) => {
       }
    };
 
+   const vfMetricConfig = {
+      ...baseConfig,
+      entry: './src/main_vf_metric_only.ts',
+      output: {
+         filename: 'web_vf_metric_only.js',
+         path: path.resolve(__dirname, 'web/vf_metric_only'),
+      }
+   }
+
+   const contrastiveMetricConfig = {
+      ...baseConfig,
+      entry: './src/main_contrastive_metric_only.ts',
+      output: {
+         filename: 'web_contrastive_metric_only.js',
+         path: path.resolve(__dirname, 'web/contrastive_metric_only'),
+      }
+   }
+
    // Return an array of configurations
-   return [baseConfig, productConfig];
+   return [baseConfig];//, productConfig, vfMetricConfig, contrastiveMetricConfig];
 };

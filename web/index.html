@@ -67,14 +67,49 @@
             </div>
             <div id="instructions_4">
                 Finally, you will be provided with information about how reliable the explanation is.
-                You will be shown two scores:
-                <ol>
-                    <li style="margin-bottom: 5px;"><b>AI Confidence that the explanation accurately describes the image details: </b>This score reflects how certain the AI is that all the details about the image mentioned in the explanation are accurate.
-                    <li><b>AI Confidence that the explanation rules out the other choices: </b>This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.
-                </ol>
+                <br><br>
+
+                <div id="instruction_vf_contr_both_numeric">
+                    You will be shown two scores:
+                    <ol>
+                        <li style="margin-bottom: 5px;"><b>AI Confidence that the explanation accurately describes the image details: </b>This score reflects how certain the AI is that all the details about the image mentioned in the explanation are accurate.
+                        <li><b>AI Confidence that the explanation rules out the other choices: </b>This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.
+                    </ol>
+                    <img src="img/instructions_4_vf_contr_both_numeric.png">
+                </div>
+                <div id="instruction_vf_numeric">
+                    You will be shown a single score: The <b>AI Confidence that the explanation accurately describes the image details. </b>This score reflects how certain the AI is that all the details about the image mentioned in the explanation are accurate.
+                    <img src="img/instructions_4_vf_numeric.png">
+                </div>
+                <div id="instruction_contr_numeric">
+                    You will be shown a single score: The <b>AI Confidence that the explanation rules out the other choices: </b>This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.
+                    <img src="img/instructions_4_contr_numeric.png">
+                </div>
+                <div id="instruction_single_numeric">
+                    You will be shown a single score: The <b>AI Confidence that the explanation is correct: </b>This score reflects how certain the AI is that the explanation is correct.
+                    <img src="img/instructions_4_single_numeric.png">
+                </div>
+                <div id="instruction_vf_contr_both_descriptive">
+                    You will be shown two pieces of information to help you decide how reliable the AI's explanation is:
+                    <ol>
+                        <li style="margin-bottom: 5px;"><b>Explanation Detail Accuracy: </b>We will list which image details in the explanation are likely correct, and which details are likely incorrect (if any).
+                        <li><b>Explanation Choice Accuracy: </b>We will list the other choices could also be correct, based on the explanation.
+                    </ol>
+                    <img src="img/instructions_4_vf_contr_both_descriptive.png">
+                </div>
+                <div id="instruction_vf_descriptive">
+                    You will be shown a single piece of information to help you decide how reliable the AI's explanation is: The <b>Explanation Detail Accuracy</b>. We will list which image details in the explanation are likely correct, and which details are likely incorrect (if any).
+                    <img src="img/instructions_4_vf_descriptive.png">
+                </div>
+                <div id="instruction_contr_descriptive">
+                    You will be shown a single piece of information to help you decide how reliable the AI's explanation is: the <b>Explanation Choice Accuracy</b>. We will list the other choices that the AI believes could also be correct, based on the explanation.
+                    <img src="img/instructions_4_contr_descriptive.png">
+                </div>
+
+
+                <br>
                 You will be asked again whether you think the AI's answer is correct or not.
                 <br>
-                <img src="img/instructions_4.png">
                 <p></p>
                 Based on your selection after this step, your accumulated balance will be updated as follows:
                 <ol>
@@ -140,16 +175,41 @@
                     <i class="arrow right" id="ai_explanation_dropbtn"></i>
                     <b>  Wish to Read An Explanation from the AI?</b>
                 </p> -->
-                <p style="font-weight: bold; font-size: 18px">
-                    AI Confidence that the explanation accurately describes the image details: 
-                    <span id="explanation_fidelity_span">XXX</span>
-                    <span class="info-icon" data-title="This score reflects how certain the AI is that the details about the image mentioned in the explanation are all accurate.">&#9432</span>
-                </p>
-                <p style="font-weight: bold; font-size: 18px">
-                    AI Confidence that the explanation rules out the other choices: 
-                    <span id="explanation_contrastiveness_span">YYY</span>
-                    <span class="info-icon" data-title="This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.">&#9432</span>
-                </p>
+                <div id="vf_numeric_div" style="display: none">
+                    <p style="font-weight: bold; font-size: 18px">
+                        AI Confidence that the explanation accurately describes the image details: 
+                        <span id="explanation_fidelity_numeric_span">XXX</span>
+                        <span class="info-icon" data-title="This score reflects how certain the AI is that the details about the image mentioned in the explanation are all accurate.">&#9432</span>
+                    </p>
+                </div>
+                <div id="contr_numeric_div" style="display: none">
+                    <p style="font-weight: bold; font-size: 18px">
+                        AI Confidence that the explanation rules out the other choices: 
+                        <span id="explanation_contrastiveness_numeric_span">YYY</span>
+                        <span class="info-icon" data-title="This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.">&#9432</span>
+                    </p>
+                </div>
+                <div id="single_numeric_div" style="display: none">
+                    <p style="font-weight: bold; font-size: 18px">
+                        AI Confidence that the explanation is correct: 
+                        <span id="explanation_single_numeric_span">ZZZ</span>
+                        <span class="info-icon" data-title="This score reflects how certain the AI is that the answer is correct, based on the provided explanation.">&#9432</span>
+                    </p>
+                </div>
+                <div id="vf_descriptive_div" style="display: none">
+                    <p style="font-weight: normal; font-size: 18px">
+                        <span id="explanation_fidelity_descriptive_span">XXX</span>
+                        <!--<span class="info-icon" data-title="This score reflects how certain the AI is that the details about the image mentioned in the explanation are all accurate.">&#9432</span> -->
+                    </p>
+                </div>
+                <div id="contr_descriptive_div" style="display: none">
+                    <p style="font-weight: normal; font-size: 18px">
+                        <span id="explanation_contrastiveness_descriptive_span">YYY</span>
+                        <!-- <span class="info-icon" data-title="This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.">&#9432</span> -->
+                    </p>
+                </div>
+
+
                 <div id="withexplanation_decision_div">
                     <input id="button_withexplanationquality_usertrusts" type="button" class="button-neutral button-decision" value="The AI's answer is correct.">
                     <input id="button_withexplanationquality_userdistrusts" type="button" class="button-neutral button-decision" value="The AI's answer is incorrect.">
