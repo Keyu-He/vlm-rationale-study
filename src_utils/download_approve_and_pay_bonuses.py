@@ -208,22 +208,22 @@ if __name__ == '__main__':
 
             while True:
                 choice = input(f"(A)pprove, (R)eject, (S)kip: ")
-                if choice == 'A':
+                if choice.upper() == 'A':
                     while True:
                         pay_bonus = input(f"Award bonus of ${balance:.2f} to {uid}? Y/N: ")
-                        if pay_bonus == 'Y':
+                        if pay_bonus.upper() == 'Y':
                             out = approve_and_pay_bonuses(args.study_id, s['id'], uid, balance)
                             output_data[uid]['status'] = 'APPROVED'
                             break
-                        elif pay_bonus == 'N':
+                        elif pay_bonus.upper() == 'N':
                             break
 
                     break
-                elif choice == 'R':
+                elif choice.upper() == 'R':
                     output_data[uid]['status'] = 'REJECTED'
                     #TODO: Implement rejection
                     break
-                elif choice == 'S':
+                elif choice.upper() == 'S':
                     break
 
         print("-"*100)
