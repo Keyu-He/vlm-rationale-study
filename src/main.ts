@@ -616,7 +616,7 @@ document.onvisibilitychange = () => {
         alert_active = true
         if (!(globalThis.uid!.startsWith("demo"))) {
             // pause the timer
-           //alert("Please don't leave the page. If you do so again, we may restrict paying you.")
+           alert("Please don't leave the page. If you do so again, we may restrict paying you.")
         }
         alert_active = false
     }
