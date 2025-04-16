@@ -6,7 +6,10 @@ import requests
 import pdb
 import pandas as pd
 import jsonlines, json
-from collections import defaultdict
+from collections import defaultdict, Counter
+
+
+
 
 SAVE_DIR = "/home/shared/vlm_rationales_eval/user_studies_data/"
 print(PROLIFIC_API_KEY)
@@ -28,6 +31,22 @@ def display_interaction_summary(uid, interaction_summary):
     print(f"\tWith explanation: {interaction_summary['withexplanation_summary']['num_unsures']} unsure, {interaction_summary['withexplanation_summary']['num_correct']} correct, {interaction_summary['withexplanation_summary']['num_incorrect']} incorrect")
     print(f"\tWith explanation quality: {interaction_summary['withexplanationquality_summary']['num_unsures']} unsure, {interaction_summary['withexplanationquality_summary']['num_correct']} correct, {interaction_summary['withexplanationquality_summary']['num_incorrect']} incorrect")
     print(f"\tNumber of exits: {interaction_summary['num_exits']}")
+
+def is_repetitive(interactions, threshold=0.9):
+    """
+    Returns True if the user has selected the same answer for all answer_types
+    in more than 'threshold' fraction of interactions.
+    """
+    answer_types = ['answeronly', 'withexplanation', 'withexplanationquality']
+    selections = []
+    for answer_type in answer_types:
+        print([x['user_selections'][answer_type] for x in interactions if answer_type in x['user_selections']])
+        selections.extend([x['user_selections'][answer_type] for x in interactions if answer_type in x['user_selections']])
+    if not selections:
+        return False
+    counts = Counter(selections)
+    most_common_count = counts.most_common(1)[0][1]
+    return most_common_count >= threshold * len(selections)
 
 def reject_submission(submission_id, participant_id, message, rejection_category):
     if args.dry_run:
@@ -205,6 +224,12 @@ if __name__ == '__main__':
                 pdb.set_trace()
                 print("-"*100)
                 continue
+            
+            # Check for repetitive responses (>90% same answer)
+            if (is_repetitive(interactions)):
+                warning_message = (f"Warning: User {uid} has selected the same answer for >90% of the time. "
+                                "Auto-rejecting submission due to low effort.")
+                print(warning_message)
 
             while True:
                 choice = input(f"(A)pprove, (R)eject, (S)kip: ")
@@ -220,9 +245,23 @@ if __name__ == '__main__':
 
                     break
                 elif choice.upper() == 'R':
-                    output_data[uid]['status'] = 'REJECTED'
-                    #TODO: Implement rejection
-                    break
+                    # Ask for the reason for rejection.
+                    reason_choice = input("Is the rejection because of low effort (overly repetitive responses)? (Y/N)(Any other button to cancel): ")
+                    if reason_choice.upper() == 'Y':
+                        reject_submission(
+                            submission_id=s['id'],
+                            participant_id=uid,
+                            message="User responses are overly repetitive (>90% identical answers).",
+                            rejection_category="LOW_EFFORT"
+                        )
+                        output_data[uid]['status'] = 'REJECTED'
+                        break
+                    elif reason_choice.upper() == 'N':
+                        print("Rejecting submission without reason.")
+                        output_data[uid]['status'] = 'REJECTED'
+                        break
+                    else:
+                        print("Cancellation detected. No rejection has been applied.") 
                 elif choice.upper() == 'S':
                     break
 
