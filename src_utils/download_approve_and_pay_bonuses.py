@@ -9,8 +9,6 @@ import jsonlines, json
 from collections import defaultdict, Counter
 
 
-
-
 SAVE_DIR = "/home/shared/vlm_rationales_eval/user_studies_data/"
 print(PROLIFIC_API_KEY)
 def get_submissions(study_id):

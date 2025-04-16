@@ -118,6 +118,18 @@ function updateRewardInstructions() {
     }
 }
 
+/**
+ * Pick the correct instruction image.
+ *   img/instructions_<i>.png              (default)
+ *   img/instructions_<i>_no_choices.png   (vizwiz etc.)
+ */
+function getInstrImg(fileStem: string): string {
+    return globalThis.noChoicesDataset
+        ? `img/${fileStem}_no_choices.png`
+        : `img/${fileStem}.png`;
+}
+
+
 function next_instructions(increment: number) {
     instruction_i += increment
 
@@ -534,6 +546,9 @@ if (UIDFromURL != null) {
     globalThis.uid = UID_maybe!
 }
 
+globalThis.noChoicesDataset = globalThis.uid.includes("vizwiz");
+
+
 const validQualityTypes = ["vf_only", "contr_only", "vf_contr_both", "single_numeric"]
 let qualityType = urlParams.get("quality_type")
 if (qualityType == null) { qualityType = "vf_contr_both" }
@@ -576,6 +591,24 @@ load_data().catch((_error) => {
     }
     // next_question()
     next_instructions(0)
+    $("#img_instr_1").attr("src", getInstrImg("instructions_1"));
+    $("#img_instr_2").attr("src", getInstrImg("instructions_2"));
+    $("#img_instr_3").attr("src", getInstrImg("instructions_3"));
+    $("#img_instr_4_vf_contr_both_numeric")
+        .attr("src", getInstrImg("instructions_4_vf_contr_both_numeric"));
+    $("#img_instr_4_vf_numeric")
+        .attr("src", getInstrImg("instructions_4_vf_numeric"));
+    $("#img_instr_4_contr_numeric")
+        .attr("src", getInstrImg("instructions_4_contr_numeric"));
+    $("#img_instr_4_single_numeric")
+        .attr("src", getInstrImg("instructions_4_single_numeric"));
+    $("#img_instr_4_vf_contr_both_descriptive")
+        .attr("src", getInstrImg("instructions_4_vf_contr_both_descriptive"));
+    $("#img_instr_4_vf_descriptive")
+        .attr("src", getInstrImg("instructions_4_vf_descriptive"));
+    $("#img_instr_4_contr_descriptive")
+        .attr("src", getInstrImg("instructions_4_contr_descriptive"));
+
     updateRewardInstructions();
     $("#main_box_instructions").show()
     $("#instructions_and_decorations").hide()
