@@ -49,10 +49,9 @@ def is_repetitive(interactions, threshold=0.9):
     return most_common_count >= threshold * len(selections)
 
 def reject_submission(submission_id, participant_id, message, rejection_category):
-    if args.dry_run:
+    if getattr(args, 'dry_run', False):
         print(
-            f"Not continuing because of --dry-run but would reject"
-            f"{submission_id} of {participant_id}"
+            f"(dry-run) Would reject {submission_id} of {participant_id}: {message}"
         )
         return
     
