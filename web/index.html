@@ -55,15 +55,15 @@
             </div>
             <div id="instructions_1">
                 You will first be shown the question that the AI is trying to answer, as well as the AI's answer.
-                <img src="img/instructions_1.png">
+                <img id="img_instr_1" alt="step‑1">
             </div>
             <div id="instructions_2">
                 In the first step, you will be asked whether you think the AI's answer is correct or not. You can also indicate that you are unsure.
-                <img src="img/instructions_2.png">
+                <img id="img_instr_2" alt="step‑2">
             </div>
             <div id="instructions_3">
                 You will next be shown an explanation from the AI. You will be asked again whether you think the AI's answer is correct or not.
-                <img src="img/instructions_3.png">
+                <img id="img_instr_3" alt="step‑3">
             </div>
             <div id="instructions_4">
                 Finally, you will be provided with information about how reliable the explanation is.
@@ -75,19 +75,23 @@
                         <li style="margin-bottom: 5px;"><b>AI Confidence that the explanation accurately describes the image details: </b>This score reflects how certain the AI is that all the details about the image mentioned in the explanation are accurate.
                         <li><b>AI Confidence that the explanation rules out the other choices: </b>This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.
                     </ol>
-                    <img src="img/instructions_4_vf_contr_both_numeric.png">
+                    <!-- 4a -->
+                    <img id="img_instr_4_vf_contr_both_numeric"  alt="4‑vf‑contr‑both‑num">
                 </div>
                 <div id="instruction_vf_numeric">
                     You will be shown a single score: The <b>AI Confidence that the explanation accurately describes the image details. </b>This score reflects how certain the AI is that all the details about the image mentioned in the explanation are accurate.
-                    <img src="img/instructions_4_vf_numeric.png">
+                    <!-- 4b -->
+                    <img id="img_instr_4_vf_numeric"            alt="4‑vf‑num">
                 </div>
                 <div id="instruction_contr_numeric">
                     You will be shown a single score: The <b>AI Confidence that the explanation rules out the other choices: </b>This score reflects how certain the AI is that none of the other (non-predicted) choices are correct, based on the provided explanation.
-                    <img src="img/instructions_4_contr_numeric.png">
+                    <!-- 4c -->
+                    <img id="img_instr_4_contr_numeric"         alt="4‑contr‑num">
                 </div>
                 <div id="instruction_single_numeric">
                     You will be shown a single score: The <b>AI Confidence that the explanation is correct: </b>This score reflects how certain the AI is that the explanation is correct.
-                    <img src="img/instructions_4_single_numeric.png">
+                    <!-- 4d -->
+                    <img id="img_instr_4_single_numeric"        alt="4‑single‑num">
                 </div>
                 <div id="instruction_vf_contr_both_descriptive">
                     You will be shown two pieces of information to help you decide how reliable the AI's explanation is:
@@ -95,15 +99,18 @@
                         <li style="margin-bottom: 5px;"><b>Explanation Detail Accuracy: </b>We will list which image details in the explanation are likely correct, and which details are likely incorrect (if any).
                         <li><b>Explanation Choice Accuracy: </b>We will list the other choices could also be correct, based on the explanation.
                     </ol>
-                    <img src="img/instructions_4_vf_contr_both_descriptive.png">
+                    <!-- 4e -->
+                    <img id="img_instr_4_vf_contr_both_descriptive" alt="4‑vf‑contr‑both‑desc">
                 </div>
                 <div id="instruction_vf_descriptive">
                     You will be shown a single piece of information to help you decide how reliable the AI's explanation is: The <b>Explanation Detail Accuracy</b>. We will list which image details in the explanation are likely correct, and which details are likely incorrect (if any).
-                    <img src="img/instructions_4_vf_descriptive.png">
+                    <!-- 4f -->
+                    <img id="img_instr_4_vf_descriptive"        alt="4‑vf‑desc">
                 </div>
                 <div id="instruction_contr_descriptive">
                     You will be shown a single piece of information to help you decide how reliable the AI's explanation is: the <b>Explanation Choice Accuracy</b>. We will list the other choices that the AI believes could also be correct, based on the explanation.
-                    <img src="img/instructions_4_contr_descriptive.png">
+                    <!-- 4g -->
+                    <img id="img_instr_4_contr_descriptive"     alt="4‑contr‑desc">
                 </div>
 
 
