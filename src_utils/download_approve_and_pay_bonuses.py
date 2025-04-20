@@ -225,7 +225,7 @@ if __name__ == '__main__':
             # Check for repetitive responses (>90% same answer)
             if (is_repetitive(interactions)):
                 warning_message = (f"Warning: User {uid} has selected the same answer for >90% of the time. "
-                                "Auto-rejecting submission due to low effort.")
+                                "Recommend rejecting submission due to low effort.")
                 print(warning_message)
 
             while True:
