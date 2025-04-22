@@ -451,15 +451,9 @@ function next_question() {
 
         let reward_text = `Your total reward is <b>$${balance.toFixed(2)} + $2</b>.`
         reward_text += `<br>You answered a total of ${question_i} questions: ${num_correct} correct, ${num_incorrect} incorrect, ${num_unsure} unsure.`
-        if (MOCKMODE) {
-            $('#reward_box_mock').html(reward_text)
-            $('#reward_box_mock').show()
-            $("#main_box_end_mock").show()
-        } else {
-            $('#reward_box').html(reward_text)
-            $('#reward_box').show()
-            $("#main_box_end").show()
-        }
+        $('#reward_box').html(reward_text)
+        $('#reward_box').show()
+        $("#main_box_end").show()
         return
     }
 
