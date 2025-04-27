@@ -1,3 +1,4 @@
+//main.ts
 import { DEVMODE, REWARD_CORRECT, PENALTY_INCORRECT, ENABLE_TIMER } from "./globals"
 export var UID: string
 export var MOCKMODE: boolean = false

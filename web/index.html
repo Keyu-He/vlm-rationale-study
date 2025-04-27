@@ -1,3 +1,4 @@
+<!-- web/index.html -->
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -24,6 +25,7 @@
             <div style="margin-top: 30px;  text-align: justify;">
                 <ul>
                     <li style="margin: 10px 0;">In this experiment, you are working with an AI that is answering questions about images. You cannot see the image, you can only see the AI's answer. Your task is to decide if you trust the AI's answer or not.</li>
+                    <li style="margin: 10px 0;">For this task, please think of this AI as a new tool different from GPT or any other assistant you’ve used before.</li>
                     <li style="margin: 10px 0;" id="reward_instructions"></li>
                     <li style="margin: 10px 0;">To help you make your decision, you will see the AI's answer, along with an explanation, and some information about how reliable the explanation is. After getting each piece of additional information, you will be asked whether you think the AI is correct or not.</li>
                 </ul>
@@ -51,7 +53,10 @@
             <input id="button_instructions_prev" type="button" value="Previous">
             <input id="button_instructions_next" type="button" value="Next" style="margin-bottom: 10px">
 
-            <div id="instructions_0">Welcome to our user study. In this experiment, you are working with an AI that is answering questions about images. You cannot see the image, you can only see the AI's answer. Your task is to decide if you trust the AI's answer or not.
+            <div id="instructions_0">
+                Welcome to our user study. In this experiment, you are working with an AI that is answering questions about images. You cannot see the image, you can only see the AI's answer. Your task is to decide if you trust the AI's answer or not.
+                <br><br>
+                <b>Note:</b>For this task, please think of this AI as a new tool different from GPT or any other assistant you’ve used before.  
             </div>
             <div id="instructions_1">
                 You will first be shown the question that the AI is trying to answer, as well as the AI's answer.
@@ -135,7 +140,7 @@
                 <br><br>
                 The average time of the experiment is 10 minutes.
                 <br><br>
-                You will not be paid if you already participated in this study before.
+                You will <b>not</b> be paid if you already participated in this study before.
                 <br><br>
                 Click <b>Start study</b> if you understood all the instructions and want to start with the first
                 question.

@@ -1,3 +1,4 @@
+//utils.ts
 function paramsToObject(entries) {
   const result = {}
   // each 'entry' is a [key, value] tupple

@@ -1,92 +1,81 @@
+// webpack.config.js
 const path = require('path');
-var webpack = require("webpack");
-// const CopyWebpackPlugin = require('copy-webpack-plugin');
+const webpack = require("webpack");
 
 module.exports = (env, argv) => {
-   // Get the dataset from environment variables
-   // const dataset = env && env.DATASET
-   // if (!dataset) {
-   //    throw new Error("Please provide the dataset filename in the environment variable DATASET")
-   // }
+  const isDev = argv.mode === 'development';
 
-   // const datasets = Array.from({ length: 20 }, (_, i) => `llava1.5_with_image_q20_i10_s0/${String(i).padStart(3, '0')}.json`);
+  return {
+    // multiple entry points, one for each “site”
+    entry: {
+      main: './src/main.ts',
+      combined12: './src/main_combined12.ts',
+      combined123: './src/main_combined123.ts',
+    },
 
-   // return datasets.map(dataset => ({
-   const baseConfig = {
-      entry: './src/main.ts',
-      devtool: 'inline-source-map',
-      module: {
-         rules: [
-            {
-               test: /\.tsx?$/,
-               use: 'ts-loader',
-               exclude: /node_modules/
-            }
-         ]
-      },
-      resolve: {
-         extensions: ['.tsx', '.ts', '.js']
-      },
-      output: {
-         filename: 'web.js',
-         path: path.resolve(__dirname, 'web')
-         // path: path.resolve(__dirname, `web/${path.basename(dataset, '.json')}`)  // Output to separate folders
-      },
-      devServer: {
-         static: {
-            directory: path.resolve(__dirname, 'web'),
-         },
-         compress: true,
-         port: 8000,
-      },
-      plugins: [
-         new webpack.DefinePlugin({
-            _DEVMODE: !!(argv.mode == 'development')
-            // _DATASET: JSON.stringify(dataset)  // Inject dataset filename
-         }),
-         // // Copy index.html, style.css, and baked_queues into each build folder
-         // new CopyWebpackPlugin({
-         //    patterns: [
-         //        { from: 'web/index.html', to: '' },  // Copy index.html
-         //        { from: 'web/style.css', to: '' },   // Copy CSS
-         //        { from: 'web/baked_queues', to: 'baked_queues' },  // Copy datasets
-         //        { from: 'web/img', to: 'img' } // Copy images
-         //    ]
-         // })
+    devtool: isDev ? 'inline-source-map' : false,
+
+    module: {
+      rules: [{
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
+      }]
+    },
+
+    resolve: {
+      extensions: ['.tsx', '.ts', '.js']
+    },
+
+    output: {
+      filename: '[name]/[name].js',        // e.g. combined12/combined12.js
+      path: path.resolve(__dirname, 'web'),
+      publicPath: '/',                      // so that <script src="/combined12/combined12.js"> works
+    },
+
+    plugins: [
+      new webpack.DefinePlugin({
+        _DEVMODE: JSON.stringify(isDev),
+      }),
+    ],
+
+    performance: {
+      hints: false,
+    },
+
+    // single devServer, one port
+    devServer: {
+      port: 8000,
+      compress: true,
+
+      // mount each folder at its sub-path
+      static: [
+        {
+          directory: path.resolve(__dirname, 'web'),
+          publicPath: '/',            // main build is at /
+        },
+        {
+          directory: path.resolve(__dirname, 'web/combined12'),
+          publicPath: '/combined12/',
+        },
+        {
+          directory: path.resolve(__dirname, 'web/combined123'),
+          publicPath: '/combined123/',
+        },
       ],
-      // ignore file size warning
-      performance: {
-         hints: false,
+
+      // client-side SPA fallback for each path
+      historyApiFallback: {
+        rewrites: [
+          { from: /^\/$/,               to: '/index.html' },
+          { from: /^\/combined12/,      to: '/combined12/index.html' },
+          { from: /^\/combined123/,     to: '/combined123/index.html' },
+        ],
       },
-   };
 
-   const productConfig = {
-      ...baseConfig,
-      entry: './src/main_prod_metric.ts',
-      output: {
-         filename: 'web_prod_metric.js',
-         path: path.resolve(__dirname, 'web/prod_metric'),
-      }
-   };
-
-   const vfMetricConfig = {
-      ...baseConfig,
-      entry: './src/main_vf_metric_only.ts',
-      output: {
-         filename: 'web_vf_metric_only.js',
-         path: path.resolve(__dirname, 'web/vf_metric_only'),
-      }
-   }
-
-   const contrastiveMetricConfig = {
-      ...baseConfig,
-      entry: './src/main_contrastive_metric_only.ts',
-      output: {
-         filename: 'web_contrastive_metric_only.js',
-         path: path.resolve(__dirname, 'web/contrastive_metric_only'),
-      }
-   }
-
-   // Return an array of configurations
-   return [baseConfig];//, productConfig, vfMetricConfig, contrastiveMetricConfig];
+      open: true,                   // auto-open browser
+      // openPage can specify which sub-path to open first:
+      // openPage: ['combined12/'],
+    },
+  };
 };
