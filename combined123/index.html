@@ -1,4 +1,4 @@
-<!-- web/index.html -->
+<!-- web/combined123/index.html -->
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -25,11 +25,10 @@
             <div style="margin-top: 30px;  text-align: justify;">
                 <ul>
                     <li style="margin: 10px 0;">In this experiment, you are working with an AI that is answering questions about images. You cannot see the image, you can only see the AI's answer. Your task is to decide if you trust the AI's answer or not.</li>
+                    <li style="margin: 10px 0;">To help you make your decision, you will also see AI's explanation, and some information about how reliable the explanation is.</li>
                     <li style="margin: 10px 0;">For this task, please think of this AI as a new tool different from GPT or any other assistant you’ve used before.</li>
                     <li style="margin: 10px 0;" id="reward_instructions"></li>
-                    <li style="margin: 10px 0;">To help you make your decision, you will see the AI's answer, along with an explanation, and some information about how reliable the explanation is. After getting each piece of additional information, you will be asked whether you think the AI is correct or not.</li>
                 </ul>
-
             </div>
 
             <br>
@@ -56,7 +55,7 @@
             <div id="instructions_0">
                 Welcome to our user study. In this experiment, you are working with an AI that is answering questions about images. You cannot see the image, you can only see the AI's answer. Your task is to decide if you trust the AI's answer or not.
                 <br><br>
-                <b>Note:</b>For this task, please think of this AI as a new tool different from GPT or any other assistant you’ve used before.  
+                <b>Note:</b> For this task, please think of this AI as a new tool different from GPT or any other assistant you’ve used before.  
             </div>
             <div id="instructions_1">
                 You will first be shown the question that the AI is trying to answer, as well as the AI's answer.
@@ -71,9 +70,12 @@
                 <img id="img_instr_3" alt="step‑3">
             </div>
             <div id="instructions_4">
-                Finally, you will be provided with information about how reliable the explanation is.
+                You will be shown the question, AI's answer, AI's explanation, and finally the information about how reliable the explanation is.
+                <br>
+                You will be asked whether you think the AI's answer is correct or not. You can also indicate that you are unsure.
                 <br><br>
 
+                Regarding to the final piece of information about how reliable the explanation is:
                 <div id="instruction_vf_contr_both_numeric">
                     You will be shown two scores:
                     <ol>
@@ -118,10 +120,6 @@
                     <img id="img_instr_4_contr_descriptive"     alt="4‑contr‑desc">
                 </div>
 
-
-                <br>
-                You will be asked again whether you think the AI's answer is correct or not.
-                <br>
                 <p></p>
                 Based on your selection after this step, your accumulated balance will be updated as follows:
                 <ol>
@@ -156,29 +154,23 @@
 
 
             <div id="ai_answer_div">
-                <p style="font-weight: bold; font-size: 18px">The AI thinks the answer is: <span id="ai_prediction_span"></span.</p>
-                <div id="answeronly_decision_div">
+                <p style="font-weight: bold; font-size: 18px">The AI thinks the answer is: <span id="ai_prediction_span"></span></p>
+                <!-- <div id="answeronly_decision_div">
                     <input id="button_answeronly_usertrusts" type="button" class="button-neutral button-decision" value="The AI's answer is correct.">
                     <input id="button_answeronly_userdistrusts" type="button" class="button-neutral button-decision" value="The AI's answer is incorrect.">
                     <input id="button_answeronly_userunsure" type="button" class="button-neutral button-decision" value="I am unsure and would like more info.">
-                </div>        
+                </div>         -->
             </div>
-            <br>
 
             <div id="ai_explanation_div">
-                <!--<button class="dropbtn" id="ai_explanation_dropbtn">Wish to Get An Explanation from the AI?</button> 
-                <p class="titlebar" id="ai_explanation_titlebar">
-                    <i class="arrow right" id="ai_explanation_dropbtn"></i>
-                    <b>  Wish to Read An Explanation from the AI?</b>
-                </p> -->
                 <p style="font-weight: bold; font-size: 18px">AI's Explanation: 
                     <span id="ai_explanation_span">The AI system thinks that the answer is correct because...</span>
                 </p>
-                <div id="withexplanation_decision_div">
+                <!-- <div id="withexplanation_decision_div">
                     <input id="button_withexplanation_usertrusts" type="button" class="button-neutral button-decision" value="The AI's answer is correct.">
                     <input id="button_withexplanation_userdistrusts" type="button" class="button-neutral button-decision" value="The AI's answer is incorrect.">
                     <input id="button_withexplanation_userunsure" type="button" class="button-neutral button-decision" value="I am unsure and would like more info.">
-                </div>        
+                </div>         -->
             </div>
 
             <div id="ai_explanation_quality_div">
@@ -244,7 +236,7 @@
     <script id="nocachescript"></script>
     <script>
         var randomNum = String((Math.floor(Math.random() * 10e10)));
-        document.getElementById('nocachescript').src = "web.js?t=" + randomNum;
+        document.getElementById('nocachescript').src = "combined123.js?t=" + randomNum;
     </script>
     <script type="module" src="./globals.js" defer></script>
 </body>
