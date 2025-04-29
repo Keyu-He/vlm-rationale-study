@@ -1,4 +1,4 @@
-// main_combined123.ts
+// main_combined12.ts
 import { DEVMODE, REWARD_CORRECT, PENALTY_INCORRECT, ENABLE_TIMER } from "./globals"
 export var UID: string
 export var MOCKMODE: boolean = false
@@ -126,8 +126,8 @@ function updateRewardInstructions() {
  */
 function getInstrImg(fileStem: string): string {
     return globalThis.noChoicesDataset
-        ? `img/${fileStem}_no_choices.png`
-        : `img/${fileStem}.png`;
+        ? `../img/${fileStem}_no_choices.png`
+        : `../img/${fileStem}.png`;
 }
 
 
@@ -457,10 +457,11 @@ function next_question() {
     $("#explanation_fidelity_numeric_span").html(`${visual_fidelity_conf}%`)
     let visual_contrastiveness_conf = Math.round(question!["contrastiveness"] * 100)
     $("#explanation_contrastiveness_numeric_span").html(`${visual_contrastiveness_conf}%`)
-    // Take product of the above two
-    let single_numeric_conf = Math.round((question!["visual_fidelity"] + question!["contrastiveness"])/2 * 100)
+    // Older version of the single_numeric: take the average of the two
+    // let single_numeric_conf = Math.round((question!["visual_fidelity"] + question!["contrastiveness"])/2 * 100)
+    // Current version: Take product of the above two
+    let single_numeric_conf = Math.round((question!["visual_fidelity"] * question!["contrastiveness"]) * 100)
     $("#explanation_single_numeric_span").html(`${single_numeric_conf}%`)
-    // TODO: Fill in the details for the descriptive qualities
 
     let vf_descriptive = ""
     if(question["reason_vf_correct"] == "") {
@@ -575,7 +576,7 @@ load_data().catch((_error) => {
     $("#img_instr_1").attr("src", getInstrImg("instructions_1"));
     $("#img_instr_2").attr("src", getInstrImg("instructions_2"));
     $("#img_instr_3").attr("src", getInstrImg("instructions_3"));
-    $("#img_instr_4").attr("src", getInstrImg("combined_instructions_4"));
+    $("#img_instr_4").attr("src", getInstrImg("combined12_instructions_4"));
     $("#img_instr_4_vf_contr_both_numeric")
         .attr("src", getInstrImg("instructions_4_vf_contr_both_numeric"));
     $("#img_instr_4_vf_numeric")

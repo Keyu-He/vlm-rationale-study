@@ -126,8 +126,8 @@ function updateRewardInstructions() {
  */
 function getInstrImg(fileStem: string): string {
     return globalThis.noChoicesDataset
-        ? `img/${fileStem}_no_choices.png`
-        : `img/${fileStem}.png`;
+        ? `../img/${fileStem}_no_choices.png`
+        : `../img/${fileStem}.png`;
 }
 
 
@@ -457,10 +457,11 @@ function next_question() {
     $("#explanation_fidelity_numeric_span").html(`${visual_fidelity_conf}%`)
     let visual_contrastiveness_conf = Math.round(question!["contrastiveness"] * 100)
     $("#explanation_contrastiveness_numeric_span").html(`${visual_contrastiveness_conf}%`)
-    // Take product of the above two
-    let single_numeric_conf = Math.round((question!["visual_fidelity"] + question!["contrastiveness"])/2 * 100)
+    // Older version of the single_numeric: take the average of the two
+    // let single_numeric_conf = Math.round((question!["visual_fidelity"] + question!["contrastiveness"])/2 * 100)
+    // Current version: Take product of the above two
+    let single_numeric_conf = Math.round((question!["visual_fidelity"] * question!["contrastiveness"]) * 100)
     $("#explanation_single_numeric_span").html(`${single_numeric_conf}%`)
-    // TODO: Fill in the details for the descriptive qualities
 
     let vf_descriptive = ""
     if(question["reason_vf_correct"] == "") {
@@ -491,8 +492,6 @@ function next_question() {
 
     setupFirstStep(question["generated_rationale"]);
 }
-
-
 
 // get user id and load queue
 // try to see if start override was passed
@@ -576,19 +575,19 @@ load_data().catch((_error) => {
     $("#img_instr_2").attr("src", getInstrImg("instructions_2"));
     $("#img_instr_3").attr("src", getInstrImg("instructions_3"));
     $("#img_instr_4_vf_contr_both_numeric")
-        .attr("src", getInstrImg("combined_instructions_4_vf_contr_both_numeric"));
+        .attr("src", getInstrImg("instructions_4_vf_contr_both_numeric_combined"));
     $("#img_instr_4_vf_numeric")
-        .attr("src", getInstrImg("combined_instructions_4_vf_numeric"));
+        .attr("src", getInstrImg("instructions_4_vf_numeric_combined"));
     $("#img_instr_4_contr_numeric")
-        .attr("src", getInstrImg("combined_instructions_4_contr_numeric"));
+        .attr("src", getInstrImg("instructions_4_contr_numeric_combined"));
     $("#img_instr_4_single_numeric")
-        .attr("src", getInstrImg("combined_instructions_4_single_numeric"));
+        .attr("src", getInstrImg("instructions_4_single_numeric_combined"));
     $("#img_instr_4_vf_contr_both_descriptive")
-        .attr("src", getInstrImg("combined_instructions_4_vf_contr_both_descriptive"));
+        .attr("src", getInstrImg("instructions_4_vf_contr_both_descriptive_combined"));
     $("#img_instr_4_vf_descriptive")
-        .attr("src", getInstrImg("combined_instructions_4_vf_descriptive"));
+        .attr("src", getInstrImg("instructions_4_vf_descriptive_combined"));
     $("#img_instr_4_contr_descriptive")
-        .attr("src", getInstrImg("combined_instructions_4_contr_descriptive"));
+        .attr("src", getInstrImg("instructions_4_contr_descriptive_combined"));
 
     updateRewardInstructions();
     $("#main_box_instructions").show()
