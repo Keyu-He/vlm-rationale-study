@@ -72,10 +72,23 @@ function showQualityDiv() {
         if (qualityFormat == "numeric") { $("#contr_numeric_div").show() }
         if (qualityFormat == "descriptive") { $("#contr_descriptive_div").show() }
     }
-    if (qualityType == "single_numeric") {
+    if (qualityType == "single_numeric" || qualityType == "avg") {
         assert (qualityFormat == "numeric", "qualityFormat must be numeric for single_numeric")
         $("#single_numeric_div").show()
     }
+    if (qualityType === "vf_as_prod" || qualityType === "contr_as_prod") {
+        // they both share the “prod” UI
+        if (qualityFormat === "numeric") {
+            $("#single_numeric_div").show();
+        }
+    }
+    if (qualityType === "prod_as_vf") {
+    // product but in the fidelity slot
+        if (qualityFormat === "numeric") {
+            $("#vf_numeric_div").show();
+        }
+    }
+      
 }
 
 document.getElementById('button_withexplanation_usertrusts')?.addEventListener('click', () => registerWithExplanationUserSelection(0));
@@ -174,6 +187,12 @@ function next_instructions(increment: number) {
         if (qualityType == "vf_contr_both" && qualityFormat == "descriptive") { $("#instruction_vf_contr_both_descriptive").show() }
         if (qualityType == "vf_only" && qualityFormat == "descriptive") { $("#instruction_vf_descriptive").show() }
         if (qualityType == "contr_only" && qualityFormat == "descriptive") { $("#instruction_contr_descriptive").show() }
+        if (qualityType == "vf_as_prod" || qualityType == "contr_as_prod" || qualityType == "avg") {
+            $("#instruction_single_numeric").show();
+        }
+        if (qualityType == "prod_as_vf") {
+            $("#instruction_vf_numeric").show();
+        }
     }
 }
 $("#button_instructions_next").on("click", () => next_instructions(+1))
@@ -463,6 +482,34 @@ function next_question() {
     let single_numeric_conf = Math.round((question!["visual_fidelity"] * question!["contrastiveness"]) * 100)
     $("#explanation_single_numeric_span").html(`${single_numeric_conf}%`)
 
+    // average of the two
+    if (qualityType === "avg") {
+    const avg = Math.round(
+        ((question.visual_fidelity + question.contrastiveness) / 2) * 100
+    );
+    $("#explanation_single_numeric_span").html(`${avg}%`);
+    }
+
+    // show VF but in the “prod” slot
+    if (qualityType === "vf_as_prod") {
+    const vf = Math.round(question.visual_fidelity * 100);
+    $("#explanation_single_numeric_span").html(`${vf}%`);
+    }
+
+    // show Contr but in the “prod” slot
+    if (qualityType === "contr_as_prod") {
+    const ct = Math.round(question.contrastiveness * 100);
+    $("#explanation_single_numeric_span").html(`${ct}%`);
+    }
+
+    // show product in the “vf” slot
+    if (qualityType === "prod_as_vf") {
+    const prod = Math.round(
+        (question.visual_fidelity * question.contrastiveness) * 100
+    );
+    $("#explanation_fidelity_numeric_span").html(`${prod}%`);
+    }
+
     let vf_descriptive = ""
     if(question["reason_vf_correct"] == "") {
         vf_descriptive += "<b>There are no details about the image in the explanation that are likely correct.</b>"
@@ -529,7 +576,17 @@ if (UIDFromURL != null) {
 globalThis.noChoicesDataset = globalThis.uid.includes("vizwiz");
 
 
-const validQualityTypes = ["vf_only", "contr_only", "vf_contr_both", "single_numeric"]
+const validQualityTypes = [
+    "vf_only",      // fidelity only
+    "contr_only",   // contrastiveness only
+    "vf_contr_both",// both side‑by‑side
+    "single_numeric", // product = fidelity * contrastiveness
+    "avg",          // **new** average = (vf + contr)/2
+    "vf_as_prod",   // **new** show VF but *label* as the “prod” score
+    "contr_as_prod",// **new** show Contr but *label* as the “prod” score
+    "prod_as_vf"    // **new** show Prod but *label* as the “vf” score
+  ]
+  
 let qualityType = urlParams.get("quality_type")
 if (qualityType == null) { qualityType = "vf_contr_both" }
 if (!validQualityTypes.includes(qualityType)) {
