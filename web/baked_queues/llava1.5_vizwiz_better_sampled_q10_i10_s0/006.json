@@ -1,7 +1,7 @@
 [
   {
     "question_id": "72",
-    "question": "What is this? Choices: embossed text, braille, Morse code, tactile writing",
+    "question": "What is this?",
     "predicted_answer": "letter",
     "prediction_is_correct": 0.0,
     "generated_rationale": "Letter",
@@ -13,7 +13,7 @@
   },
   {
     "question_id": "32",
-    "question": "What does my computer screen show? Choices: a blank page, facebook, youtube, a game",
+    "question": "What does my computer screen show?",
     "predicted_answer": "youtube",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The image shows a laptop computer with its screen open to YouTube.",
@@ -25,7 +25,7 @@
   },
   {
     "question_id": "39",
-    "question": "My computer won't talk. Can you tell me what's on the screen? Choices: restore your computer using system restore, adjust the volume, check the speakers, restart the application",
+    "question": "My computer won't talk. Can you tell me what's on the screen?",
     "predicted_answer": "restore",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The message displayed on the screen is asking if the user wants to restore their computer using a system restore.",
@@ -37,7 +37,7 @@
   },
   {
     "question_id": "315",
-    "question": "What color is this shirt please? Choices: green, red, black, grey",
+    "question": "What color is this shirt please?",
     "predicted_answer": "blue",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The man's shirt is blue.",
@@ -49,7 +49,7 @@
   },
   {
     "question_id": "344",
-    "question": "Can you tell me if there are any photos on the CD cover and if so can you give me a description of them? Choices: image of a city skyline, photo billy joel on stage piano, no images present, photo of a sunset",
+    "question": "Can you tell me if there are any photos on the CD cover and if so can you give me a description of them?",
     "predicted_answer": "no",
     "prediction_is_correct": 0.0,
     "generated_rationale": "No.",
@@ -61,7 +61,7 @@
   },
   {
     "question_id": "210",
-    "question": "What is this? Choices: notebook, planner, folder, sketchbook",
+    "question": "What is this?",
     "predicted_answer": "elephant",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The book is a pink and black spiral bound notebook with an elephant theme. It has a cover that says \"Follow the Sun\" on it, and inside there are pages for writing or drawing.",
@@ -73,7 +73,7 @@
   },
   {
     "question_id": "21",
-    "question": "Do you see steak on this menu? Choices: yes, unanswerable, not sure, yes",
+    "question": "Do you see steak on this menu?",
     "predicted_answer": "no",
     "prediction_is_correct": 0.0,
     "generated_rationale": "Yes",
@@ -85,7 +85,7 @@
   },
   {
     "question_id": "16",
-    "question": "What is this? Choices: tv, lamp, monitor, computer",
+    "question": "What is this?",
     "predicted_answer": "pizza",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The image shows a table with various items on it, including a television set, a box of pizza, and several cups. There are also some bottles placed around the table. In addition to these objects, there is a cat sitting near the table, possibly enjoying the food or watching TV. The scene appears to be a casual gathering where people have come together to enjoy each other's company while eating pizza and watching television.",
@@ -97,7 +97,7 @@
   },
   {
     "question_id": "64",
-    "question": "What was on the table? Choices: book, phone, cup, notebook",
+    "question": "What was on the table?",
     "predicted_answer": "notebook",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The table has a notebook and some papers on it.",
@@ -109,7 +109,7 @@
   },
   {
     "question_id": "442",
-    "question": "what is this? Choices: snack dispenser, arcade machine, vending machine, refrigerator",
+    "question": "what is this?",
     "predicted_answer": "pepsi",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The image features a Pepsi machine with a large bottle of soda on top, and it has a vending slot for coins. There are several different types of Pepsi products available in the machine, including diet and regular options. The machine also displays an advertisement for the drinks inside.",

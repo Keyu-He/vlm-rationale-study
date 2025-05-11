@@ -1,7 +1,7 @@
 [
   {
     "question_id": "149",
-    "question": "What is this item? Choices: apple, orange, kiwi, pear",
+    "question": "What is this item?",
     "predicted_answer": "pear",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The person holding the green stemmed pear is likely trying to show off its unique feature, which is a green stem that grows out of the top of the fruit. This could be an interesting or unusual aspect of the pear, and the person might want to share it with others. The presence of other items on the table, such as a cell phone, bottles, and cups, suggests that this scene takes place in a casual setting where people gather for socializing or relaxation.",
@@ -13,7 +13,7 @@
   },
   {
     "question_id": "258",
-    "question": "Does it look sunny outside? Choices: yes, yes, unanswerable, not sure",
+    "question": "Does it look sunny outside?",
     "predicted_answer": "no",
     "prediction_is_correct": 0.0,
     "generated_rationale": "No, it does not look sunny outside.",
@@ -25,7 +25,7 @@
   },
   {
     "question_id": "167",
-    "question": "What color are those pants? Choices: green, black, blue, pink",
+    "question": "What color are those pants?",
     "predicted_answer": "pink",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The man is wearing pink pajamas, which is an unusual choice for a casual setting.",
@@ -37,7 +37,7 @@
   },
   {
     "question_id": "172",
-    "question": "What is this? Choices: tablet, printer, laptop, smartphone",
+    "question": "What is this?",
     "predicted_answer": "paper",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The laptop screen displays a document, which appears to be a piece of paper or a book. This suggests that the user might be working on a project, studying, or researching information related to the content displayed on the screen. The presence of a keyboard and mouse indicates that this is an active workspace where tasks are being performed using digital tools.",
@@ -49,7 +49,7 @@
   },
   {
     "question_id": "165",
-    "question": "What is written on that computer screen, please? Choices: \"open file explorer, system preferences, user manual\", install mac os x",
+    "question": "What is written on that computer screen, please?",
     "predicted_answer": "install mac os x",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The answer is install mac os x.",
@@ -61,7 +61,7 @@
   },
   {
     "question_id": "458",
-    "question": "What kind of wine is this? Choices: merlot, pinot noir, chardonnay, fetzer riesling",
+    "question": "What kind of wine is this?",
     "predicted_answer": "feitzer",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The bottle of Feitzer wine on the counter is a white wine, specifically a Riesling.",
@@ -73,7 +73,7 @@
   },
   {
     "question_id": "325",
-    "question": "What is on my screen? Choices: a video, a map, greek alphabet, a blank page",
+    "question": "What is on my screen?",
     "predicted_answer": "letters",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The letters are in a foreign language, and they appear to be arranged in an organized manner. They could possibly represent a specific alphabet or be part of a larger text. The presence of these letters suggests that the image might have been taken from a book, a computer screen, or another source where such characters are commonly found.",
@@ -85,7 +85,7 @@
   },
   {
     "question_id": "115",
-    "question": "What's this? Choices: smartphone, desktop, laptop, tablet",
+    "question": "What's this?",
     "predicted_answer": "blind memory",
     "prediction_is_correct": 0.0,
     "generated_rationale": "Blind Memory is a game that helps improve memory and concentration skills. It features various levels of difficulty, with each level presenting new challenges to the player. The game can be played on a laptop or computer, as seen in the image where the screen displays the game's main menu.",
@@ -97,7 +97,7 @@
   },
   {
     "question_id": "288",
-    "question": "What is this? Choices: hook, clip, string, handle",
+    "question": "What is this?",
     "predicted_answer": "yellow ball",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The yellow ball is on a white wall, and it appears to be hanging from a hook or a piece of paper. It's not clear what the purpose of the yellow ball is, but it could be an artistic decoration or a functional item for holding papers or notes.",
@@ -109,7 +109,7 @@
   },
   {
     "question_id": "109",
-    "question": "Does this picture show an open fire? Choices: unanswerable, not sure, no, yes",
+    "question": "Does this picture show an open fire?",
     "predicted_answer": "no",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The image does not depict a fireplace, but rather a Christmas tree with lights and ornaments on it.",
