@@ -1,7 +1,7 @@
 [
   {
     "question_id": "499",
-    "question": "What is this? Choices: fudge, caramel, vanilla, chocolate",
+    "question": "What is this?",
     "predicted_answer": "chocolate",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The box of chocolates is a decorative and colorful box that features a blue, yellow, red, green, and purple design on it. It is sitting on top of a table or counter.",
@@ -13,7 +13,7 @@
   },
   {
     "question_id": "99",
-    "question": "What is this? Choices: intestine, stomach, pancreas, heart",
+    "question": "What is this?",
     "predicted_answer": "hanes",
     "prediction_is_correct": 0.0,
     "generated_rationale": "Hanes",
@@ -25,7 +25,7 @@
   },
   {
     "question_id": "268",
-    "question": "What color is this shirt? Choices: blue, black, grey, red",
+    "question": "What color is this shirt?",
     "predicted_answer": "gray",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The shirt in the image is grey, which can be seen clearly on the hanger.",
@@ -37,7 +37,7 @@
   },
   {
     "question_id": "161",
-    "question": "What is this capture? Choices: was uctoft, \"was uctoft\", \"is a mistake\", \"is unclear\"",
+    "question": "What is this capture?",
     "predicted_answer": "a computer screen displaying a sign up page for skype",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The image shows a computer screen with a sign-up page for Skype displayed on it. The page appears to be asking the user to enter their email address and password, as well as other personal information. There are also options to sign up using a phone number or an existing account. The overall appearance of the page suggests that the user is being prompted to create a new account with Skype.",
@@ -49,7 +49,7 @@
   },
   {
     "question_id": "269",
-    "question": "What color is this sweater? Choices: green, black, gray, blue",
+    "question": "What color is this sweater?",
     "predicted_answer": "black",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The sweater in the image is a black shirt, which is hanging on a white table or countertop.",
@@ -61,7 +61,7 @@
   },
   {
     "question_id": "160",
-    "question": "Can you read some of the text on the green? Choices: software engineering, computer organization design, network protocols, system architecture\"",
+    "question": "Can you read some of the text on the green?",
     "predicted_answer": "yes",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The book is about computer organization and design, it is a handbook for software engineers.",
@@ -73,7 +73,7 @@
   },
   {
     "question_id": "17",
-    "question": "What is this a picture of? Choices: landscape, man, child, woman",
+    "question": "What is this a picture of?",
     "predicted_answer": "a person sitting in an auditorium",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The image shows a person sitting in an auditorium, likely watching a presentation or event. They are seated on the front row of chairs, which are arranged in rows facing forward. There are several other chairs visible around them, indicating that this is a public venue where people can sit and watch presentations or performances. The person appears to be focused on the event taking place, possibly listening intently or waiting for their turn to speak.",
@@ -85,7 +85,7 @@
   },
   {
     "question_id": "427",
-    "question": "What's the title of this CD? Choices: soft melodies, quiet 1, \"silent night, peaceful sounds\"",
+    "question": "What's the title of this CD?",
     "predicted_answer": "the quiet one",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The quiet one",
@@ -97,7 +97,7 @@
   },
   {
     "question_id": "463",
-    "question": "What is the title of the book? Choices: the secret path\", auf die lange kommt es, the final chapter, a tale of two cities",
+    "question": "What is the title of the book?",
     "predicted_answer": "auf deinen kopf es kommt an",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The title of the book is Auf Deinen Kopf Es Kommt An.",
@@ -109,7 +109,7 @@
   },
   {
     "question_id": "181",
-    "question": "What is the computer screen showing? Choices: error message, loading\", restore, \"shutdown",
+    "question": "What is the computer screen showing?",
     "predicted_answer": "startup error",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The computer screen shows a startup error message that says \"your computer was unable to start\".",

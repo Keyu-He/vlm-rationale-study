@@ -1,7 +1,7 @@
 [
   {
     "question_id": "287",
-    "question": "What is this? What is this? Choices: office, classroom, workspace, room",
+    "question": "What is this? What is this?",
     "predicted_answer": "office",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The image shows an office setting with a desk, chair, and various items on it. There are two chairs in the room, one of which is positioned near the desk while the other is located further away. A computer mouse can be seen on the desk, along with a cell phone and a book. The room also features a TV mounted on the wall. Additionally, there is a box placed on the floor next to the chair. This office setting suggests that it could be used for work or study purposes, providing a comfortable environment for individuals to focus on their tasks.",
@@ -13,7 +13,7 @@
   },
   {
     "question_id": "129",
-    "question": "What kind of card is this? Choices: credit card, debit card, itunes, gift card",
+    "question": "What kind of card is this?",
     "predicted_answer": "itunes",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The card in question is an iTunes card, which can be used to purchase music and other content from the Apple Music Store.",
@@ -25,7 +25,7 @@
   },
   {
     "question_id": "30",
-    "question": "what is this? Choices: herb tea, milk thistle, peppermint, dandelion root",
+    "question": "what is this?",
     "predicted_answer": "milk thistle",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The bottle of milk thistle is sitting on a table with papers and books, indicating that it might be used for health or nutritional purposes. It is likely that the person who placed the bottle there is taking advantage of its benefits, such as improving liver function or reducing inflammation. The presence of the bottle in this setting suggests that the individual may have an interest in maintaining their overall well-being and health through natural supplements like milk thistle.",
@@ -37,7 +37,7 @@
   },
   {
     "question_id": "188",
-    "question": "what does the sky look like? Choices: cloudy, overcast, clear, dark",
+    "question": "what does the sky look like?",
     "predicted_answer": "cloudy",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The sky appears to be overcast and cloudy, which creates a gloomy atmosphere in the image.",
@@ -49,7 +49,7 @@
   },
   {
     "question_id": "47",
-    "question": "Can you tell me who this is from? Choices: an unknown source, \"health insurance, a friend, emi health",
+    "question": "Can you tell me who this is from?",
     "predicted_answer": "emmm health",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The envelope is addressed to Emm Health, which suggests that it could be a medical bill or some form of communication related to the recipient's healthcare.",
@@ -61,7 +61,7 @@
   },
   {
     "question_id": "275",
-    "question": "What is on this Captcha please? Choices: d8kk, b9ll, c3mm, e5nn",
+    "question": "What is on this Captcha please?",
     "predicted_answer": "doki",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The image shows a cell phone screen with an advertisement for personalized gifts, specifically featuring Christmas ornaments. There are two images of the word \"doki\" in different positions on the screen. One of the images has a red background and appears to be part of a Captcha challenge. The other image is displayed next to it, possibly as a related product or promotion.",
@@ -73,7 +73,7 @@
   },
   {
     "question_id": "135",
-    "question": "What is this? Choices: tongue, ribbon, finger, worm",
+    "question": "What is this?",
     "predicted_answer": "lip",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The image shows a close-up of an open mouth with a pink tongue and a red lip.",
@@ -85,7 +85,7 @@
   },
   {
     "question_id": "498",
-    "question": "What is this, and is it like a TV dinner to put into the microwave? Choices: just a snack\", \"not a tv dinner, tv dinner yes, similar but different",
+    "question": "What is this, and is it like a TV dinner to put into the microwave?",
     "predicted_answer": "penne pasta",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The image shows a person holding up a box of penne pasta with their hand. The box contains 8 servings of penne pasta, which can be used for making various dishes such as spaghetti or macaroni and cheese. It is not a TV dinner to put into the microwave but rather a packaged food item that requires cooking on the stove or in an oven. The person holding the box might be preparing to cook the pasta, or they could have just finished cooking it and are about to serve it.",
@@ -97,7 +97,7 @@
   },
   {
     "question_id": "11",
-    "question": "What does the screen say? Choices: Chrome OS, \"macOS Catalina, Ubuntu 20.04, windows 7 home premium",
+    "question": "What does the screen say?",
     "predicted_answer": "windows home premium",
     "prediction_is_correct": 1.0,
     "generated_rationale": "The computer monitor displays a Windows Home Premium screen, which indicates that the user has purchased and installed this specific version of Microsoft Windows operating system on their computer. This particular edition offers additional features and functionalities compared to other editions, such as improved security, enhanced performance, and customizable start menu options. The presence of this screen suggests that the user is likely enjoying a more personalized computing experience with the added benefits provided by Windows Home Premium.",
@@ -109,7 +109,7 @@
   },
   {
     "question_id": "497",
-    "question": "What color is this t-shirt? Choices: blue, red, white, grey",
+    "question": "What color is this t-shirt?",
     "predicted_answer": "black",
     "prediction_is_correct": 0.0,
     "generated_rationale": "The t-shirt is black in color.",
