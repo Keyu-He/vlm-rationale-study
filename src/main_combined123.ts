@@ -88,6 +88,12 @@ function showQualityDiv() {
             $("#vf_numeric_div").show();
         }
     }
+    if (qualityType === "prod_as_contr") {
+    // product but in the contrastiveness slot
+        if (qualityFormat === "numeric") {
+            $("#contr_numeric_div").show();
+        }
+    }
       
 }
 
@@ -192,6 +198,9 @@ function next_instructions(increment: number) {
         }
         if (qualityType == "prod_as_vf") {
             $("#instruction_vf_numeric").show();
+        }
+        if (qualityType == "prod_as_contr") {
+            $("#instruction_contr_numeric").show();
         }
     }
 }
@@ -584,7 +593,8 @@ const validQualityTypes = [
     "avg",          // **new** average = (vf + contr)/2
     "vf_as_prod",   // **new** show VF but *label* as the “prod” score
     "contr_as_prod",// **new** show Contr but *label* as the “prod” score
-    "prod_as_vf"    // **new** show Prod but *label* as the “vf” score
+    "prod_as_vf",    // **new** show Prod but *label* as the “vf” score
+    "prod_as_contr" // **new** show Prod but *label* as the “contr” score
   ]
   
 let qualityType = urlParams.get("quality_type")
