@@ -72,7 +72,7 @@ function showQualityDiv() {
         if (qualityFormat == "numeric") { $("#contr_numeric_div").show() }
         if (qualityFormat == "descriptive") { $("#contr_descriptive_div").show() }
     }
-    if (qualityType == "single_numeric" || qualityType == "avg") {
+    if (qualityType == "single_numeric" || qualityType == "avg" || qualityType == "random") {
         assert (qualityFormat == "numeric", "qualityFormat must be numeric for single_numeric")
         $("#single_numeric_div").show()
     }
@@ -491,6 +491,11 @@ function next_question() {
     let single_numeric_conf = Math.round((question!["visual_fidelity"] * question!["contrastiveness"]) * 100)
     $("#explanation_single_numeric_span").html(`${single_numeric_conf}%`)
 
+    if (qualityType === "random") {
+        const randomScore = Math.round(question!["uniform_random_score"] * 100);
+        $("#explanation_single_numeric_span").html(`${randomScore}%`);
+    }
+
     // average of the two
     if (qualityType === "avg") {
     const avg = Math.round(
@@ -594,7 +599,8 @@ const validQualityTypes = [
     "vf_as_prod",   // **new** show VF but *label* as the “prod” score
     "contr_as_prod",// **new** show Contr but *label* as the “prod” score
     "prod_as_vf",    // **new** show Prod but *label* as the “vf” score
-    "prod_as_contr" // **new** show Prod but *label* as the “contr” score
+    "prod_as_contr", // **new** show Prod but *label* as the “contr” score
+    "random",      // **new** random
   ]
   
 let qualityType = urlParams.get("quality_type")
